@@ -169,7 +169,7 @@
                     <div class="col-md-6 col-lg-4 wow fadeInUp" data-wow-delay="0.6s">
                         <div class="service-item">
                             <div class="service-img">
-                                <img src="img/service-3.jpg" class="img-fluid rounded-top w-100" alt="Image">
+                                <img src="img/product/filter-media.jpg" class="img-fluid rounded-top w-100" alt="Image">
                             </div>
                             <div class="rounded-bottom p-4">
                                 <a href="#" class="h4 d-inline-block mb-4">Filter Media</a>
@@ -195,10 +195,10 @@
                     <div class="col-md-6 col-lg-4 wow fadeInUp" data-wow-delay="0.4s">
                         <div class="service-item">
                             <div class="service-img">
-                                <img src="img/service-5.jpg" class="img-fluid rounded-top w-100" alt="Image">
+                                <img src="img/product/dosing-pump.jpg" class="img-fluid rounded-top w-100" alt="Image">
                             </div>
                             <div class="rounded-bottom p-4">
-                                <a href="#" class="h4 d-inline-block mb-4"></a>
+                                <a href="#" class="h4 d-inline-block mb-4">Dosing Pump</a>
                                 <p class="mb-4">A dosing pump is a precision pump used to inject a specific amount of a chemical or other substance into a water stream or system. It's the logical step after you've tested your water and found it needs treatment—for example, after using a water testing kit to determine the pH or chlorine level, a dosing pump can be set to add the required chemicals to correct the balance.
                                 </p>
                                 <a class="btn btn-primary rounded-pill py-2 px-4" href="#">Learn More</a>
