@@ -1,5 +1,6 @@
 <?php
 define('BASE_URL', 'http://localhost/vmsengeering');
+$current_page = basename($_SERVER['PHP_SELF']);
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -87,12 +88,32 @@ define('BASE_URL', 'http://localhost/vmsengeering');
             </button>
             <div class="collapse navbar-collapse" id="navbarCollapse">
                 <div class="navbar-nav ms-auto py-0">
-                    <a href="<?php echo BASE_URL; ?>/index.php" class="nav-item nav-link active">Home</a>
-                    <a href="<?php echo BASE_URL; ?>/about.php" class="nav-item nav-link">About</a>
-                     <a href="<?php echo BASE_URL; ?>/product.php" class="nav-item nav-link">Product</a>
 
-                    <a href="<?php echo BASE_URL; ?>/service.php" class="nav-item nav-link">Services</a>
-                    <a href="<?php echo BASE_URL; ?>/blog.php" class="nav-item nav-link">Blogs</a>
+            <a href="<?php echo BASE_URL; ?>/index.php"
+class="nav-item nav-link <?php echo ($current_page == 'index.php') ? 'active' : ''; ?>">
+Home
+</a>
+
+<a href="<?php echo BASE_URL; ?>/about.php"
+class="nav-item nav-link <?php echo ($current_page == 'about.php') ? 'active' : ''; ?>">
+About
+</a>
+
+<a href="<?php echo BASE_URL; ?>/service.php"
+class="nav-item nav-link <?php echo ($current_page == 'service.php') ? 'active' : ''; ?>">
+Services
+</a>
+
+<a href="<?php echo BASE_URL; ?>/product.php"
+class="nav-item nav-link <?php echo ($current_page == 'product.php') ? 'active' : ''; ?>">
+Product
+</a>
+                    
+                   
+                    
+
+                
+
 
                     <div class="nav-item dropdown">
                         <a href="#" class="nav-link" data-bs-toggle="dropdown">
@@ -107,14 +128,16 @@ define('BASE_URL', 'http://localhost/vmsengeering');
                             <a href="<?php echo BASE_URL; ?>/pages/404.php" class="dropdown-item">404 Page</a>
                         </div>
                     </div>
-                    <a href="<?php echo BASE_URL; ?>/contact.php" class="nav-item nav-link">Contact Us</a>
+                    
+                    <a href="<?php echo BASE_URL; ?>/contact.php" class="nav-item nav-link <?php echo ($current_page == 'contact.php') ? 'active' : ''; ?>"> Contact Us
+</a>
                 </div>
                 <a href="<?php echo BASE_URL; ?>/get-started.php" class="btn btn-primary rounded-pill py-2 px-4 my-3 my-lg-0 flex-shrink-0">Get Started</a>
             </div>
         </nav>
 
         <!-- Carousel Start -->
-        <div class="header-carousel owl-carousel">
+        <!-- <div class="header-carousel owl-carousel">
             <div class="header-carousel-item">
                 <img src="<?php echo BASE_URL; ?>/img/carousel-1.jpg" class="img-fluid w-100" alt="Image">
                 <div class="row gy-0 gx-5">
@@ -196,7 +219,7 @@ define('BASE_URL', 'http://localhost/vmsengeering');
                     </div>
                 </div>
             </div>
-        </div>
+        </div> -->
         <!-- Carousel End -->
     </div>
     <!-- Navbar & Hero End -->
