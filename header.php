@@ -1,5 +1,5 @@
 <?php
-define('BASE_URL', 'http://localhost/stocker');
+define('BASE_URL', 'http://localhost/vmsengeering');
 ?>
 <!DOCTYPE html>
 <html lang="en">
