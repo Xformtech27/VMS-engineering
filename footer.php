@@ -34,9 +34,9 @@
                     <a href="<?php echo BASE_URL; ?>/index.php" class="nav-item nav-link active">Home</a>
                     <a href="<?php echo BASE_URL; ?>/about.php" class="nav-item nav-link">About</a>
                     <a href="<?php echo BASE_URL; ?>/service.php" class="nav-item nav-link">Services</a>
-                    <a href="<?php echo BASE_URL; ?>/blog.php" class="nav-item nav-link">Blogs</a>
+                    <!-- <a href="<?php echo BASE_URL; ?>/blog.php" class="nav-item nav-link">Blogs</a> -->
 
-                    <div class="nav-item dropdown">
+                    <!-- <div class="nav-item dropdown">
                         <a href="#" class="nav-link" data-bs-toggle="dropdown">
                             <span class="dropdown-toggle">Pages</span>
                         </a>
@@ -48,10 +48,9 @@
                             <a href="<?php echo BASE_URL; ?>/pages/FAQ.php" class="dropdown-item">FAQs</a>
                             <a href="<?php echo BASE_URL; ?>/pages/404.php" class="dropdown-item">404 Page</a>
                         </div>
-                    </div>
+                    </div> -->
                     <a href="<?php echo BASE_URL; ?>/contact.php" class="nav-item nav-link">Contact Us</a>
                 </div>
-                <a href="<?php echo BASE_URL; ?>/get-started.php" class="btn btn-primary rounded-pill py-2 px-4 my-3 my-lg-0 flex-shrink-0">Get Started</a>
             </div>
         </nav>
 
@@ -66,15 +65,13 @@
                 <div class="col-md-6 col-lg-6 col-xl-4">
                     <div class="footer-item">
                         <a href="<?php echo BASE_URL; ?>/index.php" class="p-0">
-                            <h4 class="text-white">
-                                <i class="fas fa-search-dollar me-3"></i>Stocker
-                            </h4>
-                            <!-- <img src="<?php echo BASE_URL; ?>/img/logo.png" alt="Logo"> -->
+                           
+                            <img src="<?php echo BASE_URL; ?>/img/logo.png" alt="Logo">
                         </a>
                         <p class="mb-4">
-                            Dolor amet sit justo amet elitr clita ipsum elitr est.Lorem ipsum dolor sit amet, consectetur adipiscing...
+                            
                         </p>
-                        <div class="d-flex">
+                        <!-- <div class="d-flex">
                             <a href="#" class="bg-primary d-flex rounded align-items-center py-2 px-3 me-2">
                                 <i class="fas fa-apple-alt text-white"></i>
                                 <div class="ms-3">
@@ -89,16 +86,16 @@
                                     <h6 class="text-white">Google Play</h6>
                                 </div>
                             </a>
-                        </div>
+                        </div> -->
                     </div>
                 </div>
                 <div class="col-md-6 col-lg-6 col-xl-2">
-                    <div class="footer-item">
+                    <div class="footer-item" style="color:aliceblue;">
                         <h4 class="text-white mb-4">Quick Links</h4>
                         <a href="<?php echo BASE_URL; ?>/about.php">
                             <i class="fas fa-angle-right me-2"></i> About Us
                         </a>
-                        <a href="<?php echo BASE_URL; ?>/pages/feature.php">
+                        <!-- <a href="<?php echo BASE_URL; ?>/pages/feature.php">
                             <i class="fas fa-angle-right me-2"></i> Feature
                         </a>
                         <a href="#">
@@ -106,19 +103,22 @@
                         </a>
                         <a href="<?php echo BASE_URL; ?>/tickets.php">
                             <i class="fas fa-angle-right me-2"></i> Tickets
-                        </a>
-                        <a href="<?php echo BASE_URL; ?>/blog.php">
-                            <i class="fas fa-angle-right me-2"></i> Blog
-                        </a>
+                        </a>-->
+                        <a href="<?php echo BASE_URL; ?>/product.php">
+                            <i class="fas fa-angle-right me-2"></i>Product
+                        </a> 
                         <a href="<?php echo BASE_URL; ?>/contact.php">
                             <i class="fas fa-angle-right me-2"></i> Contact us
+                        </a>
+                         <a href="<?php echo BASE_URL; ?>/FAQ.php">
+                            <i class="fas fa-angle-right me-2"></i> FAQ
                         </a>
                     </div>
                 </div>
                 <div class="col-md-6 col-lg-6 col-xl-3">
                     <div class="footer-item">
-                        <h4 class="text-white mb-4">Support</h4>
-                        <a href="<?php echo BASE_URL; ?>/privacy-policy.php">
+                        <h4 class="text-white mb-4">Services</h4>
+                        <!-- <a href="<?php echo BASE_URL; ?>/privacy-policy.php">
                             <i class="fas fa-angle-right me-2"></i> Privacy Policy
                         </a>
                         <a href="<?php echo BASE_URL; ?>/terms-conditions.php">
@@ -135,7 +135,7 @@
                         </a>
                         <a href="<?php echo BASE_URL; ?>/help.php">
                             <i class="fas fa-angle-right me-2"></i> Help
-                        </a>
+                        </a> -->
                     </div>
                 </div>
                 <div class="col-md-6 col-lg-6 col-xl-3">
@@ -182,19 +182,18 @@
     <div class="container-fluid copyright py-4">
         <div class="container">
             <div class="row g-4 align-items-center">
-                <div class="col-md-6 text-center text-md-start mb-md-0">
+                <!-- <div class="col-md-6 text-center text-md-start mb-md-0">
                     <span class="text-body">
                         <a href="<?php echo BASE_URL; ?>/index.php" class="border-bottom text-white">
                             <i class="fas fa-copyright text-light me-2"></i>Your Site Name
                         </a>, All right reserved.
                     </span>
-                </div>
+                </div> -->
                 <div class="col-md-6 text-center text-md-end text-body">
                     <!--/*** This template is free as long as you keep the below author's credit link/attribution link/backlink. ***/-->
                     <!--/*** If you'd like to use the template without the below author's credit link/attribution link/backlink, ***/-->
                     <!--/*** you can purchase the Credit Removal License from "https://htmlcodex.com/credit-removal". ***/-->
-                    Designed By <a class="border-bottom text-white" href="https://htmlcodex.com">HTML Codex</a> 
-                    Distributed By <a class="border-bottom text-white" href="https://themewagon.com">ThemeWagon</a>
+             All right reserved | Designed By <a class="border-bottom text-white" href="https://www.xform.in/">Xform Technologies</a> 
                 </div>
             </div>
         </div>
