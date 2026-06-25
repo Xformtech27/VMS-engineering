@@ -55,7 +55,7 @@
                                 Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
                                 Lorem Ipsum has been the industry's standard dummy...
                             </p>
-                            <div class="d-flex justify-content-center justify-content-md-end flex-shrink-0 mb-4">
+                             <!-- <div class="d-flex justify-content-center justify-content-md-end flex-shrink-0 mb-4">
                                 <a class="btn btn-light rounded-pill py-3 px-4 px-md-5 me-2" href="#">
                                     <i class="fas fa-play-circle me-2"></i> Watch Video
                                 </a>
@@ -77,7 +77,7 @@
                                         <i class="fab fa-linkedin-in"></i>
                                     </a>
                                 </div>
-                            </div>
+                            </div> -->
                         </div>
                     </div>
                 </div>

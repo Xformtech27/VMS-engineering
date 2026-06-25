@@ -58,7 +58,7 @@
                                 Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
                                 Lorem Ipsum has been the industry's standard dummy...
                             </p>
-                            <div class="d-flex justify-content-center justify-content-md-end flex-shrink-0 mb-4">
+                             <!-- <div class="d-flex justify-content-center justify-content-md-end flex-shrink-0 mb-4">
                                 <a class="btn btn-light rounded-pill py-3 px-4 px-md-5 me-2" href="#">
                                     <i class="fas fa-play-circle me-2"></i> Watch Video
                                 </a>
@@ -80,7 +80,7 @@
                                         <i class="fab fa-linkedin-in"></i>
                                     </a>
                                 </div>
-                            </div>
+                            </div> -->
                         </div>
                     </div>
                 </div>
@@ -134,7 +134,7 @@
         <div class="container-fluid service pb-5">
             <div class="container pb-5">
                 <div class="text-center mx-auto pb-5 wow fadeInUp" data-wow-delay="0.2s" style="max-width: 800px;">
-                    <h4 class="text-primary">Our Products</h4>
+                    <h4 class="text-primary">Our Components</h4>
                     <h1 class="display-5 mb-4">Explore Our Premium Product Range</h1>
                     
                     
@@ -143,7 +143,7 @@
                     <div class="col-md-6 col-lg-4 wow fadeInUp" data-wow-delay="0.2s">
                         <div class="service-item">
                             <div class="service-img">
-                                <img src="img/service-1.jpg" class="img-fluid rounded-top w-100" alt="Image">
+                                <img src="img/product/multiport-valves.jpg" class="img-fluid rounded-top w-100" alt="Image">
                             </div>
                             <div class="rounded-bottom p-4">
                                 <a href="#" class="h4 d-inline-block mb-4">Multiport valves</a>
@@ -156,7 +156,7 @@
                     <div class="col-md-6 col-lg-4 wow fadeInUp" data-wow-delay="0.4s">
                         <div class="service-item">
                             <div class="service-img">
-                                <img src="img/service-2.jpg" class="img-fluid rounded-top w-100" alt="Image">
+                                <img src="img/product/frp-vessels.jpg" class="img-fluid rounded-top w-100" alt="Image">
                             </div>
                             <div class="rounded-bottom p-4">
                                 <a href="#" class="h4 d-inline-block mb-4">FRP Vessels</a>
@@ -182,7 +182,7 @@
                     <div class="col-md-6 col-lg-4 wow fadeInUp" data-wow-delay="0.2s">
                         <div class="service-item">
                             <div class="service-img">
-                                <img src="img/service-4.jpg" class="img-fluid rounded-top w-100" alt="Image">
+                                <img src="img/product/water-testing-kit.jpg" class="img-fluid rounded-top w-100" alt="Image">
                             </div>
                             <div class="rounded-bottom p-4">
                                 <a href="#" class="h4 d-inline-block mb-4">Water Testing Kits</a>
@@ -199,7 +199,7 @@
                             </div>
                             <div class="rounded-bottom p-4">
                                 <a href="#" class="h4 d-inline-block mb-4">Dosing Pump</a>
-                                <p class="mb-4">A dosing pump is a precision pump used to inject a specific amount of a chemical or other substance into a water stream or system. It's the logical step after you've tested your water and found it needs treatment—for example, after using a water testing kit to determine the pH or chlorine level, a dosing pump can be set to add the required chemicals to correct the balance.
+                                <p class="mb-4">A dosing pump injects a precise amount of chemical into a water system. It's the logical step after testing reveals treatment is needed—for example, after a water test kit determines pH or chlorine levels, the pump adds the required chemicals to correct the balance.
                                 </p>
                                 <a class="btn btn-primary rounded-pill py-2 px-4" href="#">Learn More</a>
                             </div>
@@ -208,11 +208,11 @@
                     <div class="col-md-6 col-lg-4 wow fadeInUp" data-wow-delay="0.6s">
                         <div class="service-item">
                             <div class="service-img">
-                                <img src="img/service-6.jpg" class="img-fluid rounded-top w-100" alt="Image">
+                                <img src="img/product/rota-meters.jpg" class="img-fluid rounded-top w-100" alt="Image">
                             </div>
                             <div class="rounded-bottom p-4">
-                                <a href="#" class="h4 d-inline-block mb-4">Marketing Consulting</a>
-                                <p class="mb-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur, sint? Excepturi facilis neque nesciunt similique officiis veritatis,
+                                <a href="#" class="h4 d-inline-block mb-4">Rota Meters</a>
+                                <p class="mb-4">A Rota Meter (formally a variable area flowmeter) provides the instantaneous flow rate of water moving through your pipe. It gives a direct, real-time reading of flow at that moment, typically in liters per minute (LPM) or liters per hour (LPH) on a scale.
                                 </p>
                                 <a class="btn btn-primary rounded-pill py-2 px-4" href="#">Learn More</a>
                             </div>

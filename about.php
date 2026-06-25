@@ -59,7 +59,7 @@
                                 Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
                                 Lorem Ipsum has been the industry's standard dummy...
                             </p>
-                            <div class="d-flex justify-content-center justify-content-md-end flex-shrink-0 mb-4">
+                             <!-- <div class="d-flex justify-content-center justify-content-md-end flex-shrink-0 mb-4">
                                 <a class="btn btn-light rounded-pill py-3 px-4 px-md-5 me-2" href="#">
                                     <i class="fas fa-play-circle me-2"></i> Watch Video
                                 </a>
@@ -81,7 +81,7 @@
                                         <i class="fab fa-linkedin-in"></i>
                                     </a>
                                 </div>
-                            </div>
+                            </div> -->
                         </div>
                     </div>
                 </div>
@@ -178,16 +178,17 @@
                     </div>
                     <div class="col-xl-5 wow fadeInRight" data-wow-delay="0.2s">
                         <div class="bg-primary rounded position-relative overflow-hidden">
-                            <img src="img/about-2.png" class="img-fluid rounded w-100" alt="">
+                            <img src="img/about-2.jpg" class="img-fluid rounded w-100" alt="">
                             
-                            <div class="" style="position: absolute; top: -15px; right: -15px;">
+                            <!-- <div class="" style="position: absolute; top: -15px; right: -15px;">
                                 <img src="img/about-3.png" class="img-fluid" style="width: 150px; height: 150px; opacity: 0.7;" alt="">
                             </div>
                             <div class="" style="position: absolute; top: -20px; left: 10px; transform: rotate(90deg);">
                                 <img src="img/about-4.png" class="img-fluid" style="width: 100px; height: 150px; opacity: 0.9;" alt="">
-                            </div>
+                            </div> -->
                             <div class="rounded-bottom">
-                                <img src="img/about-5.jpg" class="img-fluid rounded-bottom w-100" alt="">
+                                <!-- <img src="img/about-5.jpg" class="img-fluid rounded-bottom w-100" alt=""> -->
+                                 <img src="img/about.jpg" class="img-fluid rounded-bottom w-100" alt="">
                             </div>
                         </div>
                     </div>
