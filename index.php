@@ -47,7 +47,7 @@
               <!-- Carousel Start -->
         <div class="header-carousel owl-carousel">
             <div class="header-carousel-item">
-                <img src="<?php echo BASE_URL; ?>/img/carousel-1.jpg" class="img-fluid w-100" alt="Image">
+                <img src="<?php echo BASE_URL; ?>/img/home-slider.jpg" class="img-fluid w-100" alt="Image">
                 <div class="row gy-0 gx-5">
                     <div class="col-lg-0 col-xl-5"></div>
                     <div class="col-xl-7 animated fadeInLeft">
@@ -86,7 +86,7 @@
                 </div>
             </div>
             <div class="header-carousel-item">
-                <img src="<?php echo BASE_URL; ?>/img/carousel-2.jpg" class="img-fluid w-100" alt="Image">
+                <img src="<?php echo BASE_URL; ?>/img/home.jpg" class="img-fluid w-100" alt="Image">
                 <div class="carousel-caption">
                     <div class="container">
                         <div class="row g-5">

@@ -111,10 +111,6 @@ Product
                     
                    
                     
-
-                
-
-
                     <div class="nav-item dropdown">
                         <a href="#" class="nav-link" data-bs-toggle="dropdown">
                             <span class="dropdown-toggle">Pages</span>
@@ -135,6 +131,7 @@ Product
                 <a href="<?php echo BASE_URL; ?>/get-started.php" class="btn btn-primary rounded-pill py-2 px-4 my-3 my-lg-0 flex-shrink-0">Get Started</a>
             </div>
         </nav>
+
 
         <!-- Carousel Start -->
         <!-- <div class="header-carousel owl-carousel">
