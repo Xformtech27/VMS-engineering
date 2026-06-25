@@ -22,9 +22,9 @@
         <nav class="navbar navbar-expand-lg navbar-light px-4 px-lg-5 py-3 py-lg-0">
             <a href="<?php echo BASE_URL; ?>/index.php" class="navbar-brand p-0">
                 <h1 class="text-primary">
-                    <i class="fas fa-search-dollar me-3"></i>Stocker
+                    <i class="fas fa-search-dollar me-3"></i>VMS Engineering
                 </h1>
-                <img src="<?php echo BASE_URL; ?>/img/logo.png" alt="Logo">
+                <!-- <img src="<?php echo BASE_URL; ?>/img/logo.png" alt="Logo"> -->
             </a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
                 <span class="fa fa-bars"></span>
@@ -34,6 +34,9 @@
                     <a href="<?php echo BASE_URL; ?>/index.php" class="nav-item nav-link active">Home</a>
                     <a href="<?php echo BASE_URL; ?>/about.php" class="nav-item nav-link">About</a>
                     <a href="<?php echo BASE_URL; ?>/service.php" class="nav-item nav-link">Services</a>
+                <a href="<?php echo BASE_URL; ?>/components.php" class="nav-item nav-link">Components</a>
+
+
                     <!-- <a href="<?php echo BASE_URL; ?>/blog.php" class="nav-item nav-link">Blogs</a> -->
 
                     <!-- <div class="nav-item dropdown">
@@ -51,6 +54,8 @@
                     </div> -->
                     <a href="<?php echo BASE_URL; ?>/contact.php" class="nav-item nav-link">Contact Us</a>
                 </div>
+          <a href="<?php echo BASE_URL; ?>/get-started.php" class="btn btn-primary rounded-pill py-2 px-4 my-3 my-lg-0 flex-shrink-0">Profile</a>
+
             </div>
         </nav>
 
@@ -65,8 +70,10 @@
                 <div class="col-md-6 col-lg-6 col-xl-4">
                     <div class="footer-item">
                         <a href="<?php echo BASE_URL; ?>/index.php" class="p-0">
-                           
-                            <img src="<?php echo BASE_URL; ?>/img/logo.png" alt="Logo">
+                                           <h1 class="text-primary">
+                    <i class="fas fa-search-dollar me-3"></i>VMS Engineering
+                </h1>
+                            <!-- <img src="<?php echo BASE_URL; ?>/img/logo.png" alt="Logo"> -->
                         </a>
                         <p class="mb-4">
                             
@@ -104,8 +111,8 @@
                         <a href="<?php echo BASE_URL; ?>/tickets.php">
                             <i class="fas fa-angle-right me-2"></i> Tickets
                         </a>-->
-                        <a href="<?php echo BASE_URL; ?>/product.php">
-                            <i class="fas fa-angle-right me-2"></i>Product
+                        <a href="<?php echo BASE_URL; ?>/components.php">
+                            <i class="fas fa-angle-right me-2"></i>Components
                         </a> 
                         <a href="<?php echo BASE_URL; ?>/contact.php">
                             <i class="fas fa-angle-right me-2"></i> Contact us
@@ -143,20 +150,24 @@
                         <h4 class="text-white mb-4">Contact Info</h4>
                         <div class="d-flex align-items-center">
                             <i class="fas fa-map-marker-alt text-primary me-3"></i>
-                            <p class="text-white mb-0">123 Street New York.USA</p>
+                            <p class="text-white mb-0">Nirmal Market Plot No 35,CDC PCNTDA,Purnanagar Near TATA MOTORS,Chinchwad,Pune 411019</p>
                         </div>
                         <div class="d-flex align-items-center">
-                            <i class="fas fa-envelope text-primary me-3"></i>
-                            <p class="text-white mb-0">info@example.com</p>
-                        </div>
+    <i class="fas fa-envelope text-primary me-3"></i>
+    <a href="mailto:vmesolutions33@gmail.com" class="text-white mb-0" style="text-decoration: none;">
+        vmesolutions33@gmail.com
+    </a>
+</div>
+
+
                         <div class="d-flex align-items-center">
                             <i class="fa fa-phone-alt text-primary me-3"></i>
-                            <p class="text-white mb-0">(+012) 3456 7890</p>
+                            <p class="text-white mb-0">9146557049</p>
                         </div>
-                        <div class="d-flex align-items-center mb-4">
+                        <!-- <div class="d-flex align-items-center mb-4">
                             <i class="fab fa-firefox-browser text-primary me-3"></i>
                             <p class="text-white mb-0">Yoursite@ex.com</p>
-                        </div>
+                        </div> -->
                         <div class="d-flex">
                             <a class="btn btn-primary btn-sm-square rounded-circle me-3" href="#">
                                 <i class="fab fa-facebook-f text-white"></i>
