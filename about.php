@@ -28,6 +28,9 @@
 
         <!-- Template Stylesheet -->
         <link href="css/style.css" rel="stylesheet">
+        <style>
+            
+        </style>
     </head>
 
     <body>
@@ -46,89 +49,25 @@
             <!-- Header End -->
         
          <!-- Carousel Start -->
-        <div class="header-carousel owl-carousel">
-            <div class="header-carousel-item">
-                <img src="<?php echo BASE_URL; ?>/img/carousel-1.jpg" class="img-fluid w-100" alt="Image">
-                <div class="row gy-0 gx-5">
-                    <div class="col-lg-0 col-xl-5"></div>
-                    <div class="col-xl-7 animated fadeInLeft">
-                        <div class="text-sm-center text-md-end">
-                            <h4 class="text-primary text-uppercase fw-bold mb-4">Welcome To Stocker</h4>
-                            <h1 class="display-4 text-uppercase text-white mb-4">Invest your money with higher return</h1>
-                            <p class="mb-5 fs-5">
-                                Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
-                                Lorem Ipsum has been the industry's standard dummy...
-                            </p>
-                             <!-- <div class="d-flex justify-content-center justify-content-md-end flex-shrink-0 mb-4">
-                                <a class="btn btn-light rounded-pill py-3 px-4 px-md-5 me-2" href="#">
-                                    <i class="fas fa-play-circle me-2"></i> Watch Video
-                                </a>
-                                <a class="btn btn-primary rounded-pill py-3 px-4 px-md-5 ms-2" href="#">Learn More</a>
-                            </div>
-                            <div class="d-flex align-items-center justify-content-center justify-content-md-end">
-                                <h2 class="text-white me-2">Follow Us:</h2>
-                                <div class="d-flex justify-content-end ms-2">
-                                    <a class="btn btn-md-square btn-light rounded-circle me-2" href="#">
-                                        <i class="fab fa-facebook-f"></i>
-                                    </a>
-                                    <a class="btn btn-md-square btn-light rounded-circle mx-2" href="#">
-                                        <i class="fab fa-twitter"></i>
-                                    </a>
-                                    <a class="btn btn-md-square btn-light rounded-circle mx-2" href="#">
-                                        <i class="fab fa-instagram"></i>
-                                    </a>
-                                    <a class="btn btn-md-square btn-light rounded-circle ms-2" href="#">
-                                        <i class="fab fa-linkedin-in"></i>
-                                    </a>
-                                </div>
-                            </div> -->
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="header-carousel-item">
-                <img src="<?php echo BASE_URL; ?>/img/carousel-2.jpg" class="img-fluid w-100" alt="Image">
-                <div class="carousel-caption">
-                    <div class="container">
-                        <div class="row g-5">
-                            <div class="col-12 animated fadeInUp">
-                                <div class="text-center">
-                                    <h4 class="text-primary text-uppercase fw-bold mb-4">Welcome To Stocker</h4>
-                                    <h1 class="display-4 text-uppercase text-white mb-4">Invest your money with higher return</h1>
-                                    <p class="mb-5 fs-5">
-                                        Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
-                                        Lorem Ipsum has been the industry's standard dummy...
-                                    </p>
-                                    <div class="d-flex justify-content-center flex-shrink-0 mb-4">
-                                        <a class="btn btn-light rounded-pill py-3 px-4 px-md-5 me-2" href="#">
-                                            <i class="fas fa-play-circle me-2"></i> Watch Video
-                                        </a>
-                                        <a class="btn btn-primary rounded-pill py-3 px-4 px-md-5 ms-2" href="#">Learn More</a>
-                                    </div>
-                                    <div class="d-flex align-items-center justify-content-center">
-                                        <h2 class="text-white me-2">Follow Us:</h2>
-                                        <div class="d-flex justify-content-end ms-2">
-                                            <a class="btn btn-md-square btn-light rounded-circle me-2" href="#">
-                                                <i class="fab fa-facebook-f"></i>
-                                            </a>
-                                            <a class="btn btn-md-square btn-light rounded-circle mx-2" href="#">
-                                                <i class="fab fa-twitter"></i>
-                                            </a>
-                                            <a class="btn btn-md-square btn-light rounded-circle mx-2" href="#">
-                                                <i class="fab fa-instagram"></i>
-                                            </a>
-                                            <a class="btn btn-md-square btn-light rounded-circle ms-2" href="#">
-                                                <i class="fab fa-linkedin-in"></i>
-                                            </a>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
+       <!-- Page Header Start -->
+<div class="container-fluid page-header py-5 mb-5">
+    <div class="container py-5 text-center">
+        <h1 class="display-3 text-white mb-3 animated slideInDown">
+            About Us
+        </h1>
+        <nav aria-label="breadcrumb" class="animated slideInDown">
+            <ol class="breadcrumb justify-content-center mb-0">
+                <li class="breadcrumb-item">
+                    <a href="<?php echo BASE_URL; ?>">Home</a>
+                </li>
+                <li class="breadcrumb-item active text-white" aria-current="page">
+                    About Us
+                </li>
+            </ol>
+        </nav>
+    </div>
+</div>
+<!-- Page Header End -->
         <!-- Carousel End -->
 
 
@@ -139,41 +78,13 @@
                     <div class="col-xl-7 wow fadeInLeft" data-wow-delay="0.2s">
                         <div>
                             <h4 class="text-primary">About Us</h4>
-                            <h1 class="display-5 mb-4">Meet our company unless miss the opportunity</h1>
-                            <p class="mb-4">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Cum velit temporibus repudiandae ipsa, eaque perspiciatis cumque incidunt tenetur sequi reiciendis.
+                            <h1 class="display-5 mb-4">VME Solutions Engineering Excellence in Water Treatment Since 2023</h1>
+                            <p class="mb-4" style="color: black;">VME Solutions is a premier water treatment company established in March 2023 with a vision to revolutionize the water treatment industry in India. We specialize in the design, engineering, manufacturing, installation, and maintenance of advanced water treatment plants, Reverse Osmosis (RO) systems, pre-treatment solutions, and wastewater management systems for industrial, commercial, and municipal applications.
+
+                            With a team of highly skilled engineers, technicians, and water treatment specialists, we bring decades of collective experience to deliver innovative, reliable, and cost-effective solutions that meet the most demanding water quality requirements. Our commitment to excellence, quality, and customer satisfaction has made us a trusted partner for industries ranging from pharmaceuticals and beverages to chemicals, steel manufacturing, and food processing.
                             </p>
-                            <div class="row g-4">
-                                <div class="col-md-6 col-lg-6 col-xl-6">
-                                    <div class="d-flex">
-                                        <div><i class="fas fa-lightbulb fa-3x text-primary"></i></div>
-                                        <div class="ms-4">
-                                            <h4>Business Consuluting</h4>
-                                            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="col-md-6 col-lg-6 col-xl-6">
-                                    <div class="d-flex">
-                                        <div><i class="bi bi-bookmark-heart-fill fa-3x text-primary"></i></div>
-                                        <div class="ms-4">
-                                            <h4>Year Of Expertise</h4>
-                                            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="col-sm-6">
-                                    <a href="#" class="btn btn-primary rounded-pill py-3 px-5 flex-shrink-0">Discover Now</a>
-                                </div>
-                                <div class="col-sm-6">
-                                    <div class="d-flex">
-                                        <i class="fas fa-phone-alt fa-2x text-primary me-4"></i>
-                                        <div>
-                                            <h4>Call Us</h4>
-                                            <p class="mb-0 fs-5" style="letter-spacing: 1px;">+01234567890</p>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
+ 
+                         
                         </div>
                     </div>
                     <div class="col-xl-5 wow fadeInRight" data-wow-delay="0.2s">
@@ -196,148 +107,258 @@
             </div>
         </div>
         <!-- About End -->
-
-        <!-- Features Start -->
-        <div class="container-fluid feature pb-5">
-            <div class="container pb-5">
-                <div class="text-center mx-auto pb-5 wow fadeInUp" data-wow-delay="0.2s" style="max-width: 800px;">
-                    <h4 class="text-primary">Our Features</h4>
-                    <h1 class="display-5 mb-4">Connecting businesses, ideas, and people for greater impact.</h1>
-                    <p class="mb-0">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tenetur adipisci facilis cupiditate recusandae aperiam temporibus corporis itaque quis facere, numquam, ad culpa deserunt sint dolorem autem obcaecati, ipsam mollitia hic.
-                    </p>
+         
+        <!-- Counter Section -->
+<!-- ============================================ -->
+<!-- COUNTER SECTION - LIGHT BLUE BACKGROUND -->
+<!-- ============================================ -->
+<div class="container-fluid counter-section">
+    <div class="container">
+        <div class="row g-4">
+            <div class="col-6 col-lg-3 wow fadeInUp" data-wow-delay="0.2s">
+                <div class="counter-item">
+                    <div class="counter-icon">
+                        <i class="fas fa-calendar-alt"></i>
+                    </div>
+                    <span class="counter-number" data-target="2023">0</span>
+                    <p class="counter-label">Year Established</p>
+                    <div class="counter-line"></div>
                 </div>
-                <div class="row g-4">
-                    <div class="col-md-6 col-lg-6 col-xl-3 wow fadeInUp" data-wow-delay="0.2s">
-                        <div class="feature-item p-4">
-                            <div class="feature-icon p-4 mb-4">
-                                <i class="fas fa-chart-line fa-4x text-primary"></i>
-                            </div>
-                            <h4>Global Management</h4>
-                            <p class="mb-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea hic laborum odit pariatur...
-                            </p>
-                            <a class="btn btn-primary rounded-pill py-2 px-4" href="#">Learn More</a>
-                        </div>
+            </div>
+            <div class="col-6 col-lg-3 wow fadeInUp" data-wow-delay="0.4s">
+                <div class="counter-item">
+                    <div class="counter-icon">
+                        <i class="fas fa-tasks"></i>
                     </div>
-                    <div class="col-md-6 col-lg-6 col-xl-3 wow fadeInUp" data-wow-delay="0.4s">
-                        <div class="feature-item p-4">
-                            <div class="feature-icon p-4 mb-4">
-                                <i class="fas fa-university fa-4x text-primary"></i>
-                            </div>
-                            <h4>Corporate Banking</h4>
-                            <p class="mb-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea hic laborum odit pariatur...
-                            </p>
-                            <a class="btn btn-primary rounded-pill py-2 px-4" href="#">Learn More</a>
-                        </div>
+                    <span class="counter-number" data-target="50">0</span>
+                    <p class="counter-label">Projects Completed</p>
+                    <div class="counter-line"></div>
+                </div>
+            </div>
+            <div class="col-6 col-lg-3 wow fadeInUp" data-wow-delay="0.6s">
+                <div class="counter-item">
+                    <div class="counter-icon">
+                        <i class="fas fa-users"></i>
                     </div>
-                    <div class="col-md-6 col-lg-6 col-xl-3 wow fadeInUp" data-wow-delay="0.6s">
-                        <div class="feature-item p-4">
-                            <div class="feature-icon p-4 mb-4">
-                                <i class="fas fa-file-alt fa-4x text-primary"></i>
-                            </div>
-                            <h4>Asset Management</h4>
-                            <p class="mb-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea hic laborum odit pariatur...
-                            </p>
-                            <a class="btn btn-primary rounded-pill py-2 px-4" href="#">Learn More</a>
-                        </div>
+                    <span class="counter-number" data-target="25">0</span>
+                    <p class="counter-label">Team Members</p>
+                    <div class="counter-line"></div>
+                </div>
+            </div>
+            <div class="col-6 col-lg-3 wow fadeInUp" data-wow-delay="0.8s">
+                <div class="counter-item">
+                    <div class="counter-icon">
+                        <i class="fas fa-smile"></i>
                     </div>
-                    <div class="col-md-6 col-lg-6 col-xl-3 wow fadeInUp" data-wow-delay="0.8s">
-                        <div class="feature-item p-4">
-                            <div class="feature-icon p-4 mb-4">
-                                <i class="fas fa-hand-holding-usd fa-4x text-primary"></i>
-                            </div>
-                            <h4>Investment Bank</h4>
-                            <p class="mb-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea hic laborum odit pariatur...
-                            </p>
-                            <a class="btn btn-primary rounded-pill py-2 px-4" href="#">Learn More</a>
+                    <span class="counter-number" data-target="100">0</span>
+                    <p class="counter-label">Client Satisfaction</p>
+                    <div class="counter-line"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- ============================================ -->
+<!-- OUR PHILOSOPHY & WHO WE ARE SECTION -->
+<!-- ============================================ -->
+<div class="container-fluid philosophy-section">
+    <div class="container">
+        <!-- Section Header -->
+        <div class="section-header text-center mx-auto wow fadeInUp" data-wow-delay="0.2s">
+            <span class="sub-title">Our Philosophy</span>
+            <h2>Who We Are</h2>
+            <div class="header-line"></div>
+            <p style="color: black;">We are driven by innovation, quality, and customer satisfaction in delivering advanced water treatment and wastewater management solutions. Our vision, mission, and core values guide us in providing reliable and sustainable systems for industrial and commercial applications.</p>
+        </div>
+
+        <!-- Philosophy Cards -->
+        <div class="row g-4">
+            <!-- Card 1 - Innovation -->
+            <div class="col-md-6 col-lg-3 wow fadeInUp" data-wow-delay="0.2s">
+                <div class="philosophy-card">
+                    <div class="philosophy-icon">
+                        <i class="fas fa-lightbulb"></i>
+                    </div>
+                    <h4>Innovation</h4>
+                    <p>We continuously invest in research and development to bring cutting-edge water treatment solutions to the market.</p>
+                    <div class="philosophy-line"></div>
+                </div>
+            </div>
+
+            <!-- Card 2 - Quality -->
+            <div class="col-md-6 col-lg-3 wow fadeInUp" data-wow-delay="0.4s">
+                <div class="philosophy-card">
+                    <div class="philosophy-icon">
+                        <i class="fas fa-medal"></i>
+                    </div>
+                    <h4>Quality</h4>
+                    <p>We are committed to delivering the highest quality products and services that exceed customer expectations.</p>
+                    <div class="philosophy-line"></div>
+                </div>
+            </div>
+
+            <!-- Card 3 - Customer Satisfaction -->
+            <div class="col-md-6 col-lg-3 wow fadeInUp" data-wow-delay="0.6s">
+                <div class="philosophy-card">
+                    <div class="philosophy-icon">
+                        <i class="fas fa-smile"></i>
+                    </div>
+                    <h4>Customer Satisfaction</h4>
+                    <p>We put our customers at the center of everything we do, building lasting relationships based on trust and reliability.</p>
+                    <div class="philosophy-line"></div>
+                </div>
+            </div>
+
+            <!-- Card 4 - Sustainability -->
+            <div class="col-md-6 col-lg-3 wow fadeInUp" data-wow-delay="0.8s">
+                <div class="philosophy-card">
+                    <div class="philosophy-icon">
+                        <i class="fas fa-leaf"></i>
+                    </div>
+                    <h4>Sustainability</h4>
+                    <p>We are committed to environmental stewardship and promoting sustainable water management practices.</p>
+                    <div class="philosophy-line"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- ============================================ -->
+<!-- ============================================ -->
+<!-- VISION, MISSION & CORE VALUES SECTION -->
+<!-- ARCHITECTURE STYLE DESIGN -->
+<!-- ============================================ -->
+<div class="container-fluid vm-section">
+    <div class="container">
+        <!-- Section Header -->
+        <div class="section-header text-center mx-auto wow fadeInUp" data-wow-delay="0.2s">
+            <span class="sub-title">Our Vision & Mission</span>
+            <h2>Guiding Our Journey Forward</h2>
+            <div class="header-line"></div>
+            <p>At VME Solutions, our vision, mission, and core values define who we are and guide everything we do. They are the foundation of our commitment to excellence, innovation, and customer satisfaction.</p>
+        </div>
+
+        <!-- Vision & Mission Row -->
+        <div class="row g-4 mb-5">
+            <!-- Vision -->
+            <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.2s">
+                <div class="vm-card vision-card">
+                    <div class="vm-icon">
+                        <i class="fas fa-eye"></i>
+                    </div>
+                    <h3>Our Vision</h3>
+                    <p>To become <strong>India's most trusted water treatment solutions provider</strong>, recognized for technological innovation, engineering excellence, and unwavering commitment to quality. We envision a future where every industry has access to clean, safe, and sustainable water through our advanced treatment systems.</p>
+                    <div class="vm-line"></div>
+                </div>
+            </div>
+
+            <!-- Mission -->
+            <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.4s">
+                <div class="vm-card mission-card">
+                    <div class="vm-icon">
+                        <i class="fas fa-bullseye"></i>
+                    </div>
+                    <h3>Our Mission</h3>
+                    <p>To provide <strong>sustainable, innovative, and affordable water treatment solutions</strong> that address the growing water challenges faced by industries and communities. We strive to deliver high-purity water with consistent quality, minimize wastewater discharge, and reduce operational costs through energy-efficient systems.</p>
+                    <div class="vm-line"></div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Core Values Section -->
+        <div class="values-wrapper">
+            <div class="section-header text-center mx-auto wow fadeInUp" data-wow-delay="0.2s">
+                <span class="sub-title">Our Core Values</span>
+                <h2>What Drives VME Solutions</h2>
+                <div class="header-line"></div>
+                <p>Our values are the principles that guide our decisions, actions, and interactions with our clients, partners, and communities.</p>
+            </div>
+
+            <div class="row g-4">
+                <!-- Value 1 - Quality -->
+                <div class="col-md-6 col-lg-4 wow fadeInUp" data-wow-delay="0.2s">
+                    <div class="value-card">
+                        <div class="value-number">01</div>
+                        <div class="value-icon">
+                            <i class="fas fa-medal"></i>
                         </div>
+                        <h4>Quality</h4>
+                        <p>We are committed to delivering the highest quality products and services that exceed customer expectations.</p>
+                        <div class="value-line"></div>
+                    </div>
+                </div>
+
+                <!-- Value 2 - Innovation -->
+                <div class="col-md-6 col-lg-4 wow fadeInUp" data-wow-delay="0.4s">
+                    <div class="value-card">
+                        <div class="value-number">02</div>
+                        <div class="value-icon">
+                            <i class="fas fa-lightbulb"></i>
+                        </div>
+                        <h4>Innovation</h4>
+                        <p>We continuously invest in research and development to bring cutting-edge, innovative solutions to the market.</p>
+                        <div class="value-line"></div>
+                    </div>
+                </div>
+
+                <!-- Value 3 - Integrity -->
+                <div class="col-md-6 col-lg-4 wow fadeInUp" data-wow-delay="0.6s">
+                    <div class="value-card">
+                        <div class="value-number">03</div>
+                        <div class="value-icon">
+                            <i class="fas fa-handshake"></i>
+                        </div>
+                        <h4>Integrity</h4>
+                        <p>We conduct our business with honesty, transparency, and ethical practices. We build trust through our actions.</p>
+                        <div class="value-line"></div>
+                    </div>
+                </div>
+
+                <!-- Value 4 - Customer Focus -->
+                <div class="col-md-6 col-lg-4 wow fadeInUp" data-wow-delay="0.2s">
+                    <div class="value-card">
+                        <div class="value-number">04</div>
+                        <div class="value-icon">
+                            <i class="fas fa-users"></i>
+                        </div>
+                        <h4>Customer Focus</h4>
+                        <p>We put our customers at the center of everything we do, building lasting relationships based on trust and reliability.</p>
+                        <div class="value-line"></div>
+                    </div>
+                </div>
+
+                <!-- Value 5 - Sustainability -->
+                <div class="col-md-6 col-lg-4 wow fadeInUp" data-wow-delay="0.4s">
+                    <div class="value-card">
+                        <div class="value-number">05</div>
+                        <div class="value-icon">
+                            <i class="fas fa-leaf"></i>
+                        </div>
+                        <h4>Sustainability</h4>
+                        <p>We are committed to environmental stewardship and promoting sustainable water management practices.</p>
+                        <div class="value-line"></div>
+                    </div>
+                </div>
+
+                <!-- Value 6 - Excellence -->
+                <div class="col-md-6 col-lg-4 wow fadeInUp" data-wow-delay="0.6s">
+                    <div class="value-card">
+                        <div class="value-number">06</div>
+                        <div class="value-icon">
+                            <i class="fas fa-star"></i>
+                        </div>
+                        <h4>Excellence</h4>
+                        <p>We strive for excellence in every aspect of our operations, from design to delivery and after-sales support.</p>
+                        <div class="value-line"></div>
                     </div>
                 </div>
             </div>
         </div>
-        <!-- Features End -->
+    </div>
+</div>
 
-        <!-- Team Start -->
-        <div class="container-fluid team pb-5">
-            <div class="container pb-5">
-                <div class="text-center mx-auto pb-5 wow fadeInUp" data-wow-delay="0.2s" style="max-width: 800px;">
-                    <h4 class="text-primary">Our Team</h4>
-                    <h1 class="display-5 mb-4">Meet Our Advisers</h1>
-                    <p class="mb-0">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tenetur adipisci facilis cupiditate recusandae aperiam temporibus corporis itaque quis facere, numquam, ad culpa deserunt sint dolorem autem obcaecati, ipsam mollitia hic.
-                    </p>
-                </div>
-                <div class="row g-4">
-                    <div class="col-md-6 col-lg-6 col-xl-3 wow fadeInUp" data-wow-delay="0.2s">
-                        <div class="team-item">
-                            <div class="team-img">
-                                <img src="img/team-1.jpg" class="img-fluid" alt="">
-                            </div>
-                            <div class="team-title">
-                                <h4 class="mb-0">David James</h4>
-                                <p class="mb-0">Profession</p>
-                            </div>
-                            <div class="team-icon">
-                                <a class="btn btn-primary btn-sm-square rounded-circle me-3" href=""><i class="fab fa-facebook-f"></i></a>
-                                <a class="btn btn-primary btn-sm-square rounded-circle me-3" href=""><i class="fab fa-twitter"></i></a>
-                                <a class="btn btn-primary btn-sm-square rounded-circle me-3" href=""><i class="fab fa-linkedin-in"></i></a>
-                                <a class="btn btn-primary btn-sm-square rounded-circle me-0" href=""><i class="fab fa-instagram"></i></a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-6 col-lg-6 col-xl-3 wow fadeInUp" data-wow-delay="0.4s">
-                        <div class="team-item">
-                            <div class="team-img">
-                                <img src="img/team-2.jpg" class="img-fluid" alt="">
-                            </div>
-                            <div class="team-title">
-                                <h4 class="mb-0">David James</h4>
-                                <p class="mb-0">Profession</p>
-                            </div>
-                            <div class="team-icon">
-                                <a class="btn btn-primary btn-sm-square rounded-circle me-3" href=""><i class="fab fa-facebook-f"></i></a>
-                                <a class="btn btn-primary btn-sm-square rounded-circle me-3" href=""><i class="fab fa-twitter"></i></a>
-                                <a class="btn btn-primary btn-sm-square rounded-circle me-3" href=""><i class="fab fa-linkedin-in"></i></a>
-                                <a class="btn btn-primary btn-sm-square rounded-circle me-0" href=""><i class="fab fa-instagram"></i></a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-6 col-lg-6 col-xl-3 wow fadeInUp" data-wow-delay="0.6s">
-                        <div class="team-item">
-                            <div class="team-img">
-                                <img src="img/team-3.jpg" class="img-fluid" alt="">
-                            </div>
-                            <div class="team-title">
-                                <h4 class="mb-0">David James</h4>
-                                <p class="mb-0">Profession</p>
-                            </div>
-                            <div class="team-icon">
-                                <a class="btn btn-primary btn-sm-square rounded-circle me-3" href=""><i class="fab fa-facebook-f"></i></a>
-                                <a class="btn btn-primary btn-sm-square rounded-circle me-3" href=""><i class="fab fa-twitter"></i></a>
-                                <a class="btn btn-primary btn-sm-square rounded-circle me-3" href=""><i class="fab fa-linkedin-in"></i></a>
-                                <a class="btn btn-primary btn-sm-square rounded-circle me-0" href=""><i class="fab fa-instagram"></i></a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-6 col-lg-6 col-xl-3 wow fadeInUp" data-wow-delay="0.8s">
-                        <div class="team-item">
-                            <div class="team-img">
-                                <img src="img/team-4.jpg" class="img-fluid" alt="">
-                            </div>
-                            <div class="team-title">
-                                <h4 class="mb-0">David James</h4>
-                                <p class="mb-0">Profession</p>
-                            </div>
-                            <div class="team-icon">
-                                <a class="btn btn-primary btn-sm-square rounded-circle me-3" href=""><i class="fab fa-facebook-f"></i></a>
-                                <a class="btn btn-primary btn-sm-square rounded-circle me-3" href=""><i class="fab fa-twitter"></i></a>
-                                <a class="btn btn-primary btn-sm-square rounded-circle me-3" href=""><i class="fab fa-linkedin-in"></i></a>
-                                <a class="btn btn-primary btn-sm-square rounded-circle me-0" href=""><i class="fab fa-instagram"></i></a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <!-- Team End -->
+
+       
 
         <!-- Footer Start -->
         <?php include 'footer.php'; ?>
@@ -460,6 +481,7 @@
 
         <!-- Template Javascript -->
         <!-- <script src="js/main.js"></script> -->
+         <script src="js/script.js"></script>
     </body>
 
 </html>

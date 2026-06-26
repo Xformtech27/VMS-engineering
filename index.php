@@ -195,247 +195,228 @@
         <!-- About End -->
 
         <!-- Services Start -->
-        <div class="container-fluid service pb-5">
-            <div class="container pb-5">
-                <div class="text-center mx-auto pb-5 wow fadeInUp" data-wow-delay="0.2s" style="max-width: 800px;">
-                    <h4 class="text-primary">Our Services</h4>
-                    <h1 class="display-5 mb-4">We Services provided best offer</h1>
-                    <p class="mb-0">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tenetur adipisci facilis cupiditate recusandae aperiam temporibus corporis itaque quis facere, numquam, ad culpa deserunt sint dolorem autem obcaecati, ipsam mollitia hic.
-                    </p>
-                </div>
-                <div class="row g-4">
-                    <div class="col-md-6 col-lg-4 wow fadeInUp" data-wow-delay="0.2s">
-                        <div class="service-item">
-                            <div class="service-img">
-                                <img src="img/service-1.jpg" class="img-fluid rounded-top w-100" alt="Image">
-                            </div>
-                            <div class="rounded-bottom p-4">
-                                <a href="#" class="h4 d-inline-block mb-4"> Strategy Consulting</a>
-                                <p class="mb-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur, sint? Excepturi facilis neque nesciunt similique officiis veritatis,
-                                </p>
-                                <a class="btn btn-primary rounded-pill py-2 px-4" href="#">Learn More</a>
-                            </div>
-                        </div>
+       <!-- Services Start -->
+<div class="container-fluid service pb-5">
+    <div class="container pb-5">
+        <div class="text-center mx-auto pb-5 wow fadeInUp" data-wow-delay="0.2s" style="max-width: 800px;">
+            <h4 class="text-primary">Our Services</h4>
+            <h1 class="display-5 mb-4">Complete Water Treatment Solutions</h1>
+            <p class="mb-0">VME Solutions provides end-to-end water treatment services including design, engineering, manufacturing, installation, and maintenance of RO plants, pre-treatment systems, and wastewater management solutions for industrial and commercial applications.</p>
+        </div>
+        <div class="row g-4">
+            
+            <!-- Service 1 -->
+            <div class="col-md-6 col-lg-4 wow fadeInUp" data-wow-delay="0.2s">
+                <div class="service-item">
+                    <div class="service-img">
+                        <img src="img/service/ro-plant-design.jpg" class="img-fluid rounded-top w-100" alt="RO Plant Design">
                     </div>
-                    <div class="col-md-6 col-lg-4 wow fadeInUp" data-wow-delay="0.4s">
-                        <div class="service-item">
-                            <div class="service-img">
-                                <img src="img/service-2.jpg" class="img-fluid rounded-top w-100" alt="Image">
-                            </div>
-                            <div class="rounded-bottom p-4">
-                                <a href="#" class="h4 d-inline-block mb-4">Financial Advisory</a>
-                                <p class="mb-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur, sint? Excepturi facilis neque nesciunt similique officiis veritatis,
-                                </p>
-                                <a class="btn btn-primary rounded-pill py-2 px-4" href="#">Learn More</a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-6 col-lg-4 wow fadeInUp" data-wow-delay="0.6s">
-                        <div class="service-item">
-                            <div class="service-img">
-                                <img src="img/service-3.jpg" class="img-fluid rounded-top w-100" alt="Image">
-                            </div>
-                            <div class="rounded-bottom p-4">
-                                <a href="#" class="h4 d-inline-block mb-4">Managements</a>
-                                <p class="mb-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur, sint? Excepturi facilis neque nesciunt similique officiis veritatis,
-                                </p>
-                                <a class="btn btn-primary rounded-pill py-2 px-4" href="#">Learn More</a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-6 col-lg-4 wow fadeInUp" data-wow-delay="0.2s">
-                        <div class="service-item">
-                            <div class="service-img">
-                                <img src="img/service-4.jpg" class="img-fluid rounded-top w-100" alt="Image">
-                            </div>
-                            <div class="rounded-bottom p-4">
-                                <a href="#" class="h4 d-inline-block mb-4">Supply Optimization</a>
-                                <p class="mb-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur, sint? Excepturi facilis neque nesciunt similique officiis veritatis,
-                                </p>
-                                <a class="btn btn-primary rounded-pill py-2 px-4" href="#">Learn More</a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-6 col-lg-4 wow fadeInUp" data-wow-delay="0.4s">
-                        <div class="service-item">
-                            <div class="service-img">
-                                <img src="img/service-5.jpg" class="img-fluid rounded-top w-100" alt="Image">
-                            </div>
-                            <div class="rounded-bottom p-4">
-                                <a href="#" class="h4 d-inline-block mb-4">Hr Consulting</a>
-                                <p class="mb-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur, sint? Excepturi facilis neque nesciunt similique officiis veritatis,
-                                </p>
-                                <a class="btn btn-primary rounded-pill py-2 px-4" href="#">Learn More</a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-6 col-lg-4 wow fadeInUp" data-wow-delay="0.6s">
-                        <div class="service-item">
-                            <div class="service-img">
-                                <img src="img/service-6.jpg" class="img-fluid rounded-top w-100" alt="Image">
-                            </div>
-                            <div class="rounded-bottom p-4">
-                                <a href="#" class="h4 d-inline-block mb-4">Marketing Consulting</a>
-                                <p class="mb-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur, sint? Excepturi facilis neque nesciunt similique officiis veritatis,
-                                </p>
-                                <a class="btn btn-primary rounded-pill py-2 px-4" href="#">Learn More</a>
-                            </div>
-                        </div>
+                    <div class="rounded-bottom p-4">
+                        <a href="#" class="h4 d-inline-block mb-4">RO Plant Design & Engineering</a>
+                        <p class="mb-4">We design and engineer custom Reverse Osmosis water treatment plants with high-rejection TFC membranes, automated controls, and corrosion-resistant construction for maximum efficiency and reliability.</p>
+                        <!-- <a class="btn btn-primary rounded-pill py-2 px-4" href="service.html">Read More</a> -->
                     </div>
                 </div>
             </div>
+            
+            <!-- Service 2 -->
+            <div class="col-md-6 col-lg-4 wow fadeInUp" data-wow-delay="0.4s">
+                <div class="service-item">
+                    <div class="service-img">
+                        <img src="img/service/pre-treatment-and-filtration.jpg" class="img-fluid rounded-top w-100" alt="Pre-Treatment Systems">
+                    </div>
+                    <div class="rounded-bottom p-4">
+                        <a href="#" class="h4 d-inline-block mb-4">Pre-Treatment & Filtration</a>
+                        <p class="mb-4">We provide complete pre-treatment solutions including media filtration vessels, multiport valves, antiscalant dosing systems, and carbon filters to protect RO membranes and ensure long system life.</p>
+                        <!-- <a class="btn btn-primary rounded-pill py-2 px-4" href="service.html">Read More</a> -->
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Service 3 -->
+            <div class="col-md-6 col-lg-4 wow fadeInUp" data-wow-delay="0.6s">
+                <div class="service-item">
+                    <div class="service-img">
+                        <img src="img/service/amc-and-maintenance-services.jpg" class="img-fluid rounded-top w-100" alt="AMC Services">
+                    </div>
+                    <div class="rounded-bottom p-4">
+                        <a href="#" class="h4 d-inline-block mb-4">AMC & Maintenance Services</a>
+                        <p class="mb-4">We offer comprehensive annual maintenance contracts (AMC) including membrane cleaning, chemical dosing, system audits, spare parts supply, and 24/7 technical support to keep your plant running smoothly.</p>
+                        <!-- <a class="btn btn-primary rounded-pill py-2 px-4" href="service.html">Read More</a> -->
+                    </div>
+                </div>
+            </div>
+            
         </div>
+        
+        <!-- View All Services Button -->
+        <div class="text-center mt-5 wow fadeInUp" data-wow-delay="0.8s">
+            <a class="btn btn-primary rounded-pill py-3 px-5" href="service.php">
+                View All Services <i class="fas fa-arrow-right ms-2"></i>
+            </a>
+        </div>
+        
+    </div>
+</div>
+<!-- Services End -->
         <!-- Services End -->
 
         <!-- Features Start -->
-        <div class="container-fluid feature pb-5">
-            <div class="container pb-5">
-                <div class="text-center mx-auto pb-5 wow fadeInUp" data-wow-delay="0.2s" style="max-width: 800px;">
-                    <h4 class="text-primary">Our Features</h4>
-                    <h1 class="display-5 mb-4">Connecting businesses, ideas, and people for greater impact.</h1>
-                    <p class="mb-0">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tenetur adipisci facilis cupiditate recusandae aperiam temporibus corporis itaque quis facere, numquam, ad culpa deserunt sint dolorem autem obcaecati, ipsam mollitia hic.
-                    </p>
+    <div class="container-fluid feature pb-5">
+    <div class="container pb-5">
+    <div class="text-center mx-auto pb-5 wow fadeInUp" data-wow-delay="0.2s" style="max-width: 800px;">
+        <h4 class="text-primary">Our Features</h4>
+        <h1 class="display-5 mb-4">Complete Water Treatment Plant Engineered for Performance & Reliability.</h1>
+        <p class="mb-0">VME Solutions delivers a fully integrated, skid-mounted water treatment system featuring pre-filtration, Reverse Osmosis, and wastewater handling. Our solutions are designed for fully automated smart operation, maximum membrane life, and robust corrosion-resistant construction to ensure long-term durability and efficiency in the most demanding industrial environments.</p>
+    </div>
+    <div class="row g-4">
+        <div class="col-md-6 col-lg-6 col-xl-3 wow fadeInUp" data-wow-delay="0.2s">
+            <div class="feature-item p-4">
+                <div class="feature-icon p-4 mb-4">
+                    <i class="fas fa-cubes fa-4x text-primary"></i>
                 </div>
-                <div class="row g-4">
-                    <div class="col-md-6 col-lg-6 col-xl-3 wow fadeInUp" data-wow-delay="0.2s">
-                        <div class="feature-item p-4">
-                            <div class="feature-icon p-4 mb-4">
-                                <i class="fas fa-chart-line fa-4x text-primary"></i>
-                            </div>
-                            <h4>Global Management</h4>
-                            <p class="mb-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea hic laborum odit pariatur...
-                            </p>
-                            <a class="btn btn-primary rounded-pill py-2 px-4" href="#">Learn More</a>
-                        </div>
-                    </div>
-                    <div class="col-md-6 col-lg-6 col-xl-3 wow fadeInUp" data-wow-delay="0.4s">
-                        <div class="feature-item p-4">
-                            <div class="feature-icon p-4 mb-4">
-                                <i class="fas fa-university fa-4x text-primary"></i>
-                            </div>
-                            <h4>Corporate Banking</h4>
-                            <p class="mb-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea hic laborum odit pariatur...
-                            </p>
-                            <a class="btn btn-primary rounded-pill py-2 px-4" href="#">Learn More</a>
-                        </div>
-                    </div>
-                    <div class="col-md-6 col-lg-6 col-xl-3 wow fadeInUp" data-wow-delay="0.6s">
-                        <div class="feature-item p-4">
-                            <div class="feature-icon p-4 mb-4">
-                                <i class="fas fa-file-alt fa-4x text-primary"></i>
-                            </div>
-                            <h4>Asset Management</h4>
-                            <p class="mb-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea hic laborum odit pariatur...
-                            </p>
-                            <a class="btn btn-primary rounded-pill py-2 px-4" href="#">Learn More</a>
-                        </div>
-                    </div>
-                    <div class="col-md-6 col-lg-6 col-xl-3 wow fadeInUp" data-wow-delay="0.8s">
-                        <div class="feature-item p-4">
-                            <div class="feature-icon p-4 mb-4">
-                                <i class="fas fa-hand-holding-usd fa-4x text-primary"></i>
-                            </div>
-                            <h4>Investment Bank</h4>
-                            <p class="mb-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea hic laborum odit pariatur...
-                            </p>
-                            <a class="btn btn-primary rounded-pill py-2 px-4" href="#">Learn More</a>
-                        </div>
-                    </div>
-                </div>
+                <h4>End-to-End Integration</h4>
+                <p class="mb-4 feature-text" >All components – media vessels, MPV, RO membranes, housings, pumps, piping, CIP, chemical dosing, and storage tank – are pre-engineered and skid-mounted as a single unified system. Ensures seamless compatibility and faster commissioning.</p>
             </div>
         </div>
+        <div class="col-md-6 col-lg-6 col-xl-3 wow fadeInUp" data-wow-delay="0.4s">
+            <div class="feature-item p-4">
+                <div class="feature-icon p-4 mb-4">
+                    <i class="fas fa-robot fa-4x text-primary"></i>
+                </div>
+                <h4>Automated Smart Operation</h4>
+<p class="mb-4 feature-text">
+PLC-based control with HMI touchscreen automates filtration, backwash, RO production, CIP cleaning, and chemical dosing. Real-time monitoring with auto-alarms and safety shutdown protects the system from low pressure or membrane fouling.
+</p>                
+            </div>
+        </div>
+        <div class="col-md-6 col-lg-6 col-xl-3 wow fadeInUp" data-wow-delay="0.6s">
+            <div class="feature-item p-4">
+                <div class="feature-icon p-4 mb-4">
+                    <i class="fas fa-water fa-4x text-primary"></i>
+                </div>
+                <h4>Max Membrane Life & Efficiency</h4>
+                <p class="mb-4 feature-text">Multi-stage pre-treatment (media filtration + antiscalant dosing) protects RO membranes from scaling. High-rejection TFC membranes (99% salt rejection) with CIP system ensure longer membrane life and lower operating costs.</p>
+            </div>
+        </div>
+        <div class="col-md-6 col-lg-6 col-xl-3 wow fadeInUp" data-wow-delay="0.8s">
+            <div class="feature-item p-4">
+                <div class="feature-icon p-4 mb-4">
+                    <i class="fas fa-shield-alt fa-4x text-primary"></i>
+                </div>
+                <h4>Robust & Corrosion-Resistant</h4>
+                <p class="mb-4 feature-text">All wetted parts use FRP, 316 SS, and Schedule 80 PVC – immune to rust, chemicals, and high pressure. Designed for harsh industrial environments with leak-proof seals, ceramic MPV discs, and heavy-duty pumps for reliable 24/7 operation.</p>
+            </div>
+        </div>
+    </div>
+</div>
+</div>
         <!-- Features End -->
 
 
-        <!-- Offer Start -->
-        <div class="container-fluid offer-section pb-5">
-            <div class="container pb-5">
-                <div class="text-center mx-auto pb-5 wow fadeInUp" data-wow-delay="0.2s" style="max-width: 800px;">
-                    <h4 class="text-primary">Our Offer</h4>
-                    <h1 class="display-5 mb-4">Benefits We offer</h1>
-                    <p class="mb-0">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tenetur adipisci facilis cupiditate recusandae aperiam temporibus corporis itaque quis facere, numquam, ad culpa deserunt sint dolorem autem obcaecati, ipsam mollitia hic.
-                    </p>
+        <!-- benifit Start -->
+       <div class="container-fluid offer-section pb-5">
+    <div class="container pb-5">
+        <div class="text-center mx-auto pb-5 wow fadeInUp" data-wow-delay="0.2s" style="max-width: 800px;">
+            <h4 class="text-primary">Why Choose Us</h4>
+            <h1 class="display-5 mb-4">Why Choose VME Solutions Water Treatment Plant</h1>
+            <p class="mb-0">VME Solutions delivers a fully integrated, skid-mounted water treatment system featuring pre-filtration, Reverse Osmosis, and wastewater handling. Our solutions are designed for fully automated smart operation, maximum membrane life, and robust corrosion-resistant construction to ensure long-term durability and efficiency in the most demanding industrial environments.</p>
+        </div>
+        <div class="row g-5 align-items-center">
+            <div class="col-xl-5 wow fadeInLeft" data-wow-delay="0.2s">
+                <div class="nav nav-pills bg-light rounded p-5">
+                    <a class="accordion-link p-4 active mb-4" data-bs-toggle="pill" href="#collapseOne">
+                        <h5 class="mb-0">Cost Savings & Operational Efficiency</h5>
+                    </a>
+                    <a class="accordion-link p-4 mb-4" data-bs-toggle="pill" href="#collapseTwo">
+                        <h5 class="mb-0">Superior Water Quality & Purity</h5>
+                    </a>
+                    <a class="accordion-link p-4 mb-4" data-bs-toggle="pill" href="#collapseThree">
+                        <h5 class="mb-0">24/7 Reliability & Long Equipment Life</h5>
+                    </a>
+                    <a class="accordion-link p-4 mb-4" data-bs-toggle="pill" href="#collapseFour">
+                        <h5 class="mb-0">Eco-Friendly & Sustainable Operation</h5>
+                    </a>
+                    <a class="accordion-link p-4 mb-4" data-bs-toggle="pill" href="#collapseFive">
+                        <h5 class="mb-0">Zero Contamination Risk</h5>
+                    </a>
                 </div>
-                <div class="row g-5 align-items-center">
-                    <div class="col-xl-5 wow fadeInLeft" data-wow-delay="0.2s">
-                        <div class="nav nav-pills bg-light rounded p-5">
-                            <a class="accordion-link p-4 active mb-4" data-bs-toggle="pill" href="#collapseOne">
-                                <h5 class="mb-0">Lending money for investment of your new projects</h5>
-                            </a>
-                            <a class="accordion-link p-4 mb-4" data-bs-toggle="pill" href="#collapseTwo">
-                                <h5 class="mb-0">Lending money for investment of your new projects</h5>
-                            </a>
-                            <a class="accordion-link p-4 mb-4" data-bs-toggle="pill" href="#collapseThree">
-                                <h5 class="mb-0">Mobile payment is more flexible and easy for all investors</h5>
-                            </a>
-                            <a class="accordion-link p-4 mb-0" data-bs-toggle="pill" href="#collapseFour">
-                                <h5 class="mb-0">all transaction is kept free for the member of pro traders</h5>
-                            </a>
+            </div>
+            <div class="col-xl-7 wow fadeInRight" data-wow-delay="0.4s">
+                <div class="tab-content">
+                    <!-- Tab 1 -->
+                    <div id="collapseOne" class="tab-pane fade show p-0 active">
+                        <div class="row g-4">
+                            <div class="col-md-7">
+                                <img src="img/offer-one.jpg" class="img-fluid w-100 rounded" alt="Cost Savings">
+                            </div>
+                            <div class="col-md-5">
+                                <h1 class="display-5 mb-4">Reduce Operating Costs & Maximize ROI</h1>
+                                <p class="mb-4">Multi-stage pre-treatment and anti-scalant dosing protect RO membranes from fouling, extending membrane life by 30-50%. High-efficiency pumps with VFD drives optimize power usage, cutting electricity costs significantly while precise chemical dosing minimizes operational expenses.</p>
+                            </div>
                         </div>
                     </div>
-                    <div class="col-xl-7 wow fadeInRight" data-wow-delay="0.4s">
-                        <div class="tab-content">
-                            <div id="collapseOne" class="tab-pane fade show p-0 active">
-                                <div class="row g-4">
-                                    <div class="col-md-7">
-                                        <img src="img/offer-1.jpg" class="img-fluid w-100 rounded" alt="">
-                                    </div>
-                                    <div class="col-md-5">
-                                        <h1 class="display-5 mb-4">The stock market provides a venue...</h1>
-                                        <p class="mb-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis amet sequi molestiae tenetur eum mollitia, blanditiis, magnam illo magni error dolore unde perspiciatis tempore et totam corrupti dignissimos aut praesentium?
-                                        </p>
-                                        <a class="btn btn-primary rounded-pill py-2 px-4" href="#">Learn More</a>
-                                    </div>
-                                </div>
+                    
+                    <!-- Tab 2 -->
+                    <div id="collapseTwo" class="tab-pane fade show p-0">
+                        <div class="row g-4">
+                            <div class="col-md-7">
+                                <img src="img/offer-two.jpg" class="img-fluid w-100 rounded" alt="Water Quality">
                             </div>
-                            <div id="collapseTwo" class="tab-pane fade show p-0">
-                                <div class="row g-4">
-                                    <div class="col-md-7">
-                                        <img src="img/offer-2.jpg" class="img-fluid w-100 rounded" alt="">
-                                    </div>
-                                    <div class="col-md-5">
-                                        <h1 class="display-5 mb-4">The stock market provides a venue...</h1>
-                                        <p class="mb-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis amet sequi molestiae tenetur eum mollitia, blanditiis, magnam illo magni error dolore unde perspiciatis tempore et totam corrupti dignissimos aut praesentium?
-                                        </p>
-                                        <a class="btn btn-primary rounded-pill py-2 px-4" href="#">Learn More</a>
-                                    </div>
-                                </div>
+                            <div class="col-md-5">
+                                <h1 class="display-5 mb-4">High-Purity Water with Consistent Quality</h1>
+                                <p class="mb-4">High-rejection TFC membranes (up to 99% salt rejection) deliver consistent, high-purity permeate suitable for industrial, commercial, or potable applications. Automated PLC control ensures stable water quality regardless of feed water fluctuations, with zero contamination risk.</p>
                             </div>
-                            <div id="collapseThree" class="tab-pane fade show p-0">
-                                <div class="row g-4">
-                                    <div class="col-md-7">
-                                        <img src="img/offer-3.jpg" class="img-fluid w-100 rounded" alt="">
-                                    </div>
-                                    <div class="col-md-5">
-                                        <h1 class="display-5 mb-4">The stock market provides a venue...</h1>
-                                        <p class="mb-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis amet sequi molestiae tenetur eum mollitia, blanditiis, magnam illo magni error dolore unde perspiciatis tempore et totam corrupti dignissimos aut praesentium?
-                                        </p>
-                                        <a class="btn btn-primary rounded-pill py-2 px-4" href="#">Learn More</a>
-                                    </div>
-                                </div>
+                        </div>
+                    </div>
+                    
+                    <!-- Tab 3 -->
+                    <div id="collapseThree" class="tab-pane fade show p-0">
+                        <div class="row g-4">
+                            <div class="col-md-7">
+                                <img src="img/offer-three.jpg" class="img-fluid w-100 rounded" alt="Reliability">
                             </div>
-                            <div id="collapseFour" class="tab-pane fade show p-0">
-                                <div class="row g-4">
-                                    <div class="col-md-7">
-                                        <img src="img/offer-4.jpg" class="img-fluid w-100 rounded" alt="">
-                                    </div>
-                                    <div class="col-md-5">
-                                        <h1 class="display-5 mb-4">The stock market provides a venue...</h1>
-                                        <p class="mb-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis amet sequi molestiae tenetur eum mollitia, blanditiis, magnam illo magni error dolore unde perspiciatis tempore et totam corrupti dignissimos aut praesentium?
-                                        </p>
-                                        <a class="btn btn-primary rounded-pill py-2 px-4" href="#">Learn More</a>
-                                    </div>
-                                </div>
+                            <div class="col-md-5">
+                                <h1 class="display-5 mb-4">Uninterrupted 24/7 Operation & Durability</h1>
+                                <p class="mb-4">Heavy-duty pumps and corrosion-resistant construction (FRP, 316 SS, Schedule 80 PVC) are designed for decades of reliable operation in harsh industrial environments. Automated backwash and CIP cleaning cycles reduce manual intervention and minimize downtime.</p>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <!-- Tab 4 -->
+                    <div id="collapseFour" class="tab-pane fade show p-0">
+                        <div class="row g-4">
+                            <div class="col-md-7">
+                                <img src="img/offer-four.jpg" class="img-fluid w-100 rounded" alt="Sustainability">
+                            </div>
+                            <div class="col-md-5">
+                                <h1 class="display-5 mb-4">Environmentally Responsible Water Management</h1>
+                                <p class="mb-4">High recovery rates (up to 75-85%) minimize wastewater discharge, conserving precious water resources. Energy-efficient pumps and automation reduce carbon footprint, while optimized chemical dosing minimizes environmental impact.</p>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <!-- Tab 5 - Fixed ID -->
+                    <div id="collapseFive" class="tab-pane fade show p-0">
+                        <div class="row g-4">
+                            <div class="col-md-7">
+                                <img src="img/offer-five.jpg" class="img-fluid w-100 rounded" alt="Risk">
+                            </div>
+                            <div class="col-md-5">
+                                <h1 class="display-5 mb-4">Zero Contamination Risk</h1>
+                                <p class="mb-4">Zero contamination risk ensures that the treated water remains completely pure and free from any external or internal impurities throughout the treatment process. With VME Solutions, zero contamination risk is guaranteed through the use of food-grade, corrosion-resistant materials, leak-proof sealing, closed-loop design, and rigorous CIP sanitization—ensuring your water is always pure, safe, and compliant with international standards.</p>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
-        <!-- Offer End -->
+    </div>
+</div>
+        <!-- benifit end  -->
 
         <!-- Blog Start -->
-        <div class="container-fluid blog pb-5">
+        <!-- <div class="container-fluid blog pb-5">
             <div class="container pb-5">
                 <div class="text-center mx-auto pb-5 wow fadeInUp" data-wow-delay="0.2s" style="max-width: 800px;">
                     <h4 class="text-primary">Our Blog & News</h4>
@@ -518,97 +499,109 @@
                     </div>
                 </div>
             </div>
-        </div>
+        </div> -->
         <!-- Blog End -->
 
 
         <!-- FAQs Start -->
-        <div class="container-fluid faq-section pb-5">
-            <div class="container pb-5 overflow-hidden">
-                <div class="text-center mx-auto pb-5 wow fadeInUp" data-wow-delay="0.2s" style="max-width: 800px;">
-                    <h4 class="text-primary">FAQs</h4>
-                    <h1 class="display-5 mb-4">Frequently Asked Questions</h1>
-                    <p class="mb-0">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tenetur adipisci facilis cupiditate recusandae aperiam temporibus corporis itaque quis facere, numquam, ad culpa deserunt sint dolorem autem obcaecati, ipsam mollitia hic.
-                    </p>
+    <div class="container-fluid faq-section pb-5">
+    <div class="container pb-5 overflow-hidden">
+        <div class="text-center mx-auto pb-5 wow fadeInUp" data-wow-delay="0.2s" style="max-width: 800px;">
+            <h4 class="text-primary">FAQs</h4>
+            <h1 class="display-5 mb-4">Frequently Asked Questions</h1>
+            <p class="mb-0">Find answers to the most common questions about VME Solutions water treatment plants, RO systems, and our comprehensive services.</p>
+        </div>
+        <div class="row g-5 align-items-center">
+            <div class="col-lg-6 wow fadeInLeft" data-wow-delay="0.2s">
+                <div class="accordion accordion-flush bg-light rounded p-5" id="accordionFlushSection">
+                    
+                    <!-- FAQ 1 -->
+                    <div class="accordion-item rounded-top">
+                        <h2 class="accordion-header" id="flush-headingOne">
+                            <button class="accordion-button collapsed rounded-top" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+                                What is a Reverse Osmosis (RO) Water Treatment Plant?
+                            </button>
+                        </h2>
+                        <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushSection">
+                            <div class="accordion-body">A Reverse Osmosis (RO) Water Treatment Plant is a system that uses high-pressure pumps and semi-permeable membranes to remove dissolved salts, impurities, and contaminants from water. It produces high-purity permeate suitable for industrial, commercial, and potable applications with up to 99% salt rejection.</div>
+                        </div>
+                    </div>
+                    
+                    <!-- FAQ 2 -->
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="flush-headingTwo">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+                                What components are included in a VME Solutions water treatment plant?
+                            </button>
+                        </h2>
+                        <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFlushSection">
+                            <div class="accordion-body">VME Solutions provides a complete integrated system including media filtration vessels, multiport valves (MPV), high-rejection RO membranes, FRP membrane housings, high-pressure pumps, PLC-based automation, CIP cleaning systems, chemical dosing units, piping, instrumentation, and finished water storage tanks—all pre-engineered and skid-mounted.</div>
+                        </div>
+                    </div>
+                    
+                    <!-- FAQ 3 -->
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="flush-headingThree">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+                                How long do RO membranes last in your system?
+                            </button>
+                        </h2>
+                        <div id="flush-collapseThree" class="accordion-collapse collapse" aria-labelledby="flush-headingThree" data-bs-parent="#accordionFlushSection">
+                            <div class="accordion-body">With proper pre-treatment (media filtration + antiscalant dosing) and regular CIP cleaning, RO membranes in VME Solutions systems typically last 3 to 5 years. Our multi-stage pre-treatment protects membranes from scaling and fouling, extending membrane life by 30-50% compared to standard systems.</div>
+                        </div>
+                    </div>
+                    
+                    <!-- FAQ 4 -->
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="flush-headingFour">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseFour" aria-expanded="false" aria-controls="flush-collapseFour">
+                                What is the water recovery rate of your system?
+                            </button>
+                        </h2>
+                        <div id="flush-collapseFour" class="accordion-collapse collapse" aria-labelledby="flush-headingFour" data-bs-parent="#accordionFlushSection">
+                            <div class="accordion-body">VME Solutions water treatment plants achieve a high recovery rate of 75-85%, depending on feed water quality and system configuration. This means minimal wastewater discharge, conserving precious water resources and reducing operational costs.</div>
+                        </div>
+                    </div>
+                    
+                    <!-- FAQ 5 -->
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="flush-headingFive">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseFive" aria-expanded="false" aria-controls="flush-collapseFive">
+                                Is the system fully automated and easy to operate?
+                            </button>
+                        </h2>
+                        <div id="flush-collapseFive" class="accordion-collapse collapse" aria-labelledby="flush-headingFive" data-bs-parent="#accordionFlushSection">
+                            <div class="accordion-body">Yes, our systems feature PLC-based control with a user-friendly HMI touchscreen that automates all cycles—filtration, backwash, RO production, CIP cleaning, and chemical dosing. Real-time monitoring with auto-alarms and safety shutdown makes operation simple even for non-technical staff.</div>
+                        </div>
+                    </div>
+                    
+                    <!-- FAQ 6 -->
+                    <div class="accordion-item rounded-bottom">
+                        <h2 class="accordion-header" id="flush-headingSix">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseSix" aria-expanded="false" aria-controls="flush-collapseSix">
+                                What makes VME Solutions different from other water treatment companies?
+                            </button>
+                        </h2>
+                        <div id="flush-collapseSix" class="accordion-collapse collapse" aria-labelledby="flush-headingSix" data-bs-parent="#accordionFlushSection">
+                            <div class="accordion-body">VME Solutions stands out with end-to-end integrated skid-mounted systems, corrosion-resistant construction (FRP, 316 SS, Schedule 80 PVC), fully automated smart operation, maximum membrane life through advanced pre-treatment, and zero contamination risk. We deliver complete turnkey solutions with faster installation and lower operating costs.</div>
+                        </div>
+                    </div>
+                    
                 </div>
-                <div class="row g-5 align-items-center">
-                    <div class="col-lg-6 wow fadeInLeft" data-wow-delay="0.2s">
-                        <div class="accordion accordion-flush bg-light rounded p-5" id="accordionFlushSection">
-                            <div class="accordion-item rounded-top">
-                                <h2 class="accordion-header" id="flush-headingOne">
-                                    <button class="accordion-button collapsed rounded-top" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
-                                    What Does This Tool Do?
-                                    </button>
-                                </h2>
-                                <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushSection">
-                                    <div class="accordion-body">Placeholder content for this accordion, which is intended to demonstrate the <code>.accordion-flush</code> class. This is the first item's accordion body.</div>
-                                </div>
-                            </div>
-                            <div class="accordion-item">
-                                <h2 class="accordion-header" id="flush-headingTwo">
-                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
-                                    What Are The Disadvantages Of Online Trading?
-                                    </button>
-                                </h2>
-                                <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFlushSection">
-                                    <div class="accordion-body">Placeholder content for this accordion, which is intended to demonstrate the <code>.accordion-flush</code> class. This is the second item's accordion body. Let's imagine this being filled with some actual content.</div>
-                                </div>
-                            </div>
-                            <div class="accordion-item">
-                                <h2 class="accordion-header" id="flush-headingThree">
-                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
-                                    Is Online Trading Safe?
-                                    </button>
-                                </h2>
-                                <div id="flush-collapseThree" class="accordion-collapse collapse" aria-labelledby="flush-headingThree" data-bs-parent="#accordionFlushSection">
-                                    <div class="accordion-body">Placeholder content for this accordion, which is intended to demonstrate the <code>.accordion-flush</code> class. This is the second item's accordion body. Let's imagine this being filled with some actual content.</div>
-                                </div>
-                            </div>
-                            <div class="accordion-item">
-                                <h2 class="accordion-header" id="flush-headingFour">
-                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseFour" aria-expanded="false" aria-controls="flush-collapseFour">
-                                    What Is Online Trading, And How Dose It Work?
-                                    </button>
-                                </h2>
-                                <div id="flush-collapseFour" class="accordion-collapse collapse" aria-labelledby="flush-headingFour" data-bs-parent="#accordionFlushSection">
-                                    <div class="accordion-body">Placeholder content for this accordion, which is intended to demonstrate the <code>.accordion-flush</code> class. This is the second item's accordion body. Let's imagine this being filled with some actual content.</div>
-                                </div>
-                            </div>
-                            <div class="accordion-item">
-                                <h2 class="accordion-header" id="flush-headingFive">
-                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseFive" aria-expanded="false" aria-controls="flush-collapseFive">
-                                    Which App Is Best For Online Trading?
-                                    </button>
-                                </h2>
-                                <div id="flush-collapseFive" class="accordion-collapse collapse" aria-labelledby="flush-headingFive" data-bs-parent="#accordionFlushSection">
-                                    <div class="accordion-body">Placeholder content for this accordion, which is intended to demonstrate the <code>.accordion-flush</code> class. This is the second item's accordion body. Let's imagine this being filled with some actual content.</div>
-                                </div>
-                            </div>
-                            <div class="accordion-item rounded-bottom">
-                                <h2 class="accordion-header" id="flush-headingSix">
-                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseSix" aria-expanded="false" aria-controls="flush-collapseSix">
-                                    How To Create A Trading Account?
-                                    </button>
-                                </h2>
-                                <div id="flush-collapseSix" class="accordion-collapse collapse" aria-labelledby="flush-headingSix" data-bs-parent="#accordionFlushSection">
-                                    <div class="accordion-body">Placeholder content for this accordion, which is intended to demonstrate the <code>.accordion-flush</code> class. This is the third item's accordion body. Nothing more exciting happening here in terms of content, but just filling up the space to make it look, at least at first glance, a bit more representative of how this would look in a real-world application.</div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-6 wow fadeInRight" data-wow-delay="0.2s">
-                        <div class="bg-primary rounded">
-                            <img src="img/about-2.png" class="img-fluid w-100" alt="">
-                        </div>
-                    </div>
+            </div>
+            <div class="col-lg-6 wow fadeInRight" data-wow-delay="0.2s">
+                <div class="bg-primary rounded">
+                    <img src="img/about-2.png" class="img-fluid w-100" alt="Water Treatment Plant">
                 </div>
             </div>
         </div>
+    </div>
+</div>
         <!-- FAQs End -->
 
 
         <!-- Team Start -->
-        <div class="container-fluid team pb-5">
+        <!-- <div class="container-fluid team pb-5">
             <div class="container pb-5">
                 <div class="text-center mx-auto pb-5 wow fadeInUp" data-wow-delay="0.2s" style="max-width: 800px;">
                     <h4 class="text-primary">Our Team</h4>
@@ -687,134 +680,167 @@
                     </div>
                 </div>
             </div>
-        </div>
+        </div> -->
         <!-- Team End -->
 
         <!-- Testimonial Start -->
-        <div class="container-fluid testimonial pb-5">
-            <div class="container pb-5">
-                <div class="text-center mx-auto pb-5 wow fadeInUp" data-wow-delay="0.2s" style="max-width: 800px;">
-                    <h4 class="text-primary">Testimonial</h4>
-                    <h1 class="display-5 mb-4">Our Clients Riviews</h1>
-                    <p class="mb-0">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tenetur adipisci facilis cupiditate recusandae aperiam temporibus corporis itaque quis facere, numquam, ad culpa deserunt sint dolorem autem obcaecati, ipsam mollitia hic.
-                    </p>
+      <div class="container-fluid testimonial pb-5">
+    <div class="container pb-5">
+        <div class="text-center mx-auto pb-5 wow fadeInUp" data-wow-delay="0.2s" style="max-width: 800px;">
+            <h4 class="text-primary">Testimonials</h4>
+            <h1 class="display-5 mb-4">What Our Clients Say About VME Solutions</h1>
+            <p class="mb-0">VME Solutions has successfully delivered water treatment plants across various industries. Here's what our satisfied clients have to say about our reliable, efficient, and cost-effective water treatment solutions.</p>
+        </div>
+        <div class="owl-carousel testimonial-carousel wow fadeInUp" data-wow-delay="0.2s">
+            
+            <!-- Testimonial 1 -->
+            <div class="testimonial-item">
+                <div class="testimonial-quote-left">
+                    <i class="fas fa-quote-left fa-2x"></i>
                 </div>
-                <div class="owl-carousel testimonial-carousel wow fadeInUp" data-wow-delay="0.2s">
-                    <div class="testimonial-item">
-                        <div class="testimonial-quote-left">
-                            <i class="fas fa-quote-left fa-2x"></i>
-                        </div>
-                        <div class="testimonial-img">
-                            <img src="img/testimonial-1.jpg" class="img-fluid" alt="Image">
-                        </div>
-                        <div class="testimonial-text">
-                            <p class="mb-0">Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis blanditiis excepturi quisquam temporibus voluptatum reprehenderit culpa, quasi corrupti laborum accusamus.
-                            </p>
-                        </div>
-                        <div class="testimonial-title">
-                            <div>
-                                <h4 class="mb-0">Person Name</h4>
-                                <p class="mb-0">Profession</p>
-                            </div>
-                            <div class="d-flex text-primary">
-                                <i class="fas fa-star"></i>
-                                <i class="fas fa-star"></i>
-                                <i class="fas fa-star"></i>
-                                <i class="fas fa-star"></i>
-                                <i class="fas fa-star"></i>
-                            </div>
-                        </div>
-                        <div class="testimonial-quote-right">
-                            <i class="fas fa-quote-right fa-2x"></i>
-                        </div>
+                <div class="testimonial-img">
+                    <img src="img/testimonial-1.jpg" class="img-fluid" alt="Client">
+                </div>
+                <div class="testimonial-text">
+                    <p class="mb-0" style="text-align: justify;">VME Solutions delivered a fully automated RO plant for our facility with excellent water quality and reliability.</p>
+                </div>
+                <div class="testimonial-title">
+                    <div>
+                        <h4 class="mb-0">Plant Manager</h4>
+                        <p class="mb-0">Pharmaceutical Industry</p>
                     </div>
-                    <div class="testimonial-item">
-                        <div class="testimonial-quote-left">
-                            <i class="fas fa-quote-left fa-2x"></i>
-                        </div>
-                        <div class="testimonial-img">
-                            <img src="img/testimonial-2.jpg" class="img-fluid" alt="Image">
-                        </div>
-                        <div class="testimonial-text">
-                            <p class="mb-0">Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis blanditiis excepturi quisquam temporibus voluptatum reprehenderit culpa, quasi corrupti laborum accusamus.
-                            </p>
-                        </div>
-                        <div class="testimonial-title">
-                            <div>
-                                <h4 class="mb-0">Person Name</h4>
-                                <p class="mb-0">Profession</p>
-                            </div>
-                            <div class="d-flex text-primary">
-                                <i class="fas fa-star"></i>
-                                <i class="fas fa-star"></i>
-                                <i class="fas fa-star"></i>
-                                <i class="fas fa-star"></i>
-                                <i class="fas fa-star"></i>
-                            </div>
-                        </div>
-                        <div class="testimonial-quote-right">
-                            <i class="fas fa-quote-right fa-2x"></i>
-                        </div>
+                    <div class="d-flex text-primary">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
                     </div>
-                    <div class="testimonial-item">
-                        <div class="testimonial-quote-left">
-                            <i class="fas fa-quote-left fa-2x"></i>
-                        </div>
-                        <div class="testimonial-img">
-                            <img src="img/testimonial-3.jpg" class="img-fluid" alt="Image">
-                        </div>
-                        <div class="testimonial-text">
-                            <p class="mb-0">Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis blanditiis excepturi quisquam temporibus voluptatum reprehenderit culpa, quasi corrupti laborum accusamus.
-                            </p>
-                        </div>
-                        <div class="testimonial-title">
-                            <div>
-                                <h4 class="mb-0">Person Name</h4>
-                                <p class="mb-0">Profession</p>
-                            </div>
-                            <div class="d-flex text-primary">
-                                <i class="fas fa-star"></i>
-                                <i class="fas fa-star"></i>
-                                <i class="fas fa-star"></i>
-                                <i class="fas fa-star"></i>
-                                <i class="fas fa-star"></i>
-                            </div>
-                        </div>
-                        <div class="testimonial-quote-right">
-                            <i class="fas fa-quote-right fa-2x"></i>
-                        </div>
-                    </div>
-                    <div class="testimonial-item">
-                        <div class="testimonial-quote-left">
-                            <i class="fas fa-quote-left fa-2x"></i>
-                        </div>
-                        <div class="testimonial-img">
-                            <img src="img/testimonial-2.jpg" class="img-fluid" alt="Image">
-                        </div>
-                        <div class="testimonial-text">
-                            <p class="mb-0">Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis blanditiis excepturi quisquam temporibus voluptatum reprehenderit culpa, quasi corrupti laborum accusamus.
-                            </p>
-                        </div>
-                        <div class="testimonial-title">
-                            <div>
-                                <h4 class="mb-0">Person Name</h4>
-                                <p class="mb-0">Profession</p>
-                            </div>
-                            <div class="d-flex text-primary">
-                                <i class="fas fa-star"></i>
-                                <i class="fas fa-star"></i>
-                                <i class="fas fa-star"></i>
-                                <i class="fas fa-star"></i>
-                                <i class="fas fa-star"></i>
-                            </div>
-                        </div>
-                        <div class="testimonial-quote-right">
-                            <i class="fas fa-quote-right fa-2x"></i>
-                        </div>
-                    </div>
+                </div>
+                <div class="testimonial-quote-right">
+                    <i class="fas fa-quote-right fa-2x"></i>
                 </div>
             </div>
+            
+            <!-- Testimonial 2 -->
+            <div class="testimonial-item">
+                <div class="testimonial-quote-left">
+                    <i class="fas fa-quote-left fa-2x"></i>
+                </div>
+                <div class="testimonial-img">
+                    <img src="img/testimonial-2.jpg" class="img-fluid" alt="Client">
+                </div>
+                <div class="testimonial-text">
+                    <p class="mb-0" style="text-align: justify;">The skid-mounted design and PLC automation saved us time and reduced our manpower requirements significantly.</p>
+                </div>
+                <div class="testimonial-title">
+                    <div>
+                        <h4 class="mb-0">Operations Director</h4>
+                        <p class="mb-0">Beverage Industry</p>
+                    </div>
+                    <div class="d-flex text-primary">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                </div>
+                <div class="testimonial-quote-right">
+                    <i class="fas fa-quote-right fa-2x"></i>
+                </div>
+            </div>
+            
+            <!-- Testimonial 3 -->
+            <div class="testimonial-item">
+                <div class="testimonial-quote-left">
+                    <i class="fas fa-quote-left fa-2x"></i>
+                </div>
+                <div class="testimonial-img">
+                    <img src="img/testimonial-3.jpg" class="img-fluid" alt="Client">
+                </div>
+                <div class="testimonial-text">
+                    <p class="mb-0" style="text-align: justify;">Corrosion-resistant materials and heavy-duty pumps have made this system reliable with zero downtime since installation.</p>
+                </div>
+                <div class="testimonial-title">
+                    <div>
+                        <h4 class="mb-0">Maintenance Head</h4>
+                        <p class="mb-0">Steel Manufacturing Industry</p>
+                    </div>
+                    <div class="d-flex text-primary">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                </div>
+                <div class="testimonial-quote-right">
+                    <i class="fas fa-quote-right fa-2x"></i>
+                </div>
+            </div>
+            
+            <!-- Testimonial 4 -->
+            <div class="testimonial-item">
+                <div class="testimonial-quote-left">
+                    <i class="fas fa-quote-left fa-2x"></i>
+                </div>
+                <div class="testimonial-img">
+                    <img src="img/testimonial-2.jpg" class="img-fluid" alt="Client">
+                </div>
+                <div class="testimonial-text">
+                    <p class="mb-0" style="text-align: justify;">The turnkey solution from VME Solutions provided excellent water recovery and reduced our wastewater discharge significantly.</p>
+                </div>
+                <div class="testimonial-title">
+                    <div>
+                        <h4 class="mb-0">Environmental Manager</h4>
+                        <p class="mb-0">Chemical Industry</p>
+                    </div>
+                    <div class="d-flex text-primary">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                </div>
+                <div class="testimonial-quote-right">
+                    <i class="fas fa-quote-right fa-2x"></i>
+                </div>
+            </div>
+            
+            <!-- Testimonial 5 -->
+            <div class="testimonial-item">
+                <div class="testimonial-quote-left">
+                    <i class="fas fa-quote-left fa-2x"></i>
+                </div>
+                <div class="testimonial-img">
+                    <img src="img/testimonial-1.jpg" class="img-fluid" alt="Client">
+                </div>
+                <div class="testimonial-text">
+                    <p class="mb-0" style="text-align: justify;">The CIP system and anti-scalant dosing have kept our membranes in excellent condition with low maintenance requirements.</p>
+                </div>
+                <div class="testimonial-title">
+                    <div>
+                        <h4 class="mb-0">Technical Director</h4>
+                        <p class="mb-0">Water Treatment Industry</p>
+                    </div>
+                    <div class="d-flex text-primary">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                </div>
+                <div class="testimonial-quote-right">
+                    <i class="fas fa-quote-right fa-2x"></i>
+                </div>
+            </div>
+            
         </div>
+    </div>
+</div>
         <!-- Testimonial End -->
 
         <!-- Footer Start -->

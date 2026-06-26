@@ -36,17 +36,17 @@ $current_page = basename($_SERVER['PHP_SELF']);
             </div>
             <div class="col-lg-4 text-center text-lg-end">
                 <div class="d-inline-flex align-items-center" style="height: 45px;">
-                    <a href="<?php echo BASE_URL; ?>/register.php">
+                    <!-- <a href="<?php echo BASE_URL; ?>/register.php">
                         <small class="me-3 text-dark">
                             <i class="fa fa-user text-primary me-2"></i>Register
                         </small>
-                    </a>
-                    <a href="<?php echo BASE_URL; ?>/login.php">
+                    </a> -->
+                    <!-- <a href="<?php echo BASE_URL; ?>/login.php">
                         <small class="me-3 text-dark">
                             <i class="fa fa-sign-in-alt text-primary me-2"></i>Login
                         </small>
-                    </a>
-                    <div class="dropdown">
+                    </a> -->
+                    <!-- <div class="dropdown">
                         <a href="#" class="dropdown-toggle text-dark" data-bs-toggle="dropdown">
                             <small>
                                 <i class="fa fa-home text-primary me-2"></i> My Dashboard
@@ -69,7 +69,7 @@ $current_page = basename($_SERVER['PHP_SELF']);
                                 <i class="fas fa-power-off me-2"></i> Log Out
                             </a>
                         </div>
-                    </div>
+                    </div> -->
                 </div>
             </div>
         </div>
@@ -107,10 +107,47 @@ $current_page = basename($_SERVER['PHP_SELF']);
                         Services
                     </a>
 
-<a href="<?php echo BASE_URL; ?>/components.php"
-class="nav-item nav-link <?php echo ($current_page == 'components.php') ? 'active' : ''; ?>">
-Components
-</a>
+<li class="nav-item dropdown position-static">
+    <a href="<?php echo BASE_URL; ?>/components.php"
+           class="nav-link <?php echo ($current_page == 'components.php') ? 'active' : ''; ?>">
+            Components
+        </a>
+
+    <div class="dropdown-menu mega-menu p-4">
+        <div class="row">
+
+            <div class="col-lg-6">
+                <h5>RO Plant & Water Treatment Plant</h5>
+
+                <a class="dropdown-item" href="<?php echo BASE_URL; ?>/components/frp-vessel.php">FRP Vessel</a>
+                <a class="dropdown-item" href="<?php echo BASE_URL; ?>/components/mpv.php">MPV</a>
+                <a class="dropdown-item" href="<?php echo BASE_URL; ?>/components/ro-membrane.php">RO Membrane</a>
+                <a class="dropdown-item" href="<?php echo BASE_URL; ?>/components/media.php">Media</a>
+                <a class="dropdown-item" href="<?php echo BASE_URL; ?>/components/pressure-gauge.php">Pressure Gauge</a>
+                <a class="dropdown-item" href="<?php echo BASE_URL; ?>/components/ro-membrane-housing.php">RO Membrane Housing</a>
+                <a class="dropdown-item" href="<?php echo BASE_URL; ?>/components/rota-meter.php">Rota Meter</a>
+                <a class="dropdown-item" href="<?php echo BASE_URL; ?>/components/control-panel.php">Control Panel</a>
+                <a class="dropdown-item" href="<?php echo BASE_URL; ?>/components/raw-water-pump.php">Raw Water Pump</a>
+                <a class="dropdown-item" href="<?php echo BASE_URL; ?>/components/high-pressure-pump.php">High Pressure Pump</a>
+                <a class="dropdown-item" href="<?php echo BASE_URL; ?>/components/cartridge-filter.php">Cartridge Filter</a>
+                <a class="dropdown-item" href="<?php echo BASE_URL; ?>/components/cartridge-filter-housing.php">Cartridge Filter Housing</a>
+            </div>
+            
+
+            <div class="col-lg-6">
+                <h5>Waste Water Plant Components</h5>
+
+                <a class="dropdown-item" href="<?php echo BASE_URL; ?>/components/blower.php">Blower</a>
+                <a class="dropdown-item" href="<?php echo BASE_URL; ?>/components/diffuser.php">Diffuser</a>
+                <a class="dropdown-item" href="<?php echo BASE_URL; ?>/components/oil-skimmer.php">Oil Skimmer</a>
+            </div>
+            
+
+        </div>
+    </div>
+</li>
+
+
                     
                    
                     
@@ -138,6 +175,7 @@ Components
                 <a href="<?php echo BASE_URL; ?>/get-started.php" class="btn btn-primary rounded-pill py-2 px-4 my-3 my-lg-0 flex-shrink-0">Profile</a>
             </div>
         </nav>
+        
 
 
   

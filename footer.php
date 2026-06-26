@@ -31,10 +31,56 @@
             </button>
             <div class="collapse navbar-collapse" id="navbarCollapse">
                 <div class="navbar-nav ms-auto py-0">
-                    <a href="<?php echo BASE_URL; ?>/index.php" class="nav-item nav-link active">Home</a>
-                    <a href="<?php echo BASE_URL; ?>/about.php" class="nav-item nav-link">About</a>
-                    <a href="<?php echo BASE_URL; ?>/service.php" class="nav-item nav-link">Services</a>
-                <a href="<?php echo BASE_URL; ?>/components.php" class="nav-item nav-link">Components</a>
+                    <a href="<?php echo BASE_URL; ?>/index.php" class="nav-item nav-link <?php echo ($current_page == 'index.php') ? 'active' : ''; ?>">Home</a>
+<a href="<?php echo BASE_URL; ?>/about.php" class="nav-item nav-link <?php echo ($current_page == 'about.php') ? 'active' : ''; ?>">
+    About
+</a>                    
+<a href="<?php echo BASE_URL; ?>/service.php"
+   class="nav-item nav-link <?php echo ($current_page == 'service.php') ? 'active' : ''; ?>">
+    Services
+</a>
+
+  <li class="nav-item dropdown position-static">
+    <a href="<?php echo BASE_URL; ?>/components.php"
+           class="nav-link <?php echo ($current_page == 'components.php') ? 'active' : ''; ?>">
+            Components
+        </a>
+
+    <div class="dropdown-menu mega-menu p-4">
+        <div class="row">
+
+            <div class="col-lg-6">
+                <h5>RO Plant & Water Treatment Plant</h5>
+
+                <a class="dropdown-item" href="<?php echo BASE_URL; ?>/components/frp-vessel.php">FRP Vessel</a>
+                <a class="dropdown-item" href="<?php echo BASE_URL; ?>/components/mpv.php">MPV</a>
+                <a class="dropdown-item" href="<?php echo BASE_URL; ?>/components/ro-membrane.php">RO Membrane</a>
+                <a class="dropdown-item" href="<?php echo BASE_URL; ?>/components/media.php">Media</a>
+                <a class="dropdown-item" href="<?php echo BASE_URL; ?>/components/pressure-gauge.php">Pressure Gauge</a>
+                <a class="dropdown-item" href="<?php echo BASE_URL; ?>/components/ro-membrane-housing.php">RO Membrane Housing</a>
+                <a class="dropdown-item" href="<?php echo BASE_URL; ?>/components/rota-meter.php">Rota Meter</a>
+                <a class="dropdown-item" href="<?php echo BASE_URL; ?>/components/control-panel.php">Control Panel</a>
+                <a class="dropdown-item" href="<?php echo BASE_URL; ?>/components/raw-water-pump.php">Raw Water Pump</a>
+                <a class="dropdown-item" href="<?php echo BASE_URL; ?>/components/high-pressure-pump.php">High Pressure Pump</a>
+                <a class="dropdown-item" href="<?php echo BASE_URL; ?>/components/cartridge-filter.php">Cartridge Filter</a>
+                <a class="dropdown-item" href="<?php echo BASE_URL; ?>/components/cartridge-filter-housing.php">Cartridge Filter Housing</a>
+            </div>
+            
+
+            <div class="col-lg-6">
+                <h5>Waste Water Plant Components</h5>
+
+                <a class="dropdown-item" href="<?php echo BASE_URL; ?>/components/blower.php">Blower</a>
+                <a class="dropdown-item" href="<?php echo BASE_URL; ?>/components/diffuser.php">Diffuser</a>
+                <a class="dropdown-item" href="<?php echo BASE_URL; ?>/components/oil-skimmer.php">Oil Skimmer</a>
+            </div>
+            
+
+        </div>
+    </div>
+</li>
+          
+  <!-- <a href="<?php echo BASE_URL; ?>/components.php" class="nav-item nav-link">Components</a> -->
 
 
                     <!-- <a href="<?php echo BASE_URL; ?>/blog.php" class="nav-item nav-link">Blogs</a> -->
@@ -52,8 +98,10 @@
                             <a href="<?php echo BASE_URL; ?>/pages/404.php" class="dropdown-item">404 Page</a>
                         </div>
                     </div> -->
-                    <a href="<?php echo BASE_URL; ?>/contact.php" class="nav-item nav-link">Contact Us</a>
-                </div>
+<a href="<?php echo BASE_URL; ?>/contact.php"
+   class="nav-item nav-link <?php echo ($current_page == 'contact.php') ? 'active' : ''; ?>">
+    Contact Us
+</a>                </div>
           <a href="<?php echo BASE_URL; ?>/get-started.php" class="btn btn-primary rounded-pill py-2 px-4 my-3 my-lg-0 flex-shrink-0">Profile</a>
 
             </div>

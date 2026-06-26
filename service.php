@@ -129,225 +129,100 @@
         </div>
         <!-- Carousel End -->
 
-        <!-- Services Start -->
-        <div class="container-fluid service py-5">
-            <div class="container py-5">
-                <div class="text-center mx-auto pb-5 wow fadeInUp" data-wow-delay="0.2s" style="max-width: 800px;">
-                    <h4 class="text-primary">Our Services</h4>
-                    <h1 class="display-5 mb-4">We Services provided best offer</h1>
-                    <p class="mb-0">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tenetur adipisci facilis cupiditate recusandae aperiam temporibus corporis itaque quis facere, numquam, ad culpa deserunt sint dolorem autem obcaecati, ipsam mollitia hic.
-                    </p>
-                </div>
-                <div class="row g-4">
-                    <div class="col-md-6 col-lg-4 wow fadeInUp" data-wow-delay="0.2s">
-                        <div class="service-item">
-                            <div class="service-img">
-                                <img src="img/service-1.jpg" class="img-fluid rounded-top w-100" alt="Image">
-                            </div>
-                            <div class="rounded-bottom p-4">
-                                <a href="#" class="h4 d-inline-block mb-4"> Strategy Consulting</a>
-                                <p class="mb-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur, sint? Excepturi facilis neque nesciunt similique officiis veritatis,
-                                </p>
-                                <a class="btn btn-primary rounded-pill py-2 px-4" href="#">Learn More</a>
-                            </div>
-                        </div>
+       <!-- Services Start -->
+<div class="container-fluid service pb-5">
+    <div class="container pb-5">
+        <div class="text-center mx-auto pb-5 wow fadeInUp" data-wow-delay="0.2s" style="max-width: 800px;">
+            <h4 class="text-primary">Our Services</h4>
+            <h1 class="display-5 mb-4">Complete Water Treatment Solutions</h1>
+            <p class="mb-0">VME Solutions provides end-to-end water treatment services including design, engineering, manufacturing, installation, and maintenance of RO plants, pre-treatment systems, and wastewater management solutions for industrial and commercial applications.</p>
+        </div>
+        <div class="row g-4">
+            
+            <!-- Service 1 -->
+            <div class="col-md-6 col-lg-4 wow fadeInUp" data-wow-delay="0.2s">
+                <div class="service-item">
+                    <div class="service-img">
+                        <img src="img/service-1.jpg" class="img-fluid rounded-top w-100" alt="RO Plant Design">
                     </div>
-                    <div class="col-md-6 col-lg-4 wow fadeInUp" data-wow-delay="0.4s">
-                        <div class="service-item">
-                            <div class="service-img">
-                                <img src="img/service-2.jpg" class="img-fluid rounded-top w-100" alt="Image">
-                            </div>
-                            <div class="rounded-bottom p-4">
-                                <a href="#" class="h4 d-inline-block mb-4">Financial Advisory</a>
-                                <p class="mb-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur, sint? Excepturi facilis neque nesciunt similique officiis veritatis,
-                                </p>
-                                <a class="btn btn-primary rounded-pill py-2 px-4" href="#">Learn More</a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-6 col-lg-4 wow fadeInUp" data-wow-delay="0.6s">
-                        <div class="service-item">
-                            <div class="service-img">
-                                <img src="img/service-3.jpg" class="img-fluid rounded-top w-100" alt="Image">
-                            </div>
-                            <div class="rounded-bottom p-4">
-                                <a href="#" class="h4 d-inline-block mb-4">Managements</a>
-                                <p class="mb-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur, sint? Excepturi facilis neque nesciunt similique officiis veritatis,
-                                </p>
-                                <a class="btn btn-primary rounded-pill py-2 px-4" href="#">Learn More</a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-6 col-lg-4 wow fadeInUp" data-wow-delay="0.2s">
-                        <div class="service-item">
-                            <div class="service-img">
-                                <img src="img/service-4.jpg" class="img-fluid rounded-top w-100" alt="Image">
-                            </div>
-                            <div class="rounded-bottom p-4">
-                                <a href="#" class="h4 d-inline-block mb-4">Supply Optimization</a>
-                                <p class="mb-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur, sint? Excepturi facilis neque nesciunt similique officiis veritatis,
-                                </p>
-                                <a class="btn btn-primary rounded-pill py-2 px-4" href="#">Learn More</a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-6 col-lg-4 wow fadeInUp" data-wow-delay="0.4s">
-                        <div class="service-item">
-                            <div class="service-img">
-                                <img src="img/service-5.jpg" class="img-fluid rounded-top w-100" alt="Image">
-                            </div>
-                            <div class="rounded-bottom p-4">
-                                <a href="#" class="h4 d-inline-block mb-4">Hr Consulting</a>
-                                <p class="mb-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur, sint? Excepturi facilis neque nesciunt similique officiis veritatis,
-                                </p>
-                                <a class="btn btn-primary rounded-pill py-2 px-4" href="#">Learn More</a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-6 col-lg-4 wow fadeInUp" data-wow-delay="0.6s">
-                        <div class="service-item">
-                            <div class="service-img">
-                                <img src="img/service-6.jpg" class="img-fluid rounded-top w-100" alt="Image">
-                            </div>
-                            <div class="rounded-bottom p-4">
-                                <a href="#" class="h4 d-inline-block mb-4">Marketing Consulting</a>
-                                <p class="mb-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur, sint? Excepturi facilis neque nesciunt similique officiis veritatis,
-                                </p>
-                                <a class="btn btn-primary rounded-pill py-2 px-4" href="#">Learn More</a>
-                            </div>
-                        </div>
+                    <div class="rounded-bottom p-4">
+                        <a href="#" class="h4 d-inline-block mb-4">RO Plant Design & Engineering</a>
+                        <p class="mb-4">We design and engineer custom Reverse Osmosis water treatment plants with high-rejection TFC membranes, automated controls, and corrosion-resistant construction for maximum efficiency and reliability.</p>
                     </div>
                 </div>
             </div>
+            
+            <!-- Service 2 -->
+            <div class="col-md-6 col-lg-4 wow fadeInUp" data-wow-delay="0.4s">
+                <div class="service-item">
+                    <div class="service-img">
+                        <img src="img/service-2.jpg" class="img-fluid rounded-top w-100" alt="Pre-Treatment Systems">
+                    </div>
+                    <div class="rounded-bottom p-4">
+                        <a href="#" class="h4 d-inline-block mb-4">Pre-Treatment & Filtration</a>
+                        <p class="mb-4">We provide complete pre-treatment solutions including media filtration vessels, multiport valves, antiscalant dosing systems, and carbon filters to protect RO membranes and ensure long system life.</p>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Service 3 -->
+            <div class="col-md-6 col-lg-4 wow fadeInUp" data-wow-delay="0.6s">
+                <div class="service-item">
+                    <div class="service-img">
+                        <img src="img/service-3.jpg" class="img-fluid rounded-top w-100" alt="AMC Services">
+                    </div>
+                    <div class="rounded-bottom p-4">
+                        <a href="#" class="h4 d-inline-block mb-4">AMC & Maintenance Services</a>
+                        <p class="mb-4">We offer comprehensive annual maintenance contracts (AMC) including membrane cleaning, chemical dosing, system audits, spare parts supply, and 24/7 technical support to keep your plant running smoothly.</p>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Service 4 (New) -->
+            <div class="col-md-6 col-lg-4 wow fadeInUp" data-wow-delay="0.2s">
+                <div class="service-item">
+                    <div class="service-img">
+                        <img src="img/service-4.jpg" class="img-fluid rounded-top w-100" alt="Wastewater Treatment">
+                    </div>
+                    <div class="rounded-bottom p-4">
+                        <a href="#" class="h4 d-inline-block mb-4">Wastewater Treatment Solutions</a>
+                        <p class="mb-4">We design and install wastewater treatment systems including effluent treatment plants (ETP), sewage treatment plants (STP), and zero liquid discharge (ZLD) systems for environmentally responsible water management.</p>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Service 5 (New) -->
+            <div class="col-md-6 col-lg-4 wow fadeInUp" data-wow-delay="0.4s">
+                <div class="service-item">
+                    <div class="service-img">
+                        <img src="img/service-5.jpg" class="img-fluid rounded-top w-100" alt="Automation & Controls">
+                    </div>
+                    <div class="rounded-bottom p-4">
+                        <a href="#" class="h4 d-inline-block mb-4">Automation & Control Systems</a>
+                        <p class="mb-4">We provide PLC-based automation, HMI touchscreen interfaces, SCADA integration, and remote monitoring solutions for complete control and real-time data visualization of your water treatment plant.</p>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Service 6 (New) -->
+            <div class="col-md-6 col-lg-4 wow fadeInUp" data-wow-delay="0.6s">
+                <div class="service-item">
+                    <div class="service-img">
+                        <img src="img/service-6.jpg" class="img-fluid rounded-top w-100" alt="Consulting & Audits">
+                    </div>
+                    <div class="rounded-bottom p-4">
+                        <a href="#" class="h4 d-inline-block mb-4">Consulting & System Audits</a>
+                        <p class="mb-4">We offer water quality analysis, system design consulting, energy efficiency audits, and performance optimization services to ensure your water treatment plant operates at peak efficiency.</p>
+                    </div>
+                </div>
+            </div>
+            
         </div>
-        <!-- Services End -->
+    </div>
+</div>
+<!-- Services End -->
 
-        <!-- Testimonial Start -->
-        <div class="container-fluid testimonial pb-5">
-            <div class="container pb-5">
-                <div class="text-center mx-auto pb-5 wow fadeInUp" data-wow-delay="0.2s" style="max-width: 800px;">
-                    <h4 class="text-primary">Testimonial</h4>
-                    <h1 class="display-5 mb-4">Our Clients Riviews</h1>
-                    <p class="mb-0">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tenetur adipisci facilis cupiditate recusandae aperiam temporibus corporis itaque quis facere, numquam, ad culpa deserunt sint dolorem autem obcaecati, ipsam mollitia hic.
-                    </p>
-                </div>
-                <div class="owl-carousel testimonial-carousel wow fadeInUp" data-wow-delay="0.2s">
-                    <div class="testimonial-item">
-                        <div class="testimonial-quote-left">
-                            <i class="fas fa-quote-left fa-2x"></i>
-                        </div>
-                        <div class="testimonial-img">
-                            <img src="img/testimonial-1.jpg" class="img-fluid" alt="Image">
-                        </div>
-                        <div class="testimonial-text">
-                            <p class="mb-0">Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis blanditiis excepturi quisquam temporibus voluptatum reprehenderit culpa, quasi corrupti laborum accusamus.
-                            </p>
-                        </div>
-                        <div class="testimonial-title">
-                            <div>
-                                <h4 class="mb-0">Person Name</h4>
-                                <p class="mb-0">Profession</p>
-                            </div>
-                            <div class="d-flex text-primary">
-                                <i class="fas fa-star"></i>
-                                <i class="fas fa-star"></i>
-                                <i class="fas fa-star"></i>
-                                <i class="fas fa-star"></i>
-                                <i class="fas fa-star"></i>
-                            </div>
-                        </div>
-                        <div class="testimonial-quote-right">
-                            <i class="fas fa-quote-right fa-2x"></i>
-                        </div>
-                    </div>
-                    <div class="testimonial-item">
-                        <div class="testimonial-quote-left">
-                            <i class="fas fa-quote-left fa-2x"></i>
-                        </div>
-                        <div class="testimonial-img">
-                            <img src="img/testimonial-2.jpg" class="img-fluid" alt="Image">
-                        </div>
-                        <div class="testimonial-text">
-                            <p class="mb-0">Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis blanditiis excepturi quisquam temporibus voluptatum reprehenderit culpa, quasi corrupti laborum accusamus.
-                            </p>
-                        </div>
-                        <div class="testimonial-title">
-                            <div>
-                                <h4 class="mb-0">Person Name</h4>
-                                <p class="mb-0">Profession</p>
-                            </div>
-                            <div class="d-flex text-primary">
-                                <i class="fas fa-star"></i>
-                                <i class="fas fa-star"></i>
-                                <i class="fas fa-star"></i>
-                                <i class="fas fa-star"></i>
-                                <i class="fas fa-star"></i>
-                            </div>
-                        </div>
-                        <div class="testimonial-quote-right">
-                            <i class="fas fa-quote-right fa-2x"></i>
-                        </div>
-                    </div>
-                    <div class="testimonial-item">
-                        <div class="testimonial-quote-left">
-                            <i class="fas fa-quote-left fa-2x"></i>
-                        </div>
-                        <div class="testimonial-img">
-                            <img src="img/testimonial-3.jpg" class="img-fluid" alt="Image">
-                        </div>
-                        <div class="testimonial-text">
-                            <p class="mb-0">Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis blanditiis excepturi quisquam temporibus voluptatum reprehenderit culpa, quasi corrupti laborum accusamus.
-                            </p>
-                        </div>
-                        <div class="testimonial-title">
-                            <div>
-                                <h4 class="mb-0">Person Name</h4>
-                                <p class="mb-0">Profession</p>
-                            </div>
-                            <div class="d-flex text-primary">
-                                <i class="fas fa-star"></i>
-                                <i class="fas fa-star"></i>
-                                <i class="fas fa-star"></i>
-                                <i class="fas fa-star"></i>
-                                <i class="fas fa-star"></i>
-                            </div>
-                        </div>
-                        <div class="testimonial-quote-right">
-                            <i class="fas fa-quote-right fa-2x"></i>
-                        </div>
-                    </div>
-                    <div class="testimonial-item">
-                        <div class="testimonial-quote-left">
-                            <i class="fas fa-quote-left fa-2x"></i>
-                        </div>
-                        <div class="testimonial-img">
-                            <img src="img/testimonial-2.jpg" class="img-fluid" alt="Image">
-                        </div>
-                        <div class="testimonial-text">
-                            <p class="mb-0">Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis blanditiis excepturi quisquam temporibus voluptatum reprehenderit culpa, quasi corrupti laborum accusamus.
-                            </p>
-                        </div>
-                        <div class="testimonial-title">
-                            <div>
-                                <h4 class="mb-0">Person Name</h4>
-                                <p class="mb-0">Profession</p>
-                            </div>
-                            <div class="d-flex text-primary">
-                                <i class="fas fa-star"></i>
-                                <i class="fas fa-star"></i>
-                                <i class="fas fa-star"></i>
-                                <i class="fas fa-star"></i>
-                                <i class="fas fa-star"></i>
-                            </div>
-                        </div>
-                        <div class="testimonial-quote-right">
-                            <i class="fas fa-quote-right fa-2x"></i>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <!-- Testimonial End -->
+     
 
         <!-- Footer Start -->
          <?php include 'footer.php'; ?>
