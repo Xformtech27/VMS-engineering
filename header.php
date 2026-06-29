@@ -107,24 +107,31 @@ $current_page = basename($_SERVER['PHP_SELF']);
                         Services
                     </a>
 
-<li class="nav-item dropdown position-static">
+<li class="nav-item dropdown position-static mega-dropdown">
     <a href="<?php echo BASE_URL; ?>/components.php"
            class="nav-link <?php echo ($current_page == 'components.php') ? 'active' : ''; ?>">
             Components
         </a>
 
-    <div class="dropdown-menu mega-menu p-4">
+    <div class="dropdown-menu mega-menu shadow border-0 p-4">
         <div class="row">
 
-            <div class="col-lg-6">
-                <h5>RO Plant & Water Treatment Plant</h5>
+            <!-- Column 1 -->
+            <div class="col-lg-3 col-md-6">
+                <h5 class="mega-title">RO Plant & Water Treatment</h5>
 
-                <a class="dropdown-item" href="<?php echo BASE_URL; ?>/components/frp-vessel.php">FRP Vessel</a>
+                <a class="dropdown-item" href="<?php echo BASE_URL; ?>/components/frp-vessels.php">FRP Vessel</a>
                 <a class="dropdown-item" href="<?php echo BASE_URL; ?>/components/mpv.php">MPV</a>
                 <a class="dropdown-item" href="<?php echo BASE_URL; ?>/components/ro-membrane.php">RO Membrane</a>
                 <a class="dropdown-item" href="<?php echo BASE_URL; ?>/components/media.php">Media</a>
                 <a class="dropdown-item" href="<?php echo BASE_URL; ?>/components/pressure-gauge.php">Pressure Gauge</a>
                 <a class="dropdown-item" href="<?php echo BASE_URL; ?>/components/ro-membrane-housing.php">RO Membrane Housing</a>
+            </div>
+
+            <!-- Column 2 -->
+            <div class="col-lg-3 col-md-6">
+                <h5 class="mega-title">More RO Components</h5>
+
                 <a class="dropdown-item" href="<?php echo BASE_URL; ?>/components/rota-meter.php">Rota Meter</a>
                 <a class="dropdown-item" href="<?php echo BASE_URL; ?>/components/control-panel.php">Control Panel</a>
                 <a class="dropdown-item" href="<?php echo BASE_URL; ?>/components/raw-water-pump.php">Raw Water Pump</a>
@@ -132,16 +139,24 @@ $current_page = basename($_SERVER['PHP_SELF']);
                 <a class="dropdown-item" href="<?php echo BASE_URL; ?>/components/cartridge-filter.php">Cartridge Filter</a>
                 <a class="dropdown-item" href="<?php echo BASE_URL; ?>/components/cartridge-filter-housing.php">Cartridge Filter Housing</a>
             </div>
-            
 
-            <div class="col-lg-6">
-                <h5>Waste Water Plant Components</h5>
+            <!-- Column 3 -->
+            <div class="col-lg-3 col-md-6">
+                <h5 class="mega-title">Waste Water Plant</h5>
 
                 <a class="dropdown-item" href="<?php echo BASE_URL; ?>/components/blower.php">Blower</a>
                 <a class="dropdown-item" href="<?php echo BASE_URL; ?>/components/diffuser.php">Diffuser</a>
                 <a class="dropdown-item" href="<?php echo BASE_URL; ?>/components/oil-skimmer.php">Oil Skimmer</a>
             </div>
-            
+
+            <!-- Column 4 -->
+            <!-- <div class="col-lg-3 col-md-6">
+                <h5 class="mega-title">Quick Links</h5>
+
+                <a class="dropdown-item" href="<?php echo BASE_URL; ?>/components.php">All Components</a>
+                <a class="dropdown-item" href="<?php echo BASE_URL; ?>/services.php">Services</a>
+                <a class="dropdown-item" href="<?php echo BASE_URL; ?>/contact.php">Contact Us</a>
+            </div> -->
 
         </div>
     </div>

@@ -40,3 +40,29 @@ document.addEventListener('DOMContentLoaded', function() {
     });
 });
 
+
+
+const observer = new MutationObserver(function(mutations) {
+    mutations.forEach(function(mutation) {
+        mutation.addedNodes.forEach(function(node) {
+            if (node.nodeType === 1 && node.tagName === "DIV") {
+                console.log("New DIV Added:", node);
+            }
+        });
+    });
+});
+
+observer.observe(document.body, {
+    childList: true,
+    subtree: true
+});
+
+
+
+document.addEventListener("DOMContentLoaded", function () {
+    console.log("Total divs:", document.querySelectorAll("div").length);
+
+    document.querySelectorAll("div").forEach((div, index) => {
+        console.log(index, div);
+    });
+});

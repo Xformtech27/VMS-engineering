@@ -28,9 +28,7 @@
 
         <!-- Template Stylesheet -->
         <link href="css/style.css" rel="stylesheet">
-        <style>
-            
-        </style>
+       
     </head>
 
     <body>
@@ -228,136 +226,301 @@
 <!-- VISION, MISSION & CORE VALUES SECTION -->
 <!-- ARCHITECTURE STYLE DESIGN -->
 <!-- ============================================ -->
-<div class="container-fluid vm-section">
+<section class="vm-section py-5" style="background-color: #e8f4f8">
     <div class="container">
-        <!-- Section Header -->
-        <div class="section-header text-center mx-auto wow fadeInUp" data-wow-delay="0.2s">
-            <span class="sub-title">Our Vision & Mission</span>
-            <h2>Guiding Our Journey Forward</h2>
-            <div class="header-line"></div>
-            <p>At VME Solutions, our vision, mission, and core values define who we are and guide everything we do. They are the foundation of our commitment to excellence, innovation, and customer satisfaction.</p>
+
+        <!-- Heading -->
+        <div class="text-center mb-5 wow fadeInUp">
+            <span class="vm-subtitle">
+                <i class="fas fa-water"></i> Our Foundation
+            </span>
+
+            <h2 class="vm-title">
+                Vision, Mission &
+                <span>Core Values</span>
+            </h2>
+
+            <p class="vm-desc">
+                At VME Solutions, our vision, mission, and core values shape every
+                engineering decision we make. They inspire us to develop sustainable,
+                innovative, and high-performance water treatment systems that create
+                lasting value for industries, businesses, and communities.
+            </p>
         </div>
 
-        <!-- Vision & Mission Row -->
-        <div class="row g-4 mb-5">
-            <!-- Vision -->
-            <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.2s">
-                <div class="vm-card vision-card">
-                    <div class="vm-icon">
-                        <i class="fas fa-eye"></i>
+        <!-- Tabs -->
+        <ul class="nav nav-pills vm-tabs justify-content-center mb-5">
+
+            <li class="nav-item">
+                <button class="nav-link active" data-bs-toggle="pill" data-bs-target="#vision">
+                    <i class="fas fa-eye"></i> Vision
+                </button>
+            </li>
+
+            <li class="nav-item">
+                <button class="nav-link" data-bs-toggle="pill" data-bs-target="#mission">
+                    <i class="fas fa-bullseye"></i> Mission
+                </button>
+            </li>
+
+            <li class="nav-item">
+                <button class="nav-link" data-bs-toggle="pill" data-bs-target="#values">
+                    <i class="fas fa-star"></i> Core Values
+                </button>
+            </li>
+
+        </ul>
+
+        <div class="tab-content">
+
+            <!-- ================= Vision ================= -->
+
+            <div class="tab-pane fade show active" id="vision">
+
+                <div class="row align-items-center g-5">
+
+                    <div class="col-lg-5 wow fadeInLeft">
+
+                        <img src="img/about.jpg"
+                             class="img-fluid rounded-4 shadow-lg vm-img">
+
                     </div>
-                    <h3>Our Vision</h3>
-                    <p>To become <strong>India's most trusted water treatment solutions provider</strong>, recognized for technological innovation, engineering excellence, and unwavering commitment to quality. We envision a future where every industry has access to clean, safe, and sustainable water through our advanced treatment systems.</p>
-                    <div class="vm-line"></div>
+
+                    <div class="col-lg-7 wow fadeInRight">
+
+                        <span class="vm-label"></span>
+
+                        <h2>
+                            Engineering a Sustainable Future
+                        </h2>
+
+                        <p>
+                            Our vision is to become India's most trusted and innovative
+                            water treatment engineering company by delivering world-class
+                            water purification, wastewater recycling, and environmental
+                            solutions that improve operational efficiency while protecting
+                            natural resources.
+                        </p>
+
+                        <p>
+                            We strive to lead the industry through continuous innovation,
+                            customer satisfaction, advanced engineering, and sustainable
+                            technologies that ensure a cleaner and healthier future.
+                        </p>
+
+                        <div class="row mt-4">
+
+                            <div class="col-md-6">
+
+                                <div class="vm-feature">
+                                    <i class="fas fa-check-circle"></i>
+                                    Engineering Excellence
+                                </div>
+
+                                <div class="vm-feature">
+                                    <i class="fas fa-check-circle"></i>
+                                    Sustainable Innovation
+                                </div>
+
+                                <div class="vm-feature">
+                                    <i class="fas fa-check-circle"></i>
+                                    Smart Water Technologies
+                                </div>
+
+                            </div>
+
+                            <div class="col-md-6">
+
+                                <div class="vm-feature">
+                                    <i class="fas fa-check-circle"></i>
+                                    Customer Satisfaction
+                                </div>
+
+                                <div class="vm-feature">
+                                    <i class="fas fa-check-circle"></i>
+                                    Nationwide Growth
+                                </div>
+
+                                <div class="vm-feature">
+                                    <i class="fas fa-check-circle"></i>
+                                    Reliable Engineering
+                                </div>
+
+                            </div>
+
+                        </div>
+
+                        <div class="vm-quote mt-4">
+                            <i class="fas fa-quote-left"></i>
+                            Every drop of water we save today secures a better tomorrow.
+                        </div>
+
+                    </div>
+
                 </div>
+
             </div>
 
-            <!-- Mission -->
-            <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.4s">
-                <div class="vm-card mission-card">
-                    <div class="vm-icon">
-                        <i class="fas fa-bullseye"></i>
+            <!-- ================= Mission ================= -->
+
+            <div class="tab-pane fade" id="mission">
+
+                <div class="row align-items-center g-5">
+
+                    <div class="col-lg-5 wow fadeInLeft">
+
+                        <img src="img/about-2.jpg"
+                             class="img-fluid rounded-4 shadow-lg vm-img">
+
                     </div>
-                    <h3>Our Mission</h3>
-                    <p>To provide <strong>sustainable, innovative, and affordable water treatment solutions</strong> that address the growing water challenges faced by industries and communities. We strive to deliver high-purity water with consistent quality, minimize wastewater discharge, and reduce operational costs through energy-efficient systems.</p>
-                    <div class="vm-line"></div>
+
+                    <div class="col-lg-7 wow fadeInRight">
+
+                        <span class="vm-label text-success">
+                            
+                        </span>
+
+                        <h2>
+                            Delivering High-Performance Water Solutions
+                        </h2>
+
+                        <p>
+                            Our mission is to design, manufacture, install, and maintain
+                            advanced water treatment systems that combine engineering
+                            excellence, cutting-edge technology, and exceptional customer
+                            support.
+                        </p>
+
+                        <div class="row">
+
+                            <div class="col-md-6">
+
+                                <div class="vm-feature">
+                                    <i class="fas fa-cogs"></i>
+                                    Customized Plant Design
+                                </div>
+
+                                <div class="vm-feature">
+                                    <i class="fas fa-tools"></i>
+                                    Installation & Commissioning
+                                </div>
+
+                                <div class="vm-feature">
+                                    <i class="fas fa-headset"></i>
+                                    After-Sales Support
+                                </div>
+
+                            </div>
+
+                            <div class="col-md-6">
+
+                                <div class="vm-feature">
+                                    <i class="fas fa-water"></i>
+                                    Water Conservation
+                                </div>
+
+                                <div class="vm-feature">
+                                    <i class="fas fa-industry"></i>
+                                    Industrial Solutions
+                                </div>
+
+                                <div class="vm-feature">
+                                    <i class="fas fa-sync"></i>
+                                    Continuous Innovation
+                                </div>
+
+                            </div>
+
+                        </div>
+
+                        <h6 class="mt-4">Customer Satisfaction</h6>
+
+                        <div class="progress">
+                            <div class="progress-bar bg-success"
+                                 style="width:95%">
+                                95%
+                            </div>
+                        </div>
+
+                    </div>
+
                 </div>
+
             </div>
+
+            <!-- ================= Values ================= -->
+
+            <div class="tab-pane fade" id="values">
+
+                <div class="row align-items-center g-5">
+
+                    <div class="col-lg-5 wow fadeInLeft">
+
+                        <img src="img/about.jpg"
+                             class="img-fluid rounded-4 shadow-lg vm-img">
+
+                    </div>
+
+                    <div class="col-lg-7 wow fadeInRight">
+
+                        <span class="vm-label text-warning">
+                            
+                        </span>
+
+                        <h2>
+                            The Principles That Guide Us
+                        </h2>
+
+                        <p>
+                            Every solution we build reflects our commitment to integrity,
+                            quality, innovation, teamwork, and customer satisfaction.
+                            These values inspire us to deliver reliable engineering
+                            solutions with long-term value.
+                        </p>
+
+                        <div class="row g-3 mt-3">
+
+                            <div class="col-md-6">
+                                 Integrity & Transparency
+                            </div>
+
+                            <div class="col-md-6">
+                                 Customer First
+                            </div>
+
+                            <div class="col-md-6">
+                                 Innovation
+                            </div>
+
+                            <div class="col-md-6">
+                                Sustainable Engineering
+                            </div>
+
+                            <div class="col-md-6">
+                                 Teamwork
+                            </div>
+
+                            <div class="col-md-6">
+                                 Quality Assurance
+                            </div>
+
+                        </div>
+
+                        <div class="vm-quote mt-4">
+                            <i class="fas fa-award"></i>
+                            Quality is not an act—it is our habit.
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
         </div>
 
-        <!-- Core Values Section -->
-        <div class="values-wrapper">
-            <div class="section-header text-center mx-auto wow fadeInUp" data-wow-delay="0.2s">
-                <span class="sub-title">Our Core Values</span>
-                <h2>What Drives VME Solutions</h2>
-                <div class="header-line"></div>
-                <p>Our values are the principles that guide our decisions, actions, and interactions with our clients, partners, and communities.</p>
-            </div>
-
-            <div class="row g-4">
-                <!-- Value 1 - Quality -->
-                <div class="col-md-6 col-lg-4 wow fadeInUp" data-wow-delay="0.2s">
-                    <div class="value-card">
-                        <div class="value-number">01</div>
-                        <div class="value-icon">
-                            <i class="fas fa-medal"></i>
-                        </div>
-                        <h4>Quality</h4>
-                        <p>We are committed to delivering the highest quality products and services that exceed customer expectations.</p>
-                        <div class="value-line"></div>
-                    </div>
-                </div>
-
-                <!-- Value 2 - Innovation -->
-                <div class="col-md-6 col-lg-4 wow fadeInUp" data-wow-delay="0.4s">
-                    <div class="value-card">
-                        <div class="value-number">02</div>
-                        <div class="value-icon">
-                            <i class="fas fa-lightbulb"></i>
-                        </div>
-                        <h4>Innovation</h4>
-                        <p>We continuously invest in research and development to bring cutting-edge, innovative solutions to the market.</p>
-                        <div class="value-line"></div>
-                    </div>
-                </div>
-
-                <!-- Value 3 - Integrity -->
-                <div class="col-md-6 col-lg-4 wow fadeInUp" data-wow-delay="0.6s">
-                    <div class="value-card">
-                        <div class="value-number">03</div>
-                        <div class="value-icon">
-                            <i class="fas fa-handshake"></i>
-                        </div>
-                        <h4>Integrity</h4>
-                        <p>We conduct our business with honesty, transparency, and ethical practices. We build trust through our actions.</p>
-                        <div class="value-line"></div>
-                    </div>
-                </div>
-
-                <!-- Value 4 - Customer Focus -->
-                <div class="col-md-6 col-lg-4 wow fadeInUp" data-wow-delay="0.2s">
-                    <div class="value-card">
-                        <div class="value-number">04</div>
-                        <div class="value-icon">
-                            <i class="fas fa-users"></i>
-                        </div>
-                        <h4>Customer Focus</h4>
-                        <p>We put our customers at the center of everything we do, building lasting relationships based on trust and reliability.</p>
-                        <div class="value-line"></div>
-                    </div>
-                </div>
-
-                <!-- Value 5 - Sustainability -->
-                <div class="col-md-6 col-lg-4 wow fadeInUp" data-wow-delay="0.4s">
-                    <div class="value-card">
-                        <div class="value-number">05</div>
-                        <div class="value-icon">
-                            <i class="fas fa-leaf"></i>
-                        </div>
-                        <h4>Sustainability</h4>
-                        <p>We are committed to environmental stewardship and promoting sustainable water management practices.</p>
-                        <div class="value-line"></div>
-                    </div>
-                </div>
-
-                <!-- Value 6 - Excellence -->
-                <div class="col-md-6 col-lg-4 wow fadeInUp" data-wow-delay="0.6s">
-                    <div class="value-card">
-                        <div class="value-number">06</div>
-                        <div class="value-icon">
-                            <i class="fas fa-star"></i>
-                        </div>
-                        <h4>Excellence</h4>
-                        <p>We strive for excellence in every aspect of our operations, from design to delivery and after-sales support.</p>
-                        <div class="value-line"></div>
-                    </div>
-                </div>
-            </div>
-        </div>
     </div>
-</div>
-
-
+</section>
        
 
         <!-- Footer Start -->
