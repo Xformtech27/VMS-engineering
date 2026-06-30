@@ -3,8 +3,8 @@
 
     <head>
         <meta charset="utf-8">
-        <title>Stocker - Stock Market Website Template</title>
-        <meta content="width=device-width, initial-scale=1.0" name="viewport">
+<title>VMES-Components</title>       
+ <meta content="width=device-width, initial-scale=1.0" name="viewport">
         <meta content="" name="keywords">
         <meta content="" name="description">
 
@@ -83,7 +83,7 @@
                                 <a href="#" class="h4 d-inline-block mb-4">Multiport valves</a>
                                 <p class="mb-4">Multiport valves are essential components in water treatment.They act as a central command, using a single handle to direct the flow of water or other fluids through different pathways. This eliminates the need for multiple individual valves, simplifying complex piping systems.
                                 </p>
-                                <a class="btn btn-primary rounded-pill py-2 px-4" href="#">Learn More</a>
+                                <a class="btn btn-primary rounded-pill py-2 px-4"  href="<?php echo BASE_URL; ?>/components/mpv.php">Learn More</a>
                             </div>
                         </div>
                     </div>
@@ -96,7 +96,7 @@
                                 <a href="#" class="h4 d-inline-block mb-4">FRP Vessels</a>
                                 <p class="mb-4">FRP vessels are composite containers made from fiber-reinforced plastic, valued for their strength, light weight, and corrosion resistance. They are a preferred choice over traditional metal alternatives in many demanding industrial applications
                                 </p>
-                                <a class="btn btn-primary rounded-pill py-2 px-4" href="#">Learn More</a>
+                                <a class="btn btn-primary rounded-pill py-2 px-4"  href="<?php echo BASE_URL; ?>/components/frp-vessels.php">Learn More</a>
                             </div>
                         </div>
                     </div>
@@ -106,10 +106,10 @@
                                 <img src="img/product/filter-media.jpg" class="img-fluid rounded-top w-100" alt="Image">
                             </div>
                             <div class="rounded-bottom p-4">
-                                <a href="#" class="h4 d-inline-block mb-4">Filter Media</a>
-                                <p class="mb-4">Filter media is the actual material inside a filter that does the work of trapping and removing contaminants from water or air. The choice of media is critical because it determines what is removed, how long the filter lasts, and how well it works .
+                                <a href="#" class="h4 d-inline-block mb-4"> Media</a>
+                                <p class="mb-4">media is the actual material inside a filter that does the work of trapping and removing contaminants from water or air. The choice of media is critical because it determines what is removed, how long the filter lasts, and how well it works .
                                 </p>
-                                <a class="btn btn-primary rounded-pill py-2 px-4" href="#">Learn More</a>
+                                <a class="btn btn-primary rounded-pill py-2 px-4" href="<?php echo BASE_URL; ?>/components/media.php" >Learn More</a>
                             </div>
                         </div>
                     </div>
@@ -119,8 +119,8 @@
                                 <img src="img/product/water-testing-kit.jpg" class="img-fluid rounded-top w-100" alt="Image">
                             </div>
                             <div class="rounded-bottom p-4">
-                                <a href="#" class="h4 d-inline-block mb-4">Water Testing Kits</a>
-                                <p class="mb-4">Water testing kits are a practical way to check the quality of your water, whether you're concerned about your tap water at home, managing a well, or working in the field. The right kit for you depends on what you need to test and how accurate the results must be.
+                                <a href="#" class="h4 d-inline-block mb-4">Reverse Osmosis membrane</a>
+                                <p class="mb-4">An RO (Reverse Osmosis) membrane is a semi-permeable barrier that filters water by using pressure to force molecules through microscopic pores of about 0.0001 microns. It acts as a molecular sieve, effectively removing up to 99% of dissolved salts, heavy metals.
                                 </p>
                                 <a class="btn btn-primary rounded-pill py-2 px-4" href="#">Learn More</a>
                             </div>
@@ -132,10 +132,10 @@
                                 <img src="img/product/dosing-pump.jpg" class="img-fluid rounded-top w-100" alt="Image">
                             </div>
                             <div class="rounded-bottom p-4">
-                                <a href="#" class="h4 d-inline-block mb-4">Dosing Pump</a>
-                                <p class="mb-4">A dosing pump injects a precise amount of chemical into a water system. It's the logical step after testing reveals treatment is needed—for example, after a water test kit determines pH or chlorine levels, the pump adds the required chemicals to correct the balance.
+                                <a href="#" class="h4 d-inline-block mb-4">Ro Membrane Housing</a>
+                                <p class="mb-4">An RO (Reverse Osmosis) membrane housing is a specialized, pressure-resistant vessel that securely holds the delicate RO membrane. It protects the membrane from physical damage, ensures the necessary pressure for filtration is maintained.
                                 </p>
-                                <a class="btn btn-primary rounded-pill py-2 px-4" href="#">Learn More</a>
+                                <a class="btn btn-primary rounded-pill py-2 px-4"  href="<?php echo BASE_URL; ?>/components/ro-membrane-housing.php">Learn More</a>
                             </div>
                         </div>
                     </div>
@@ -148,14 +148,92 @@
                                 <a href="#" class="h4 d-inline-block mb-4">Rota Meters</a>
                                 <p class="mb-4">A Rota Meter (formally a variable area flowmeter) provides the instantaneous flow rate of water moving through your pipe. It gives a direct, real-time reading of flow at that moment, typically in liters per minute (LPM) or liters per hour (LPH) on a scale.
                                 </p>
-                                <a class="btn btn-primary rounded-pill py-2 px-4" href="#">Learn More</a>
+                                <a class="btn btn-primary rounded-pill py-2 px-4"  href="<?php echo BASE_URL; ?>/components/rotameter.php">Learn More</a>
                             </div>
                         </div>
+                    </div>
+
+                       <div class="col-md-6 col-lg-4 wow fadeInUp" data-wow-delay="0.6s">
+                        <div class="service-item">
+                            <div class="service-img">
+                                <img src="img/product/rota-meters.jpg" class="img-fluid rounded-top w-100" alt="Image">
+                            </div>
+                            <div class="rounded-bottom p-4">
+                                <a href="#" class="h4 d-inline-block mb-4">Control Panel</a>
+                                <p class="mb-4">Water control panels are electrical automation systems designed to monitor, protect, and operate water treatment plants, pumping stations, and distribution networks.They integrate PLCs, motor starters, and sensors to manage pumps, valves, and water quality in real time.
+                                </p>
+                                <a class="btn btn-primary rounded-pill py-2 px-4"  href="<?php echo BASE_URL; ?>/components/rotameter.php">Learn More</a>
+                            </div>
+                        </div>
+                    </div>
+                      
+
+                      <div class="col-md-6 col-lg-4 wow fadeInUp" data-wow-delay="0.6s">
+                        <div class="service-item">
+                            <div class="service-img">
+                                <img src="img/product/rota-meters.jpg" class="img-fluid rounded-top w-100" alt="Image">
+                            </div>
+                            <div class="rounded-bottom p-4">
+                                <a href="#" class="h4 d-inline-block mb-4">Raw Water Pump </a>
+                                <p class="mb-4">A raw water pump is a foundational component in water treatment and filtration systems. It pulls untreated water from a source (like a borewell, lake, or river) and drives it through pre-treatment stages at a steady pressure.It pulls untreated water from a source and drives it through pre-treatment stages.
+                                </p>
+                                <a class="btn btn-primary rounded-pill py-2 px-4"  href="<?php echo BASE_URL; ?>/components/raw-water-pump.php">Learn More</a>
+                            </div>
+                        </div>
+                    </div>
+
+                      <div class="col-md-6 col-lg-4 wow fadeInUp" data-wow-delay="0.6s">
+                        <div class="service-item">
+                            <div class="service-img">
+                                <img src="img/product/rota-meters.jpg" class="img-fluid rounded-top w-100" alt="Image">
+                            </div>
+                            <div class="rounded-bottom p-4">
+                                <a href="#" class="h4 d-inline-block mb-4">High Pressure Pump  </a>
+                                <p class="mb-4">A high-pressure pump is a specialized device designed to generate fluid or gas pressures significantly above standard atmospheric levels. Generally classified as high-pressure when exceeding 30 bar (~435 psi), they are critical in applications requiring intense mechanical force, deep liquid transfer, or precise flow control.
+                                </p>
+                                <a class="btn btn-primary rounded-pill py-2 px-4"  href="<?php echo BASE_URL; ?>/components/high-pressure-pump.php">Learn More</a>
+                            </div>
+                        </div>
+                    </div>
+
+<div class="col-md-6 col-lg-4 wow fadeInUp" data-wow-delay="0.6s">
+                        <div class="service-item">
+                            <div class="service-img">
+                                <img src="img/product/rota-meters.jpg" class="img-fluid rounded-top w-100" alt="Image">
+                            </div>
+                            <div class="rounded-bottom p-4">
+                                <a href="#" class="h4 d-inline-block mb-4">Cartridge Filter</a>
+                                <p class="mb-4">A filter cartridge is the replaceable core of a filtration system that traps and removes contaminants, sediment, and impurities from liquids or gases. Placed inside a protective housing, these cartridges need to be replaced every 3 to 12 months, depending on the usage and water quality.
+                                </p>
+                                <a class="btn btn-primary rounded-pill py-2 px-4"   href="<?php echo BASE_URL; ?>/components/cartridge-filter.php">Learn More</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-6 col-lg-4 wow fadeInUp" data-wow-delay="0.6s">
+                        <div class="service-item">
+                            <div class="service-img">
+                                <img src="img/product/rota-meters.jpg" class="img-fluid rounded-top w-100" alt="Image">
+                            </div>
+                            <div class="rounded-bottom p-4">
+                                <a href="#" class="h4 d-inline-block mb-4">Cartridge Filter Housing</a>
+                                <p class="mb-4">A cartridge filter housing is a pressure-rated vessel that encloses one or more replaceable filter cartridges. It directs liquids or gases through filtration media to capture suspended solids and contaminants with defined micron-level accuracy, ensuring a secure, leak-free process.
+                                </p>
+                                <a class="btn btn-primary rounded-pill py-2 px-4"   href="<?php echo BASE_URL; ?>/components/cartridge-filter-housing.php">Learn More</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    
+
+                    
+
+                    
                     </div>
                 </div>
             </div>
         </div>
-        <!-- Services End -->
+        <!-- Components End -->
 
        
 

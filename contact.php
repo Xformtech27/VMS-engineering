@@ -3,8 +3,8 @@
 
     <head>
         <meta charset="utf-8">
-        <title>Stocker - Stock Market Website Template</title>
-        <meta content="width=device-width, initial-scale=1.0" name="viewport">
+<title>VMES-Contact</title>        
+<meta content="width=device-width, initial-scale=1.0" name="viewport">
         <meta content="" name="keywords">
         <meta content="" name="description">
 
@@ -69,7 +69,7 @@
                 <div class="row g-5">
                     <div class="col-xl-6">
                         <div class="wow fadeInUp" data-wow-delay="0.2s">
-                            <div class="bg-light rounded p-5 mb-5">
+                            <!-- <div class="bg-light rounded p-5 mb-5">
                                 <h4 class="text-primary mb-4">Get in Touch</h4>
                                 <div class="row g-4">
                                     <div class="col-md-6">
@@ -117,10 +117,10 @@
                                         </div>
                                     </div>
                                 </div>
-                            </div>
+                            </div> -->
                             <div class="bg-light p-5 rounded h-100 wow fadeInUp" data-wow-delay="0.2s">
                                 <h4 class="text-primary">Send Your Message</h4>
-                                <p class="mb-4">The contact form is currently inactive. Get a functional and working contact form with Ajax & PHP in a few minutes. Just copy and paste the files, add a little code and you're done. <a class="text-primary fw-bold" href="https://htmlcodex.com/contact-form">Download Now</a>.</p>
+                                <!-- <p class="mb-4">The contact form is currently inactive. Get a functional and working contact form with Ajax & PHP in a few minutes. Just copy and paste the files, add a little code and you're done. <a class="text-primary fw-bold" href="https://htmlcodex.com/contact-form">Download Now</a>.</p> -->
                                 <form>
                                     <div class="row g-4">
                                         <div class="col-lg-12 col-xl-6">

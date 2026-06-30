@@ -21,10 +21,10 @@
     <div class="container-fluid position-relative p-0">
         <nav class="navbar navbar-expand-lg navbar-light px-4 px-lg-5 py-3 py-lg-0">
             <a href="<?php echo BASE_URL; ?>/index.php" class="navbar-brand p-0">
-                <h1 class="text-primary">
-                    <i class="fas fa-search-dollar me-3"></i>VMS Engineering
-                </h1>
-                <!-- <img src="<?php echo BASE_URL; ?>/img/logo.png" alt="Logo"> -->
+                <!-- <h1 class="text-primary">
+                    <i class="fas fa-search-dollar me-3"></i>VMS Engineerin
+                </h1> -->
+                <img src="<?php echo BASE_URL; ?>/img/logo.png" alt="Logo">
             </a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
                 <span class="fa fa-bars"></span>
@@ -132,14 +132,14 @@
             <div class="row g-5">
                 <div class="col-md-6 col-lg-6 col-xl-4">
                     <div class="footer-item">
-                        <a href="<?php echo BASE_URL; ?>/index.php" class="p-0">
+                        <!-- <a href="<?php echo BASE_URL; ?>/index.php" class="p-0">
                                            <h1 class="text-primary">
                     <i class="fas fa-search-dollar me-3"></i>VMS Engineering
-                </h1>
-                            <!-- <img src="<?php echo BASE_URL; ?>/img/logo.png" alt="Logo"> -->
+                </h1> -->
+                            <img src="<?php echo BASE_URL; ?>/img/logo.png" alt="Logo">
                         </a>
                         <p class="mb-4">
-                            
+                           <h6 style="color: white;">VMS Engineering Solutions is a trusted manufacturer, supplier, and service provider of water and wastewater treatment solutions. We specialize in designing, manufacturing, supplying, installing, and maintaining advanced water treatment systems for industrial, commercial, and residential applications.</h6> 
                         </p>
                         <!-- <div class="d-flex">
                             <a href="#" class="bg-primary d-flex rounded align-items-center py-2 px-3 me-2">
@@ -180,30 +180,34 @@
                         <a href="<?php echo BASE_URL; ?>/contact.php">
                             <i class="fas fa-angle-right me-2"></i> Contact us
                         </a>
+                         <a href="<?php echo BASE_URL; ?>/service.php">
+                            <i class="fas fa-angle-right me-2"></i> Service
+                        </a>
                          <a href="<?php echo BASE_URL; ?>/FAQ.php">
                             <i class="fas fa-angle-right me-2"></i> FAQ
                         </a>
+                        
                     </div>
                 </div>
                 <div class="col-md-6 col-lg-6 col-xl-3">
-                    <div class="footer-item">
-                        <h4 class="text-white mb-4">Services</h4>
-                        <!-- <a href="<?php echo BASE_URL; ?>/privacy-policy.php">
-                            <i class="fas fa-angle-right me-2"></i> Privacy Policy
+                    <div class="footer-item" style="color: white;">
+                        <h4 class="text-white mb-4">Components</h4>
+                        <a href="<?php echo BASE_URL; ?>/components/frp-vessels.php">
+                            <i class="fas fa-angle-right me-2"></i> Frp Vessels
                         </a>
-                        <a href="<?php echo BASE_URL; ?>/terms-conditions.php">
-                            <i class="fas fa-angle-right me-2"></i> Terms & Conditions
+                        <a href="<?php echo BASE_URL; ?>/components/mpv.php">
+                            <i class="fas fa-angle-right me-2"></i> MPV
                         </a>
-                        <a href="<?php echo BASE_URL; ?>/disclaimer.php">
-                            <i class="fas fa-angle-right me-2"></i> Disclaimer
+                        <a href="<?php echo BASE_URL; ?>/components/control-panel.php">
+                            <i class="fas fa-angle-right me-2"></i> Control Panel
                         </a>
-                        <a href="<?php echo BASE_URL; ?>/support.php">
-                            <i class="fas fa-angle-right me-2"></i> Support
+                        <a href="<?php echo BASE_URL; ?>/components/cartridge-filter.php">
+                            <i class="fas fa-angle-right me-2"></i> Cartridge Filter
                         </a>
-                        <a href="<?php echo BASE_URL; ?>/pages/FAQ.php">
-                            <i class="fas fa-angle-right me-2"></i> FAQ
+                        <a href="<?php echo BASE_URL; ?>/components/oil-skimmer">
+                            <i class="fas fa-angle-right me-2"></i> Oil Skimmer
                         </a>
-                        <a href="<?php echo BASE_URL; ?>/help.php">
+                        <!-- <a href="<?php echo BASE_URL; ?>/help.php">
                             <i class="fas fa-angle-right me-2"></i> Help
                         </a> -->
                     </div>

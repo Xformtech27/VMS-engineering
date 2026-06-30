@@ -80,11 +80,13 @@ $current_page = basename($_SERVER['PHP_SELF']);
     <div class="container-fluid position-relative p-0">
         <nav class="navbar navbar-expand-lg navbar-light px-4 px-lg-5 py-3 py-lg-0">
             <a href="<?php echo BASE_URL; ?>/index.php" class="navbar-brand p-0">
-                <h1 class="text-primary">
+                <!-- <h1 class="text-primary">
                     <i class="fas fa-search-dollar me-3"></i>VMS Engineering
-                </h1>
-                <!-- <img src="<?php echo BASE_URL; ?>/img/logo.png" alt="Logo"> -->
+                </h1> -->
+                <img src="<?php echo BASE_URL; ?>/img/logo.png" alt="Logo">
+                
             </a>
+            
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
                 <span class="fa fa-bars"></span>
             </button>
@@ -188,8 +190,12 @@ $current_page = basename($_SERVER['PHP_SELF']);
                     </a>
                 </div>
                 <a href="<?php echo BASE_URL; ?>/get-started.php" class="btn btn-primary rounded-pill py-2 px-4 my-3 my-lg-0 flex-shrink-0">Profile</a>
+                
             </div>
+
         </nav>
+
+        
         
 
 

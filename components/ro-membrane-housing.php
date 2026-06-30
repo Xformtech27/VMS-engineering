@@ -4,11 +4,11 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>VMES-FRP Vessels</title>
+    <title>VMES-RO Membrane Housing</title>
 
     <meta name="description"
-        content="Explore premium quality FRP Vessels. Designed to meet international standards for industrial storage and chemical processing applications.">
-    <meta name="keywords" content="FRP Vessels, Fiberglass Reinforced Plastic, FRP Tanks, Industrial Vessels, Chemical Storage Tanks, Water Treatment Vessels">
+        content="Explore premium RO Membrane Housing systems and FRP Vessels. Designed for industrial water treatment, reverse osmosis, and chemical processing applications.">
+    <meta name="keywords" content="RO Membrane Housing, FRP Vessels, Reverse Osmosis, Membrane Housing, Fiberglass Reinforced Plastic, FRP Tanks, Industrial Vessels, Water Treatment Vessels">
 
     <link href="../img/favicon.ico" rel="icon">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/css/bootstrap.min.css" rel="stylesheet">
@@ -30,7 +30,7 @@
     <div class="container-fluid page-header py-5 mb-5 fade-in fade-in-1">
         <div class="container py-5 text-center">
             <h1 class="display-3 text-white mb-3 float-animation">
-                FRP Vessels
+                RO Membrane Housing
             </h1>
             <nav aria-label="breadcrumb">
                 <ol class="breadcrumb justify-content-center mb-0 breadcrumb-fade">
@@ -38,7 +38,7 @@
                         <a href="<?php echo BASE_URL; ?>">Home</a>
                     </li>
                     <li class="breadcrumb-item active text-white" aria-current="page">
-                        FRP Vessels
+                        RO Membrane Housing
                     </li>
                 </ol>
             </nav>
@@ -51,29 +51,30 @@
             <div class="col-lg-6 fade-in fade-in-2">
                 <img src="../img/images/frp-vessels.jpg"
                 class="img-fluid rounded w-100 hover-scale rotate-hover"
-                alt="FRP Vessels">
+                alt="RO Membrane Housing Vessels">
             </div>
 
             <div class="col-lg-6 fade-in fade-in-3">
-                <h2 class="mb-4">FRP Vessels</h2>
+                <h2 class="mb-4">RO Membrane Housing</h2>
                 <div class="section-divider" style="margin-left: 0;"></div>
 
                 <p class="slide-in-right slide-in-right-1">
                     We are counted among the prominent manufacturers, suppliers and traders of an
-                    extensive array of FRP Vessels. Manufactured using high-quality
+                    extensive array of RO Membrane Housing systems and FRP Vessels. Manufactured using high-quality
                     materials, our vessels are designed to deliver consistent performance while
-                    meeting stringent international quality standards.
+                    meeting stringent international quality standards. Our range includes advanced
+                    RO Membrane Housing systems, ideal for water treatment, reverse osmosis, and industrial applications.
                 </p>
 
                 <ul class="stagger-list">
-                    <li>High-quality FRP Vessels for industrial applications</li>
+                    <li>High-quality RO Membrane Housing systems for industrial applications</li>
                     <li>Engineered to meet international quality standards</li>
                     <li>Durable construction with corrosion-resistant materials</li>
-                    <li>Suitable for chemical storage and water treatment</li>
+                    <li>Suitable for chemical storage, water treatment, and reverse osmosis</li>
                     <li>Custom sizes and shapes available</li>
                     <li>Low maintenance</li>
                     <li>Easy installation</li>
-                    <li>Custom-built designs available</li>
+                    <li>Custom-built designs, including RO Membrane Housing configurations</li>
                     <li>Premium quality FRP Vessels for industrial applications</li>
                     <li>Corrosion-resistant FRP tanks and storage solutions</li>
                 </ul>
@@ -83,7 +84,7 @@
 
     <!-- ===== TECHNICAL SPECIFICATIONS ===== -->
     <div class="container py-5" style="background-color: #e8f4f8;">
-        <h3 class="mb-4 fade-in fade-in-4">Technical Specifications – FRP Vessels</h3>
+        <h3 class="mb-4 fade-in fade-in-4">Technical Specifications – RO Membrane Housing</h3>
         <div class="section-divider" style="margin-left: 0;"></div>
 
         <div class="table-responsive zoom-in zoom-in-2">
@@ -91,7 +92,7 @@
                 <tbody>
                     <tr class="table-row-slide table-row-slide-1">
                         <th>Capacity</th>
-                        <td>100 to 50,000 Liters</td>
+                        <td>100 to 50,000 Liters (RO Membrane Housing custom capacities available)</td>
                     </tr>
                     <tr class="table-row-slide table-row-slide-2">
                         <th>Material</th>
@@ -99,7 +100,7 @@
                     </tr>
                     <tr class="table-row-slide table-row-slide-3">
                         <th>Construction</th>
-                        <td>Filament Winding / Hand Lay-up</td>
+                        <td>Filament Winding / Hand Lay-up / RO Membrane Housing Molding</td>
                     </tr>
                     <tr class="table-row-slide table-row-slide-4">
                         <th>Resin Types</th>
@@ -111,7 +112,7 @@
                     </tr>
                     <tr class="table-row-slide table-row-slide-6">
                         <th>Features</th>
-                        <td>Corrosion Resistant, Lightweight, Durable</td>
+                        <td>Corrosion Resistant, Lightweight, Durable, RO Membrane Housing compatible designs</td>
                     </tr>
                 </tbody>
             </table>
@@ -121,11 +122,11 @@
     <!-- ===== PRODUCT HIGHLIGHTS ===== -->
     <div class="container py-5">
         <div class="text-center mb-5 fade-in fade-in-5">
-            <h2 class="fw-bold">FRP Vessels – Product Highlights</h2>
+            <h2 class="fw-bold">RO Membrane Housing – Product Highlights</h2>
             <div class="section-divider"></div>
             <p class="text-muted slide-in-right slide-in-right-2">
-                Our FRP Vessels are engineered for reliable, safe, and efficient
-                storage and processing across various industrial applications.
+                Our RO Membrane Housing systems are engineered for reliable, safe, and efficient
+                water treatment, reverse osmosis, and storage across various industrial applications.
             </p>
         </div>
 
@@ -134,7 +135,7 @@
                 <div class="border rounded text-center p-4 h-100 shadow-sm hover-scale glow-hover">
                     <i class="fas fa-shield-alt fa-3x text-primary mb-3 pulse-icon"></i>
                     <h5>Corrosion Resistant</h5>
-                    <p class="mb-0">Excellent resistance to chemicals and corrosive environments.</p>
+                    <p class="mb-0">Excellent resistance to chemicals and corrosive environments, ideal for RO Membrane Housing applications.</p>
                 </div>
             </div>
 
@@ -142,7 +143,7 @@
                 <div class="border rounded text-center p-4 h-100 shadow-sm hover-scale glow-hover">
                     <i class="fas fa-weight-hanging fa-3x text-primary mb-3 pulse-icon" style="animation-delay: 0.3s;"></i>
                     <h5>Lightweight & Strong</h5>
-                    <p class="mb-0">High strength-to-weight ratio for easy handling and installation.</p>
+                    <p class="mb-0">High strength-to-weight ratio for easy handling and installation, even in RO Membrane Housing setups.</p>
                 </div>
             </div>
 
@@ -150,7 +151,7 @@
                 <div class="border rounded text-center p-4 h-100 shadow-sm hover-scale glow-hover">
                     <i class="fas fa-cogs fa-3x text-primary mb-3 pulse-icon" style="animation-delay: 0.6s;"></i>
                     <h5>Low Maintenance</h5>
-                    <p class="mb-0">Robust construction with corrosion-resistant materials for long service life.</p>
+                    <p class="mb-0">Robust construction with corrosion-resistant materials for long service life, reducing RO Membrane Housing downtime.</p>
                 </div>
             </div>
 
@@ -158,7 +159,7 @@
                 <div class="border rounded text-center p-4 h-100 shadow-sm hover-scale glow-hover">
                     <i class="fas fa-industry fa-3x text-primary mb-3 pulse-icon" style="animation-delay: 0.9s;"></i>
                     <h5>Industrial Grade</h5>
-                    <p class="mb-0">Suitable for chemical plants, water treatment, and various industries.</p>
+                    <p class="mb-0">Suitable for chemical plants, water treatment, and various industries, including RO Membrane Housing process lines.</p>
                 </div>
             </div>
         </div>
@@ -169,13 +170,14 @@
         <div class="row">
             <div class="col-lg-12 fade-in fade-in-5">
                 <h3 class="mb-4 section-header-hover">
-                    <i class="fas fa-star text-primary me-2"></i>FRP Vessels – Premium Quality Solutions
+                    <i class="fas fa-star text-primary me-2"></i>RO Membrane Housing – Premium Quality Solutions
                 </h3>
                 <div class="section-divider" style="margin-left: 0;"></div>
                 <p class="slide-in-right slide-in-right-3">
-                    We specialize in manufacturing high-quality FRP Vessels (Fiberglass Reinforced Plastic) 
-                    for various industrial applications. Our FRP vessels are designed to provide excellent 
-                    corrosion resistance, durability, and long service life.
+                    We specialize in manufacturing high-quality RO Membrane Housing systems and FRP Vessels (Fiberglass Reinforced Plastic) 
+                    for various industrial applications. Our systems are designed to provide excellent 
+                    corrosion resistance, durability, and long service life. The RO Membrane Housing 
+                    variants are crafted for high-precision filtration and reverse osmosis requirements.
                 </p>
                 <div class="row mt-4">
                     <div class="col-md-4 slide-in-left slide-in-left-1">
@@ -183,7 +185,7 @@
                             <ul class="list-group list-group-flush">
                                 <li class="list-group-item"><i class="fas fa-check-circle text-primary me-2"></i>Corrosion-resistant construction</li>
                                 <li class="list-group-item"><i class="fas fa-check-circle text-primary me-2"></i>High strength-to-weight ratio</li>
-                                <li class="list-group-item"><i class="fas fa-check-circle text-primary me-2"></i>Custom sizes and shapes available</li>
+                                <li class="list-group-item"><i class="fas fa-check-circle text-primary me-2"></i>Custom sizes and shapes, including RO Membrane Housing designs</li>
                             </ul>
                         </div>
                     </div>
@@ -192,7 +194,7 @@
                             <ul class="list-group list-group-flush">
                                 <li class="list-group-item"><i class="fas fa-check-circle text-primary me-2"></i>Chemical storage tanks</li>
                                 <li class="list-group-item"><i class="fas fa-check-circle text-primary me-2"></i>Water treatment vessels</li>
-                                <li class="list-group-item"><i class="fas fa-check-circle text-primary me-2"></i>Process equipment</li>
+                                <li class="list-group-item"><i class="fas fa-check-circle text-primary me-2"></i>Process equipment (RO Membrane Housing-ready)</li>
                             </ul>
                         </div>
                     </div>
@@ -201,7 +203,7 @@
                             <ul class="list-group list-group-flush">
                                 <li class="list-group-item"><i class="fas fa-check-circle text-primary me-2"></i>Industrial containers</li>
                                 <li class="list-group-item"><i class="fas fa-check-circle text-primary me-2"></i>Wastewater treatment vessels</li>
-                                <li class="list-group-item"><i class="fas fa-check-circle text-primary me-2"></i>Custom industrial solutions</li>
+                                <li class="list-group-item"><i class="fas fa-check-circle text-primary me-2"></i>Custom industrial solutions, including RO Membrane Housing integration</li>
                             </ul>
                         </div>
                     </div>
@@ -216,24 +218,24 @@
             <!-- Applications -->
             <div class="col-lg-6 slide-in-left slide-in-left-2">
                 <h3 class="mb-4 section-header-hover">
-                    <i class="fas fa-cubes text-primary me-2"></i>Applications – FRP Vessels
+                    <i class="fas fa-cubes text-primary me-2"></i>Applications – RO Membrane Housing
                 </h3>
                 <div class="section-divider" style="margin-left: 0;"></div>
                 <ul class="list-group app-list">
-                    <li class="list-group-item"><i class="fas fa-flask text-primary me-2"></i>Chemical Storage Tanks</li>
-                    <li class="list-group-item"><i class="fas fa-water text-primary me-2"></i>Water Treatment Plants</li>
+                    <li class="list-group-item"><i class="fas fa-flask text-primary me-2"></i>Reverse Osmosis Plants</li>
+                    <li class="list-group-item"><i class="fas fa-water text-primary me-2"></i>Water Treatment Facilities</li>
                     <li class="list-group-item"><i class="fas fa-pills text-primary me-2"></i>Pharmaceutical Industry</li>
                     <li class="list-group-item"><i class="fas fa-utensils text-primary me-2"></i>Food Processing Equipment</li>
                     <li class="list-group-item"><i class="fas fa-oil-can text-primary me-2"></i>Petrochemical Storage</li>
                     <li class="list-group-item"><i class="fas fa-recycle text-primary me-2"></i>Waste Management Systems</li>
-                    <li class="list-group-item"><i class="fas fa-tools text-primary me-2"></i>Custom Industrial Solutions</li>
+                    <li class="list-group-item"><i class="fas fa-tools text-primary me-2"></i>Custom Industrial Solutions (including RO Membrane Housing process vessels)</li>
                 </ul>
             </div>
 
             <!-- Key Features -->
             <div class="col-lg-6 slide-in-right slide-in-right-4">
                 <h3 class="mb-4 section-header-hover">
-                    <i class="fas fa-key text-primary me-2"></i>Key Features – FRP Vessels
+                    <i class="fas fa-key text-primary me-2"></i>Key Features – RO Membrane Housing
                 </h3>
                 <div class="section-divider" style="margin-left: 0;"></div>
                 <ul class="list-group app-list">
@@ -244,6 +246,7 @@
                     <li class="list-group-item"><i class="fas fa-thermometer-half text-primary me-2"></i>Wide temperature range operation</li>
                     <li class="list-group-item"><i class="fas fa-wrench text-primary me-2"></i>Low maintenance requirements</li>
                     <li class="list-group-item"><i class="fas fa-clock text-primary me-2"></i>Long service life</li>
+                    <li class="list-group-item"><i class="fas fa-sync-alt text-primary me-2"></i>RO Membrane Housing compatible designs</li>
                 </ul>
             </div>
         </div>
