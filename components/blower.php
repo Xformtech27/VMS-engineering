@@ -27,24 +27,24 @@
     <?php include '../header.php'; ?>
 
     <!-- ===== PAGE HEADER ===== -->
-    <div class="container-fluid page-header py-5 mb-5 fade-in fade-in-1">
-        <div class="container py-5 text-center">
-            <h1 class="display-3 text-white mb-3 float-animation">
-                Blower
-            </h1>
-            <nav aria-label="breadcrumb">
-                <ol class="breadcrumb justify-content-center mb-0 breadcrumb-fade">
-                    <li class="breadcrumb-item">
-                        <a href="<?php echo BASE_URL; ?>">Home</a>
-                    </li>
-                    <li class="breadcrumb-item active text-white" aria-current="page">
-                        Blower
-                    </li>
-                </ol>
-            </nav>
-        </div>
+   <div class="container-fluid page-header py-5 mb-5 fade-in fade-in-1"
+     style="background-image: url('<?php echo BASE_URL; ?>/img/about.jpg'); background-size: cover; background-position: center; background-repeat: no-repeat;">
+    <div class="container py-5 text-center">
+        <h1 class="display-3 text-white mb-3 float-animation">
+            Blower
+        </h1>
+        <nav aria-label="breadcrumb">
+            <ol class="breadcrumb justify-content-center mb-0 breadcrumb-fade">
+                <li class="breadcrumb-item">
+                    <a href="<?php echo BASE_URL; ?>">Home</a>
+                </li>
+                <li class="breadcrumb-item active text-white" aria-current="page">
+                    Blower
+                </li>
+            </ol>
+        </nav>
     </div>
-
+</div>
     <!-- ===== PRODUCT DETAIL ===== -->
     <div class="container py-5">
         <div class="row g-5">

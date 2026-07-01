@@ -44,7 +44,7 @@
  <!-- Carousel Start -->
         <div class="header-carousel owl-carousel">
             <div class="header-carousel-item">
-                <img src="<?php echo BASE_URL; ?>/img/carousel-1.jpg" class="img-fluid w-100" alt="Image">
+                <img src="<?php echo BASE_URL; ?>/img/faq.jpg" class="img-fluid w-100" alt="Image">
                 <div class="row gy-0 gx-5">
                     <div class="col-lg-0 col-xl-5"></div>
                     <div class="col-xl-7 animated fadeInLeft">
@@ -204,7 +204,7 @@
                     </div>
                     <div class="col-lg-6 wow fadeInRight" data-wow-delay="0.2s">
                         <div class="bg-primary rounded">
-                            <img src="img/about-2.png" class="img-fluid w-100" alt="">
+                            <img src="img/about.jpg-2.png" class="img-fluid w-100" alt="">
                         </div>
                     </div>
                 </div>

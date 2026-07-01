@@ -28,6 +28,73 @@
 
         <!-- Template Stylesheet -->
         <link href="css/style.css" rel="stylesheet">
+        <style>.vm-section{
+    background:white;
+}
+
+.vm-item{
+    position:relative;
+    padding-left:30px;
+    border-left:4px solid #115CA1;
+    transition:.4s;
+}
+
+.vm-item:hover{
+    transform:translateY(-8px);
+    border-left-color: #5BA745;
+}
+
+.vm-icon{
+    width:70px;
+    height:70px;
+    border-radius:50%;
+    background: #459e41;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    color:#fff;
+    font-size:28px;
+    margin-bottom:20px;
+    box-shadow:0 10px 25px rgba(17,92,161,.25);
+}
+
+.vm-item h3{
+    font-weight:700;
+    color:black;
+    margin-bottom:15px;
+}
+
+.vm-item p{
+    color: #666;
+    line-height:1.8;
+}
+
+.vm-list{
+    list-style:none;
+    padding:0;
+    margin:0;
+}
+
+.vm-list li{
+    position:relative;
+    padding-left:28px;
+    margin-bottom:12px;
+    color: #555;
+}
+
+.vm-list li::before{
+    content:"✔";
+    position:absolute;
+    left:0;
+    top:0;
+    color: #5BA745;
+    font-weight:bold;
+}
+
+.vm-section h2{
+    color:  black;
+    font-weight:700;
+}</style>
        
     </head>
 
@@ -48,7 +115,7 @@
         
          <!-- Carousel Start -->
        <!-- Page Header Start -->
-<div class="container-fluid page-header py-5 mb-5">
+<div class="container-fluid page-header py-5 mb-5" style="background-image: url('img/about.jpg');">
     <div class="container py-5 text-center">
         <h1 class="display-3 text-white mb-3 animated slideInDown">
             About Us
@@ -87,16 +154,16 @@
                     </div>
                     <div class="col-xl-5 wow fadeInRight" data-wow-delay="0.2s">
                         <div class="bg-primary rounded position-relative overflow-hidden">
-                            <img src="img/about-2.jpg" class="img-fluid rounded w-100" alt="">
+                            <img src="img/about.jpg-2.jpg" class="img-fluid rounded w-100" alt="">
                             
                             <!-- <div class="" style="position: absolute; top: -15px; right: -15px;">
-                                <img src="img/about-3.png" class="img-fluid" style="width: 150px; height: 150px; opacity: 0.7;" alt="">
+                                <img src="img/about.jpg-3.png" class="img-fluid" style="width: 150px; height: 150px; opacity: 0.7;" alt="">
                             </div>
                             <div class="" style="position: absolute; top: -20px; left: 10px; transform: rotate(90deg);">
-                                <img src="img/about-4.png" class="img-fluid" style="width: 100px; height: 150px; opacity: 0.9;" alt="">
+                                <img src="img/about.jpg-4.png" class="img-fluid" style="width: 100px; height: 150px; opacity: 0.9;" alt="">
                             </div> -->
                             <div class="rounded-bottom">
-                                <!-- <img src="img/about-5.jpg" class="img-fluid rounded-bottom w-100" alt=""> -->
+                                <!-- <img src="img/about.jpg-5.jpg" class="img-fluid rounded-bottom w-100" alt=""> -->
                                  <img src="img/about.jpg" class="img-fluid rounded-bottom w-100" alt="">
                             </div>
                         </div>
@@ -224,303 +291,86 @@
 <!-- ============================================ -->
 <!-- ============================================ -->
 <!-- VISION, MISSION & CORE VALUES SECTION -->
-<!-- ARCHITECTURE STYLE DESIGN -->
-<!-- ============================================ -->
-<section class="vm-section py-5" style="background-color: #e8f4f8">
+
+<section class="vm-section py-5">
     <div class="container">
-
-        <!-- Heading -->
-        <div class="text-center mb-5 wow fadeInUp">
-            <span class="vm-subtitle">
-                <i class="fas fa-water"></i> Our Foundation
-            </span>
-
-            <h2 class="vm-title">
-                Vision, Mission &
-                <span>Core Values</span>
-            </h2>
-
-            <p class="vm-desc">
-                At VME Solutions, our vision, mission, and core values shape every
-                engineering decision we make. They inspire us to develop sustainable,
-                innovative, and high-performance water treatment systems that create
-                lasting value for industries, businesses, and communities.
+        <div class="text-center mb-5">
+            <!-- <h6 class="text-uppercase text-primary fw-bold">Who We Are</h6> -->
+            <h2 class="fw-bold">Vision, Mission & Core Values</h2>
+            <p class="text-muted">
+                Driving excellence through quality, innovation, and customer satisfaction.
             </p>
         </div>
 
-        <!-- Tabs -->
-        <ul class="nav nav-pills vm-tabs justify-content-center mb-5">
+        <div class="row g-5">
 
-            <li class="nav-item">
-                <button class="nav-link active" data-bs-toggle="pill" data-bs-target="#vision">
-                    <i class="fas fa-eye"></i> Vision
-                </button>
-            </li>
-
-            <li class="nav-item">
-                <button class="nav-link" data-bs-toggle="pill" data-bs-target="#mission">
-                    <i class="fas fa-bullseye"></i> Mission
-                </button>
-            </li>
-
-            <li class="nav-item">
-                <button class="nav-link" data-bs-toggle="pill" data-bs-target="#values">
-                    <i class="fas fa-star"></i> Core Values
-                </button>
-            </li>
-
-        </ul>
-
-        <div class="tab-content">
-
-            <!-- ================= Vision ================= -->
-
-            <div class="tab-pane fade show active" id="vision">
-
-                <div class="row align-items-center g-5">
-
-                    <div class="col-lg-5 wow fadeInLeft">
-
-                        <img src="img/about.jpg"
-                             class="img-fluid rounded-4 shadow-lg vm-img">
-
+            <!-- Vision -->
+            <div class="col-lg-4">
+                <div class="vm-item">
+                    <div class="vm-icon">
+                        <i class="fas fa-eye"></i>
                     </div>
-
-                    <div class="col-lg-7 wow fadeInRight">
-
-                        <span class="vm-label"></span>
-
-                        <h2>
-                            Engineering a Sustainable Future
-                        </h2>
-
-                        <p>
-                            Our vision is to become India's most trusted and innovative
-                            water treatment engineering company by delivering world-class
-                            water purification, wastewater recycling, and environmental
-                            solutions that improve operational efficiency while protecting
-                            natural resources.
-                        </p>
-
-                        <p>
-                            We strive to lead the industry through continuous innovation,
-                            customer satisfaction, advanced engineering, and sustainable
-                            technologies that ensure a cleaner and healthier future.
-                        </p>
-
-                        <div class="row mt-4">
-
-                            <div class="col-md-6">
-
-                                <div class="vm-feature">
-                                    <i class="fas fa-check-circle"></i>
-                                    Engineering Excellence
-                                </div>
-
-                                <div class="vm-feature">
-                                    <i class="fas fa-check-circle"></i>
-                                    Sustainable Innovation
-                                </div>
-
-                                <div class="vm-feature">
-                                    <i class="fas fa-check-circle"></i>
-                                    Smart Water Technologies
-                                </div>
-
-                            </div>
-
-                            <div class="col-md-6">
-
-                                <div class="vm-feature">
-                                    <i class="fas fa-check-circle"></i>
-                                    Customer Satisfaction
-                                </div>
-
-                                <div class="vm-feature">
-                                    <i class="fas fa-check-circle"></i>
-                                    Nationwide Growth
-                                </div>
-
-                                <div class="vm-feature">
-                                    <i class="fas fa-check-circle"></i>
-                                    Reliable Engineering
-                                </div>
-
-                            </div>
-
-                        </div>
-
-                        <div class="vm-quote mt-4">
-                            <i class="fas fa-quote-left"></i>
-                            Every drop of water we save today secures a better tomorrow.
-                        </div>
-
-                    </div>
-
+                    <h3>Vision</h3>
+                   
+                    <p>
+    Our vision is to become one of the most trusted and preferred manufacturers of
+    industrial ventilation, air handling, and pollution control solutions by
+    delivering innovative, energy-efficient, and environmentally responsible
+    products. We strive to set new benchmarks in quality, reliability, and
+    customer satisfaction while expanding our presence across India and
+    international markets through continuous improvement and technological
+    advancement. This long-term perspective guides the organization's strategic direction, ensuring that every decision made today is a deliberate step toward a future where water-related challenges are met with resilience, ingenuity, and sustainability.
+    The vision serves as the ultimate benchmark of success, a constant source of motivation for the team, and a compelling promise to stakeholders that VMES is dedicated to making a lasting .
+</p>
                 </div>
-
             </div>
 
-            <!-- ================= Mission ================= -->
-
-            <div class="tab-pane fade" id="mission">
-
-                <div class="row align-items-center g-5">
-
-                    <div class="col-lg-5 wow fadeInLeft">
-
-                        <img src="img/about-2.jpg"
-                             class="img-fluid rounded-4 shadow-lg vm-img">
-
+            <!-- Mission -->
+            <div class="col-lg-4">
+                <div class="vm-item">
+                    <div class="vm-icon">
+                        <i class="fas fa-bullseye"></i>
                     </div>
-
-                    <div class="col-lg-7 wow fadeInRight">
-
-                        <span class="vm-label text-success">
-                            
-                        </span>
-
-                        <h2>
-                            Delivering High-Performance Water Solutions
-                        </h2>
-
-                        <p>
-                            Our mission is to design, manufacture, install, and maintain
-                            advanced water treatment systems that combine engineering
-                            excellence, cutting-edge technology, and exceptional customer
-                            support.
-                        </p>
-
-                        <div class="row">
-
-                            <div class="col-md-6">
-
-                                <div class="vm-feature">
-                                    <i class="fas fa-cogs"></i>
-                                    Customized Plant Design
-                                </div>
-
-                                <div class="vm-feature">
-                                    <i class="fas fa-tools"></i>
-                                    Installation & Commissioning
-                                </div>
-
-                                <div class="vm-feature">
-                                    <i class="fas fa-headset"></i>
-                                    After-Sales Support
-                                </div>
-
-                            </div>
-
-                            <div class="col-md-6">
-
-                                <div class="vm-feature">
-                                    <i class="fas fa-water"></i>
-                                    Water Conservation
-                                </div>
-
-                                <div class="vm-feature">
-                                    <i class="fas fa-industry"></i>
-                                    Industrial Solutions
-                                </div>
-
-                                <div class="vm-feature">
-                                    <i class="fas fa-sync"></i>
-                                    Continuous Innovation
-                                </div>
-
-                            </div>
-
-                        </div>
-
-                        <h6 class="mt-4">Customer Satisfaction</h6>
-
-                        <div class="progress">
-                            <div class="progress-bar bg-success"
-                                 style="width:95%">
-                                95%
-                            </div>
-                        </div>
-
-                    </div>
+                    <h3>Mission</h3>
+                    <p>
+                        To provide high-quality ventilation solutions with advanced technology,
+                        exceptional service, and continuous innovation while ensuring customer
+                        satisfaction and long-term partnerships. Beyond product delivery, our mission encompasses a dedication to after-sales support, technical training, and knowledge transfer, empowering our clients to manage their water resources effectively and independently. Our approach is client-centric, focusing on understanding the unique challenges of each community, industry, or agricultural operation we serve, and providing tailored, cost-effective solutions that ensure water security and regulatory compliance. We strive to integrate cutting-edge technology with practical, field-tested methodologies, ensuring that our services not only solve current problems but also build long-term resilience. Ultimately, our mission is to be a trusted partner in water management.
+                    </p>
 
                 </div>
-
             </div>
 
-            <!-- ================= Values ================= -->
-
-            <div class="tab-pane fade" id="values">
-
-                <div class="row align-items-center g-5">
-
-                    <div class="col-lg-5 wow fadeInLeft">
-
-                        <img src="img/about.jpg"
-                             class="img-fluid rounded-4 shadow-lg vm-img">
-
+            <!-- Core Values -->
+            <div class="col-lg-4">
+                <div class="vm-item">
+                    <div class="vm-icon">
+                        <i class="fas fa-heart"></i>
                     </div>
+                    <h3>Core Values</h3>
 
-                    <div class="col-lg-7 wow fadeInRight">
+                   <ul class="vm-list">
+    <li><strong>Quality Excellence:</strong> We deliver products that meet the highest standards of performance and durability.</li>
 
-                        <span class="vm-label text-warning">
-                            
-                        </span>
+    <li><strong>Customer First:</strong> Customer satisfaction is at the heart of every solution we provide.</li>
 
-                        <h2>
-                            The Principles That Guide Us
-                        </h2>
+    <li><strong>Innovation:</strong> We continuously improve our products and processes through modern technology and creative thinking.</li>
 
-                        <p>
-                            Every solution we build reflects our commitment to integrity,
-                            quality, innovation, teamwork, and customer satisfaction.
-                            These values inspire us to deliver reliable engineering
-                            solutions with long-term value.
-                        </p>
+    <li><strong>Integrity:</strong> We conduct our business with honesty, transparency, and ethical practices.</li>
 
-                        <div class="row g-3 mt-3">
+    <li><strong>Teamwork:</strong> We believe collaboration, mutual respect, and shared responsibility lead to success.</li>
 
-                            <div class="col-md-6">
-                                 Integrity & Transparency
-                            </div>
+    <li><strong>Safety:</strong> We prioritize workplace safety and develop products that promote a safe working environment.</li>
 
-                            <div class="col-md-6">
-                                 Customer First
-                            </div>
-
-                            <div class="col-md-6">
-                                 Innovation
-                            </div>
-
-                            <div class="col-md-6">
-                                Sustainable Engineering
-                            </div>
-
-                            <div class="col-md-6">
-                                 Teamwork
-                            </div>
-
-                            <div class="col-md-6">
-                                 Quality Assurance
-                            </div>
-
-                        </div>
-
-                        <div class="vm-quote mt-4">
-                            <i class="fas fa-award"></i>
-                            Quality is not an act—it is our habit.
-                        </div>
-
-                    </div>
-
+    <li><strong>Sustainability:</strong> We are committed to energy-efficient solutions that protect the environment and support sustainable growth.</li>
+</ul>
                 </div>
-
             </div>
 
         </div>
-
     </div>
 </section>
+
        
 
         <!-- Footer Start -->

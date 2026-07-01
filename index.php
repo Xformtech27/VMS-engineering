@@ -178,13 +178,13 @@
                             <img src="img/index.jpg" class="img-fluid rounded w-100" alt="">
                             
                             <!-- <div class="" style="position: absolute; top: -15px; right: -15px;">
-                                <img src="img/about-3.png" class="img-fluid" style="width: 150px; height: 150px; opacity: 0.7;" alt="">
+                                <img src="img/about.jpg-3.png" class="img-fluid" style="width: 150px; height: 150px; opacity: 0.7;" alt="">
                             </div>
                             <div class="" style="position: absolute; top: -20px; left: 10px; transform: rotate(90deg);">
-                                <img src="img/about-4.png" class="img-fluid" style="width: 100px; height: 150px; opacity: 0.9;" alt="">
+                                <img src="img/about.jpg-4.png" class="img-fluid" style="width: 100px; height: 150px; opacity: 0.9;" alt="">
                             </div>
                             <div class="rounded-bottom">
-                                <img src="img/about-5.jpg" class="img-fluid rounded-bottom w-100" alt="">
+                                <img src="img/about.jpg-5.jpg" class="img-fluid rounded-bottom w-100" alt="">
                             </div> -->
                         </div>
                     </div>
@@ -590,7 +590,7 @@ PLC-based control with HMI touchscreen automates filtration, backwash, RO produc
             </div>
             <div class="col-lg-6 wow fadeInRight" data-wow-delay="0.2s">
                 <div class="bg-primary rounded">
-                    <img src="img/about-2.png" class="img-fluid w-100" alt="Water Treatment Plant">
+                    <img src="img/about.jpg-2.png" class="img-fluid w-100" alt="Water Treatment Plant">
                 </div>
             </div>
         </div>
