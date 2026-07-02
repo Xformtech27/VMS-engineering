@@ -111,11 +111,11 @@
                     <div class="footer-item">
                         <h4 class="text-white mb-4">Contact Info</h4>
                         <div class="d-flex align-items-center">
-                            <i class="fas fa-map-marker-alt text-primary me-3"></i>
+                            <i class="fas fa-map-marker-alt text-primary me-3" style="color:black;"></i>
                             <p class="text-white mb-0">Nirmal Market Plot No 35,CDC PCNTDA,Purnanagar Near TATA MOTORS,Chinchwad,Pune 411019</p>
                         </div>
                         <div class="d-flex align-items-center">
-    <i class="fas fa-envelope text-primary me-3"></i>
+    <i class="fas fa-envelope text-primary me-3" style="color: black;"></i>
     <a href="mailto:vmesolutions33@gmail.com" class="text-white mb-0" style="text-decoration: none;">
         vmesolutions33@gmail.com
     </a>
@@ -123,7 +123,7 @@
 
 
                         <div class="d-flex align-items-center">
-                            <i class="fa fa-phone-alt text-primary me-3"></i>
+                            <i class="fa fa-phone-alt text-primary me-3" style="color: black;"></i>
                             <p class="text-white mb-0">9146557049</p>
                         </div>
                         <!-- <div class="d-flex align-items-center mb-4">
@@ -173,10 +173,8 @@
     </div>
     <!-- Copyright End -->
 
-    <!-- Back to Top -->
-    <a href="#" class="btn btn-primary btn-lg-square rounded-circle back-to-top">
-        <i class="fa fa-arrow-up"></i>
-    </a>
+                   
+
 
     <!-- JavaScript Libraries -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>

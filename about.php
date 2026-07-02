@@ -28,73 +28,6 @@
 
         <!-- Template Stylesheet -->
         <link href="css/style.css" rel="stylesheet">
-        <style>.vm-section{
-    background:white;
-}
-
-.vm-item{
-    position:relative;
-    padding-left:30px;
-    border-left:4px solid #115CA1;
-    transition:.4s;
-}
-
-.vm-item:hover{
-    transform:translateY(-8px);
-    border-left-color: #5BA745;
-}
-
-.vm-icon{
-    width:70px;
-    height:70px;
-    border-radius:50%;
-    background: #459e41;
-    display:flex;
-    align-items:center;
-    justify-content:center;
-    color:#fff;
-    font-size:28px;
-    margin-bottom:20px;
-    box-shadow:0 10px 25px rgba(17,92,161,.25);
-}
-
-.vm-item h3{
-    font-weight:700;
-    color:black;
-    margin-bottom:15px;
-}
-
-.vm-item p{
-    color: #666;
-    line-height:1.8;
-}
-
-.vm-list{
-    list-style:none;
-    padding:0;
-    margin:0;
-}
-
-.vm-list li{
-    position:relative;
-    padding-left:28px;
-    margin-bottom:12px;
-    color: #555;
-}
-
-.vm-list li::before{
-    content:"✔";
-    position:absolute;
-    left:0;
-    top:0;
-    color: #5BA745;
-    font-weight:bold;
-}
-
-.vm-section h2{
-    color:  black;
-    font-weight:700;
-}</style>
        
     </head>
 
@@ -115,7 +48,7 @@
         
          <!-- Carousel Start -->
        <!-- Page Header Start -->
-<div class="container-fluid page-header py-5 mb-5" style="background-image: url('img/about.jpg');">
+<div class="container-fluid page-header py-5 mb-5" style="background-image: url('img/home-slider.jpg');">
     <div class="container py-5 text-center">
         <h1 class="display-3 text-white mb-3 animated slideInDown">
             About Us
@@ -310,18 +243,13 @@
                     <div class="vm-icon">
                         <i class="fas fa-eye"></i>
                     </div>
-                    <h3>Vision</h3>
-                   
-                    <p>
-    Our vision is to become one of the most trusted and preferred manufacturers of
-    industrial ventilation, air handling, and pollution control solutions by
-    delivering innovative, energy-efficient, and environmentally responsible
-    products. We strive to set new benchmarks in quality, reliability, and
-    customer satisfaction while expanding our presence across India and
-    international markets through continuous improvement and technological
-    advancement. This long-term perspective guides the organization's strategic direction, ensuring that every decision made today is a deliberate step toward a future where water-related challenges are met with resilience, ingenuity, and sustainability.
-    The vision serves as the ultimate benchmark of success, a constant source of motivation for the team, and a compelling promise to stakeholders that VMES is dedicated to making a lasting .
-</p>
+                   <h3>Vision</h3>
+<ul class="vm-list">
+    <li>Become India's most trusted manufacturer of industrial ventilation solutions</li>
+    <li>Deliver innovative, energy-efficient, and environmentally responsible products</li>
+    <li>Set new benchmarks in quality, reliability, and customer satisfaction</li>
+    <li>Expand presence across India and international markets</li>
+</ul>
                 </div>
             </div>
 
@@ -332,12 +260,13 @@
                         <i class="fas fa-bullseye"></i>
                     </div>
                     <h3>Mission</h3>
-                    <p>
-                        To provide high-quality ventilation solutions with advanced technology,
-                        exceptional service, and continuous innovation while ensuring customer
-                        satisfaction and long-term partnerships. Beyond product delivery, our mission encompasses a dedication to after-sales support, technical training, and knowledge transfer, empowering our clients to manage their water resources effectively and independently. Our approach is client-centric, focusing on understanding the unique challenges of each community, industry, or agricultural operation we serve, and providing tailored, cost-effective solutions that ensure water security and regulatory compliance. We strive to integrate cutting-edge technology with practical, field-tested methodologies, ensuring that our services not only solve current problems but also build long-term resilience. Ultimately, our mission is to be a trusted partner in water management.
-                    </p>
-
+<ul class="vm-list">
+    <li>Provide high-quality ventilation solutions with advanced technology</li>
+    <li>Ensure exceptional service and continuous innovation</li>
+    <li>Build long-term partnerships through client-centric approach</li>
+    <li>Deliver tailored, cost-effective solutions for unique challenges</li>
+</ul>
+                   
                 </div>
             </div>
 
@@ -348,21 +277,12 @@
                         <i class="fas fa-heart"></i>
                     </div>
                     <h3>Core Values</h3>
-
-                   <ul class="vm-list">
-    <li><strong>Quality Excellence:</strong> We deliver products that meet the highest standards of performance and durability.</li>
-
-    <li><strong>Customer First:</strong> Customer satisfaction is at the heart of every solution we provide.</li>
-
-    <li><strong>Innovation:</strong> We continuously improve our products and processes through modern technology and creative thinking.</li>
-
-    <li><strong>Integrity:</strong> We conduct our business with honesty, transparency, and ethical practices.</li>
-
-    <li><strong>Teamwork:</strong> We believe collaboration, mutual respect, and shared responsibility lead to success.</li>
-
-    <li><strong>Safety:</strong> We prioritize workplace safety and develop products that promote a safe working environment.</li>
-
-    <li><strong>Sustainability:</strong> We are committed to energy-efficient solutions that protect the environment and support sustainable growth.</li>
+<ul class="vm-list">
+    <li>Deliver high-performance, durable products that meet the highest quality standards.</li>
+    <li>Keep customer satisfaction at the heart of every solution we provide.</li>
+    <li>Continuously improve through modern technology and creative thinking.</li>
+    <li>Conduct business with honesty, transparency, and ethical practices.</li>
+   
 </ul>
                 </div>
             </div>

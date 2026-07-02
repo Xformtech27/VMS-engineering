@@ -28,7 +28,7 @@
 
     <!-- ===== PAGE HEADER ===== -->
        <div class="container-fluid page-header py-5 mb-5 fade-in fade-in-1"
-     style="background-image: url('<?php echo BASE_URL; ?>/img/about.jpg'); background-size: cover; background-position: center; background-repeat: no-repeat;">
+     style="background-image: url('<?php echo BASE_URL; ?>/img/home-slider.jpg'); background-size: cover; background-position: center; background-repeat: no-repeat;">
         <div class="container py-5 text-center">
             <h1 class="display-3 text-white mb-3 float-animation">
                 FRP Vessels
@@ -57,7 +57,7 @@
 
             <div class="col-lg-6 fade-in fade-in-3">
                 <h2 class="mb-4">FRP Vessels</h2>
-                <div class="section-divider" style="margin-left: 0;"></div>
+                <div class="section-divider" style="margin-left: 0; color: #459e41;"></div>
 
                 <p class="slide-in-right slide-in-right-1">
                     We are counted among the prominent manufacturers, suppliers and traders of an

@@ -28,7 +28,7 @@
 
     <!-- ===== PAGE HEADER ===== -->
        <div class="container-fluid page-header py-5 mb-5 fade-in fade-in-1"
-     style="background-image: url('<?php echo BASE_URL; ?>/img/about.jpg'); background-size: cover; background-position: center; background-repeat: no-repeat;">
+     style="background-image: url('<?php echo BASE_URL; ?>/img/home-slider.jpg'); background-size: cover; background-position: center; background-repeat: no-repeat;">
         <div class="container py-5 text-center">
             <h1 class="display-3 text-white mb-3 float-animation">
                 RO Membrane Housing

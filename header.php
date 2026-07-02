@@ -16,6 +16,7 @@ $current_page = basename($_SERVER['PHP_SELF']);
     <link rel="stylesheet" href="<?php echo BASE_URL; ?>/css/style.css">
 </head>
 
+
 <body>
 
     <!-- Topbar Start -->
@@ -308,7 +309,11 @@ $current_page = basename($_SERVER['PHP_SELF']);
 
        
     </div>
-    <!-- Navbar & Hero End -->
+    <!-- Nav
+     
+    
+    
+    ar & Hero End -->
 
 </body>
 

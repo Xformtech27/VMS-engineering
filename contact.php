@@ -44,7 +44,7 @@
              <?php include 'header.php'; ?>
             <!-- Header End -->
               <!-- Carousel Start -->
-       <div class="container-fluid page-header py-5 mb-5" style="background-image: url('img/about.jpg');">    <div class="container py-5 text-center">
+       <div class="container-fluid page-header py-5 mb-5" style="background-image: url('img/home-slider.jpg');">    <div class="container py-5 text-center">
         <h1 class="display-3 text-white mb-3 animated slideInDown">
             About Us
         </h1>
