@@ -282,7 +282,7 @@ $current_page = basename($_SERVER['PHP_SELF']);
 
             .navbar-light .navbar-nav .nav-link:hover,
             .navbar-light .navbar-nav .nav-link.active {
-                color: #5aa1cd !important;
+                color: #459e41 !important;
                 background: rgba(90, 161, 205, 0.06);
                 padding-left: 22px;
             }
@@ -740,6 +740,11 @@ $current_page = basename($_SERVER['PHP_SELF']);
                             </div>
                         </div>
                     </li>
+                     
+                     <a href="<?php echo BASE_URL; ?>/gallery.php"
+                        class="nav-item nav-link <?php echo ($current_page == 'gallery.php') ? 'active' : ''; ?>">
+                        Gallery
+                    </a>
 
                     <!-- Contact Us -->
                     <a href="<?php echo BASE_URL; ?>/contact.php"

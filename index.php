@@ -412,8 +412,8 @@
         </div>
         <div class="row g-5 align-items-center">
             <div class="col-xl-5 wow fadeInLeft" data-wow-delay="0.2s">
-                <div class="nav nav-pills bg-light rounded p-5">
-                    <a class="accordion-link p-4 active mb-4" data-bs-toggle="pill" href="#collapseOne">
+                <div class="nav nav-pills bg-light rounded p-5" >
+                    <a class="accordion-link p-4 active mb-4" data-bs-toggle="pill" href="#collapseOne" >
                         <h5 class="mb-0">Cost Savings & Operational Efficiency</h5>
                     </a>
                     <a class="accordion-link p-4 mb-4" data-bs-toggle="pill" href="#collapseTwo">
