@@ -29,88 +29,55 @@
     <link href="css/style.css" rel="stylesheet">
 
     <style>
-        /* ===== PERFECT GALLERY STYLES ===== */
+        /* ===== GALLERY STYLES - NO HOVER EFFECTS ===== */
         
         /* Gallery Container */
         .gallery-container {
             padding: 30px 0;
         }
 
-        /* Gallery Item */
+        /* Gallery Item - Static, No Hover */
         .gallery-item {
             position: relative;
             overflow: hidden;
             border-radius: 12px;
-            cursor: pointer;
-            box-shadow: 0 5px 15px rgba(0,0,0,0.1);
-            transition: all 0.4s ease;
             background: #f8f9fa;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.08);
         }
 
-        .gallery-item:hover {
-            box-shadow: 0 10px 30px rgba(0,0,0,0.2);
-            transform: translateY(-5px);
-        }
-
-        /* Gallery Image */
+        /* Gallery Image - Static */
         .gallery-item img {
             width: 100%;
             height: 320px;
             object-fit: cover;
-            transition: transform 0.6s cubic-bezier(0.4, 0, 0.2, 1);
             display: block;
         }
 
-        .gallery-item:hover img {
-            transform: scale(1.08);
-        }
-
-        /* Overlay */
-        .gallery-item .overlay {
-            position: absolute;
-            top: 0;
-            left: 0;
-            width: 100%;
-            height: 100%;
-            background: rgba(0, 0, 0, 0.5);
-            opacity: 0;
-            transition: all 0.4s ease;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-        }
-
-        .gallery-item:hover .overlay {
-            opacity: 1;
-        }
-
-        /* Zoom Icon */
+        /* Lightbox Icon - Always Visible */
         .gallery-item .zoom-icon {
-            width: 60px;
-            height: 60px;
-            background: rgba(255, 255, 255, 0.95);
+            position: absolute;
+            top: 15px;
+            right: 15px;
+            width: 40px;
+            height: 40px;
+            background: rgba(13, 110, 253, 0.9);
             border-radius: 50%;
             display: flex;
             align-items: center;
             justify-content: center;
-            color: #0d6efd;
-            font-size: 24px;
-            transform: scale(0) rotate(-90deg);
-            transition: all 0.5s cubic-bezier(0.4, 0, 0.2, 1);
+            color: #fff;
+            font-size: 16px;
             text-decoration: none;
-        }
-
-        .gallery-item:hover .zoom-icon {
-            transform: scale(1) rotate(0deg);
+            transition: none;
+            z-index: 2;
         }
 
         .gallery-item .zoom-icon:hover {
             background: #0d6efd;
             color: #fff;
-            transform: scale(1.1);
         }
 
-        /* Image Counter Badge */
+        /* Image Counter Badge - Static */
         .gallery-item .image-count {
             position: absolute;
             bottom: 15px;
@@ -121,7 +88,6 @@
             border-radius: 20px;
             font-size: 12px;
             font-weight: 500;
-            backdrop-filter: blur(5px);
         }
 
         /* Load More Button */
@@ -130,14 +96,9 @@
             border-radius: 50px;
             font-weight: 600;
             font-size: 16px;
-            transition: all 0.3s ease;
             text-transform: uppercase;
             letter-spacing: 1px;
-        }
-
-        .load-more-btn:hover {
-            transform: translateY(-3px);
-            box-shadow: 0 10px 30px rgba(13, 110, 253, 0.3);
+            transition: none;
         }
 
         /* Responsive */
@@ -168,15 +129,17 @@
                 height: 220px;
             }
             
-            .gallery-item .zoom-icon {
-                width: 50px;
-                height: 50px;
-                font-size: 20px;
-            }
-            
             .load-more-btn {
                 padding: 12px 35px;
                 font-size: 14px;
+            }
+
+            .gallery-item .zoom-icon {
+                width: 35px;
+                height: 35px;
+                font-size: 14px;
+                top: 10px;
+                right: 10px;
             }
         }
 
@@ -230,12 +193,10 @@
                 <!-- Image 1 -->
                 <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12 wow fadeInUp delay-1">
                     <div class="gallery-item">
-                        <img src="img/service/amc-and-maintenance-services.jpg" alt="Gallery Image">
-                        <div class="overlay">
-                            <a href="img/service/amc-and-maintenance-services.jpg" data-lightbox="gallery" class="zoom-icon">
-                                
-                            </a>
-                        </div>
+                        <img src="img/service/amc-and-maintenance-services.jpg" alt="AMC Services">
+                        <a href="img/service/amc-and-maintenance-services.jpg" data-lightbox="gallery" class="zoom-icon">
+                            <i class="fas fa-search-plus"></i>
+                        </a>
                         <span class="image-count">01</span>
                     </div>
                 </div>
@@ -243,12 +204,10 @@
                 <!-- Image 2 -->
                 <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12 wow fadeInUp delay-2">
                     <div class="gallery-item">
-                        <img src="img/service/pre-treatment-and-filtration.jpg" alt="Gallery Image">
-                        <div class="overlay">
-                            <a href="img/service/pre-treatment-and-filtration.jpg" data-lightbox="gallery" class="zoom-icon">
-                               
-                            </a>
-                        </div>
+                        <img src="img/service/pre-treatment-and-filtration.jpg" alt="Pre-Treatment">
+                        <a href="img/service/pre-treatment-and-filtration.jpg" data-lightbox="gallery" class="zoom-icon">
+                            <i class="fas fa-search-plus"></i>
+                        </a>
                         <span class="image-count">02</span>
                     </div>
                 </div>
@@ -256,12 +215,10 @@
                 <!-- Image 3 -->
                 <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12 wow fadeInUp delay-3">
                     <div class="gallery-item">
-                        <img src="img/service/ro-plant-design.jpg" alt="Gallery Image">
-                        <div class="overlay">
-                            <a href="img/service/ro-plant-design.jpg" data-lightbox="gallery" class="zoom-icon">
-                                <i class="fas fa-search-plus"></i>
-                            </a>
-                        </div>
+                        <img src="img/service/ro-plant-design.jpg" alt="RO Plant">
+                        <a href="img/service/ro-plant-design.jpg" data-lightbox="gallery" class="zoom-icon">
+                            <i class="fas fa-search-plus"></i>
+                        </a>
                         <span class="image-count">03</span>
                     </div>
                 </div>
@@ -269,12 +226,10 @@
                 <!-- Image 4 -->
                 <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12 wow fadeInUp delay-4">
                     <div class="gallery-item">
-                        <img src="img/gallery/wastewater-1.jpg" alt="Gallery Image">
-                        <div class="overlay">
-                            <a href="img/gallery/wastewater-1.jpg" data-lightbox="gallery" class="zoom-icon">
-                                <i class="fas fa-search-plus"></i>
-                            </a>
-                        </div>
+                        <img src="img/gallery/wastewater-1.jpg" alt="Wastewater">
+                        <a href="img/gallery/wastewater-1.jpg" data-lightbox="gallery" class="zoom-icon">
+                            <i class="fas fa-search-plus"></i>
+                        </a>
                         <span class="image-count">04</span>
                     </div>
                 </div>
@@ -282,12 +237,10 @@
                 <!-- Image 5 -->
                 <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12 wow fadeInUp delay-5">
                     <div class="gallery-item">
-                        <img src="img/gallery/ro-plant-2.jpg" alt="Gallery Image">
-                        <div class="overlay">
-                            <a href="img/gallery/ro-plant-2.jpg" data-lightbox="gallery" class="zoom-icon">
-                                <i class="fas fa-search-plus"></i>
-                            </a>
-                        </div>
+                        <img src="img/gallery/ro-plant-2.jpg" alt="RO Plant">
+                        <a href="img/gallery/ro-plant-2.jpg" data-lightbox="gallery" class="zoom-icon">
+                            <i class="fas fa-search-plus"></i>
+                        </a>
                         <span class="image-count">05</span>
                     </div>
                 </div>
@@ -295,12 +248,10 @@
                 <!-- Image 6 -->
                 <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12 wow fadeInUp delay-6">
                     <div class="gallery-item">
-                        <img src="img/gallery/filtration-2.jpg" alt="Gallery Image">
-                        <div class="overlay">
-                            <a href="img/gallery/filtration-2.jpg" data-lightbox="gallery" class="zoom-icon">
-                                <i class="fas fa-search-plus"></i>
-                            </a>
-                        </div>
+                        <img src="img/gallery/filtration-2.jpg" alt="Filtration">
+                        <a href="img/gallery/filtration-2.jpg" data-lightbox="gallery" class="zoom-icon">
+                            <i class="fas fa-search-plus"></i>
+                        </a>
                         <span class="image-count">06</span>
                     </div>
                 </div>
@@ -308,12 +259,10 @@
                 <!-- Image 7 -->
                 <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12 wow fadeInUp delay-1">
                     <div class="gallery-item">
-                        <img src="img/gallery/installation-2.jpg" alt="Gallery Image">
-                        <div class="overlay">
-                            <a href="img/gallery/installation-2.jpg" data-lightbox="gallery" class="zoom-icon">
-                                <i class="fas fa-search-plus"></i>
-                            </a>
-                        </div>
+                        <img src="img/gallery/installation-2.jpg" alt="Installation">
+                        <a href="img/gallery/installation-2.jpg" data-lightbox="gallery" class="zoom-icon">
+                            <i class="fas fa-search-plus"></i>
+                        </a>
                         <span class="image-count">07</span>
                     </div>
                 </div>
@@ -321,12 +270,10 @@
                 <!-- Image 8 -->
                 <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12 wow fadeInUp delay-2">
                     <div class="gallery-item">
-                        <img src="img/gallery/wastewater-2.jpg" alt="Gallery Image">
-                        <div class="overlay">
-                            <a href="img/gallery/wastewater-2.jpg" data-lightbox="gallery" class="zoom-icon">
-                                <i class="fas fa-search-plus"></i>
-                            </a>
-                        </div>
+                        <img src="img/gallery/wastewater-2.jpg" alt="Wastewater">
+                        <a href="img/gallery/wastewater-2.jpg" data-lightbox="gallery" class="zoom-icon">
+                            <i class="fas fa-search-plus"></i>
+                        </a>
                         <span class="image-count">08</span>
                     </div>
                 </div>
@@ -334,12 +281,10 @@
                 <!-- Image 9 -->
                 <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12 wow fadeInUp delay-3">
                     <div class="gallery-item">
-                        <img src="img/gallery/ro-plant-3.jpg" alt="Gallery Image">
-                        <div class="overlay">
-                            <a href="img/gallery/ro-plant-3.jpg" data-lightbox="gallery" class="zoom-icon">
-                                <i class="fas fa-search-plus"></i>
-                            </a>
-                        </div>
+                        <img src="img/gallery/ro-plant-3.jpg" alt="RO Plant">
+                        <a href="img/gallery/ro-plant-3.jpg" data-lightbox="gallery" class="zoom-icon">
+                            <i class="fas fa-search-plus"></i>
+                        </a>
                         <span class="image-count">09</span>
                     </div>
                 </div>
@@ -347,12 +292,10 @@
                 <!-- Image 10 -->
                 <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12 wow fadeInUp delay-4">
                     <div class="gallery-item">
-                        <img src="img/gallery/installation-3.jpg" alt="Gallery Image">
-                        <div class="overlay">
-                            <a href="img/gallery/installation-3.jpg" data-lightbox="gallery" class="zoom-icon">
-                                <i class="fas fa-search-plus"></i>
-                            </a>
-                        </div>
+                        <img src="img/gallery/installation-3.jpg" alt="Installation">
+                        <a href="img/gallery/installation-3.jpg" data-lightbox="gallery" class="zoom-icon">
+                            <i class="fas fa-search-plus"></i>
+                        </a>
                         <span class="image-count">10</span>
                     </div>
                 </div>
@@ -360,12 +303,10 @@
                 <!-- Image 11 -->
                 <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12 wow fadeInUp delay-5">
                     <div class="gallery-item">
-                        <img src="img/gallery/filtration-3.jpg" alt="Gallery Image">
-                        <div class="overlay">
-                            <a href="img/gallery/filtration-3.jpg" data-lightbox="gallery" class="zoom-icon">
-                                <i class="fas fa-search-plus"></i>
-                            </a>
-                        </div>
+                        <img src="img/gallery/filtration-3.jpg" alt="Filtration">
+                        <a href="img/gallery/filtration-3.jpg" data-lightbox="gallery" class="zoom-icon">
+                            <i class="fas fa-search-plus"></i>
+                        </a>
                         <span class="image-count">11</span>
                     </div>
                 </div>
@@ -373,12 +314,10 @@
                 <!-- Image 12 -->
                 <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12 wow fadeInUp delay-6">
                     <div class="gallery-item">
-                        <img src="img/gallery/wastewater-3.jpg" alt="Gallery Image">
-                        <div class="overlay">
-                            <a href="img/gallery/wastewater-3.jpg" data-lightbox="gallery" class="zoom-icon">
-                                <i class="fas fa-search-plus"></i>
-                            </a>
-                        </div>
+                        <img src="img/gallery/wastewater-3.jpg" alt="Wastewater">
+                        <a href="img/gallery/wastewater-3.jpg" data-lightbox="gallery" class="zoom-icon">
+                            <i class="fas fa-search-plus"></i>
+                        </a>
                         <span class="image-count">12</span>
                     </div>
                 </div>
@@ -419,22 +358,18 @@
             // Initialize WOW.js
             new WOW().init();
 
-            // Smooth load more functionality
+            // Load more functionality
             $('.load-more-btn').on('click', function(e) {
                 e.preventDefault();
                 
-                // Add loading state
                 var $btn = $(this);
                 var originalText = $btn.html();
                 $btn.html('<i class="fas fa-spinner fa-spin me-2"></i> Loading...');
                 $btn.prop('disabled', true);
 
-                // Simulate loading (replace with actual AJAX call)
                 setTimeout(function() {
                     $btn.html(originalText);
                     $btn.prop('disabled', false);
-                    
-                    // Show alert (remove this in production)
                     alert('More images will load here. Add your AJAX logic.');
                 }, 1500);
             });
