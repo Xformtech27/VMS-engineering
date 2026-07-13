@@ -226,8 +226,8 @@
                 <!-- Image 4 -->
                 <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12 wow fadeInUp delay-4">
                     <div class="gallery-item">
-                        <img src="img/gallery/wastewater-1.jpg" alt="Wastewater">
-                        <a href="img/gallery/wastewater-1.jpg" data-lightbox="gallery" class="zoom-icon">
+                        <img src="img/service-4.jpg" alt="Wastewater">
+                        <a href="img/service-4.jpg" data-lightbox="gallery" class="zoom-icon">
                             <i class="fas fa-search-plus"></i>
                         </a>
                         <span class="image-count">04</span>
@@ -237,8 +237,8 @@
                 <!-- Image 5 -->
                 <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12 wow fadeInUp delay-5">
                     <div class="gallery-item">
-                        <img src="img/gallery/ro-plant-2.jpg" alt="RO Plant">
-                        <a href="img/gallery/ro-plant-2.jpg" data-lightbox="gallery" class="zoom-icon">
+                        <img src="img/service-5.jpg" alt="RO Plant">
+                        <a href="img/service-5.jpg.jpg" data-lightbox="gallery" class="zoom-icon">
                             <i class="fas fa-search-plus"></i>
                         </a>
                         <span class="image-count">05</span>
@@ -248,8 +248,8 @@
                 <!-- Image 6 -->
                 <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12 wow fadeInUp delay-6">
                     <div class="gallery-item">
-                        <img src="img/gallery/filtration-2.jpg" alt="Filtration">
-                        <a href="img/gallery/filtration-2.jpg" data-lightbox="gallery" class="zoom-icon">
+                        <img src="img/service-6.jpg" alt="Filtration">
+                        <a href="img/service-6.jpg" data-lightbox="gallery" class="zoom-icon">
                             <i class="fas fa-search-plus"></i>
                         </a>
                         <span class="image-count">06</span>
@@ -257,7 +257,7 @@
                 </div>
 
                 <!-- Image 7 -->
-                <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12 wow fadeInUp delay-1">
+                <!-- <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12 wow fadeInUp delay-1">
                     <div class="gallery-item">
                         <img src="img/gallery/installation-2.jpg" alt="Installation">
                         <a href="img/gallery/installation-2.jpg" data-lightbox="gallery" class="zoom-icon">
@@ -265,10 +265,10 @@
                         </a>
                         <span class="image-count">07</span>
                     </div>
-                </div>
+                </div> -->
 
                 <!-- Image 8 -->
-                <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12 wow fadeInUp delay-2">
+                <!-- <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12 wow fadeInUp delay-2">
                     <div class="gallery-item">
                         <img src="img/gallery/wastewater-2.jpg" alt="Wastewater">
                         <a href="img/gallery/wastewater-2.jpg" data-lightbox="gallery" class="zoom-icon">
@@ -276,10 +276,10 @@
                         </a>
                         <span class="image-count">08</span>
                     </div>
-                </div>
+                </div> -->
 
                 <!-- Image 9 -->
-                <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12 wow fadeInUp delay-3">
+                <!-- <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12 wow fadeInUp delay-3">
                     <div class="gallery-item">
                         <img src="img/gallery/ro-plant-3.jpg" alt="RO Plant">
                         <a href="img/gallery/ro-plant-3.jpg" data-lightbox="gallery" class="zoom-icon">
@@ -287,10 +287,10 @@
                         </a>
                         <span class="image-count">09</span>
                     </div>
-                </div>
+                </div> -->
 
                 <!-- Image 10 -->
-                <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12 wow fadeInUp delay-4">
+                <!-- <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12 wow fadeInUp delay-4">
                     <div class="gallery-item">
                         <img src="img/gallery/installation-3.jpg" alt="Installation">
                         <a href="img/gallery/installation-3.jpg" data-lightbox="gallery" class="zoom-icon">
@@ -298,10 +298,10 @@
                         </a>
                         <span class="image-count">10</span>
                     </div>
-                </div>
+                </div> -->
 
                 <!-- Image 11 -->
-                <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12 wow fadeInUp delay-5">
+                <!-- <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12 wow fadeInUp delay-5">
                     <div class="gallery-item">
                         <img src="img/gallery/filtration-3.jpg" alt="Filtration">
                         <a href="img/gallery/filtration-3.jpg" data-lightbox="gallery" class="zoom-icon">
@@ -309,10 +309,10 @@
                         </a>
                         <span class="image-count">11</span>
                     </div>
-                </div>
+                </div> -->
 
                 <!-- Image 12 -->
-                <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12 wow fadeInUp delay-6">
+                <!-- <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12 wow fadeInUp delay-6">
                     <div class="gallery-item">
                         <img src="img/gallery/wastewater-3.jpg" alt="Wastewater">
                         <a href="img/gallery/wastewater-3.jpg" data-lightbox="gallery" class="zoom-icon">
@@ -320,16 +320,16 @@
                         </a>
                         <span class="image-count">12</span>
                     </div>
-                </div>
+                </div> -->
 
             </div>
 
             <!-- Load More Button -->
-            <div class="text-center mt-5 wow fadeInUp" data-wow-delay="0.3s">
+            <!-- <div class="text-center mt-5 wow fadeInUp" data-wow-delay="0.3s">
                 <a href="#" class="btn btn-primary load-more-btn">
                     <i class="fas fa-sync me-2"></i> Load More
                 </a>
-            </div>
+            </div> -->
 
         </div>
     </div>
