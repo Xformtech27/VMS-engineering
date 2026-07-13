@@ -47,7 +47,7 @@
  <!-- Carousel Start -->
      <div class="container-fluid page-header py-5 mb-5" style="background-image: url('img/home-slider.jpg');">    <div class="container py-5 text-center">
         <h1 class="display-3 text-white mb-3 animated slideInDown">
-            About Us
+             Components
         </h1>
         <nav aria-label="breadcrumb" class="animated slideInDown">
             <ol class="breadcrumb justify-content-center mb-0">
@@ -55,7 +55,7 @@
                     <a href="<?php echo BASE_URL; ?>">Home</a>
                 </li>
                 <li class="breadcrumb-item active text-white" aria-current="page">
-                    About Us
+                    Components
                 </li>
             </ol>
         </nav>
@@ -155,13 +155,13 @@
                        <div class="col-md-6 col-lg-4 wow fadeInUp" data-wow-delay="0.6s">
                         <div class="service-item">
                             <div class="service-img">
-                                <img src="img/product/rota-meters.jpg" class="img-fluid rounded-top w-100" alt="Image">
+                                <img src="img/product/control-panel.jpg" class="img-fluid rounded-top w-100" alt="Image">
                             </div>
                             <div class="rounded-bottom p-4">
                                 <a href="#" class="h4 d-inline-block mb-4">Control Panel</a>
                                 <p class="mb-4">Water control panels are electrical automation systems designed to monitor, protect, and operate water treatment plants, pumping stations, and distribution networks.They integrate PLCs, motor starters, and sensors to manage pumps, valves, and water quality in real time.
                                 </p>
-                                <a class="btn btn-primary rounded-pill py-2 px-4"  href="<?php echo BASE_URL; ?>/components/rotameter.php">Learn More</a>
+                                <a class="btn btn-primary rounded-pill py-2 px-4"  href="<?php echo BASE_URL; ?>/components/control-panel.php">Learn More</a>
                             </div>
                         </div>
                     </div>
@@ -170,7 +170,7 @@
                       <div class="col-md-6 col-lg-4 wow fadeInUp" data-wow-delay="0.6s">
                         <div class="service-item">
                             <div class="service-img">
-                                <img src="img/product/rota-meters.jpg" class="img-fluid rounded-top w-100" alt="Image">
+                                <img src="img/product/row-water-pump.jpg" class="img-fluid rounded-top w-100" alt="Image">
                             </div>
                             <div class="rounded-bottom p-4">
                                 <a href="#" class="h4 d-inline-block mb-4">Raw Water Pump </a>
@@ -184,7 +184,7 @@
                       <div class="col-md-6 col-lg-4 wow fadeInUp" data-wow-delay="0.6s">
                         <div class="service-item">
                             <div class="service-img">
-                                <img src="img/product/rota-meters.jpg" class="img-fluid rounded-top w-100" alt="Image">
+                                <img src="img/product/high-pressure-pump.jpg" class="img-fluid rounded-top w-100" alt="Image">
                             </div>
                             <div class="rounded-bottom p-4">
                                 <a href="#" class="h4 d-inline-block mb-4">High Pressure Pump  </a>
@@ -195,12 +195,12 @@
                         </div>
                     </div>
 
-<div class="col-md-6 col-lg-4 wow fadeInUp" data-wow-delay="0.6s">
+                    <div class="col-md-6 col-lg-4 wow fadeInUp" data-wow-delay="0.6s">
                         <div class="service-item">
-                            <div class="service-img">
-                                <img src="img/product/rota-meters.jpg" class="img-fluid rounded-top w-100" alt="Image">
-                            </div>
-                            <div class="rounded-bottom p-4">
+                              <div class="service-img">
+                                <img src="img/product/cartirage-filter.jpg" class="img-fluid rounded-top w-100" alt="Image">
+                              </div>
+                               <div class="rounded-bottom p-4">
                                 <a href="#" class="h4 d-inline-block mb-4">Cartridge Filter</a>
                                 <p class="mb-4">A filter cartridge is the replaceable core of a filtration system that traps and removes contaminants, sediment, and impurities from liquids or gases. Placed inside a protective housing, these cartridges need to be replaced every 3 to 12 months, depending on the usage and water quality.
                                 </p>
@@ -212,7 +212,7 @@
                     <div class="col-md-6 col-lg-4 wow fadeInUp" data-wow-delay="0.6s">
                         <div class="service-item">
                             <div class="service-img">
-                                <img src="img/product/rota-meters.jpg" class="img-fluid rounded-top w-100" alt="Image">
+                                <img src="img/product/cartridge-filter-housing.jpg" class="img-fluid rounded-top w-100" alt="Image">
                             </div>
                             <div class="rounded-bottom p-4">
                                 <a href="#" class="h4 d-inline-block mb-4">Cartridge Filter Housing</a>

@@ -28,6 +28,61 @@
         <!-- Template Stylesheet -->
         <link href="css/style.css" rel="stylesheet">
     </head>
+    <style>
+        .feature{
+    background: #f8fbff;
+}
+
+.feature-item{
+    background: #fff;
+    padding:30px;
+    border-radius:12px;
+    height:100%;
+    box-shadow:0 5px 20px rgba(0,0,0,.08);
+    transition:.3s;
+}
+
+.feature-item:hover{
+    transform:translateY(-8px);
+    box-shadow:0 10px 30px rgba(0,0,0,.12);
+}
+
+.feature-title{
+    display:flex;
+    align-items:center;
+    gap:12px;
+    font-size:22px;
+    font-weight:700;
+    margin-bottom:18px;
+    color: #222;
+}
+
+.feature-title i{
+    width:55px;
+    height:55px;
+    border-radius:50%;
+    background:  #459e41;
+    color:#fff;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    font-size:22px;
+    flex-shrink:0;
+}
+
+.feature-text{
+    color: #666;
+    line-height:1.8;
+    margin-bottom:0;
+}
+
+.feature-item:hover .feature-title i{
+    background: #198754;
+    transform:rotate(8deg);
+    transition:.3s;
+}
+        
+    </style>
 
     <body>
 
@@ -53,10 +108,10 @@
                         <div class="text-sm-center text-md-end">
                             <h4 class="text-primary text-uppercase fw-bold mb-4">Welcome To VME Solutions</h4>
                             <h1 class="display-4 text-uppercase text-white mb-4">Invest your money with higher return</h1>
-                            <p class="mb-5 fs-5">
+                            <!-- <p class="mb-5 fs-5">
                                 Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
                                 Lorem Ipsum has been the industry's standard dummy...
-                            </p>
+                            </p> -->
                             <!-- <div class="d-flex justify-content-center justify-content-md-end flex-shrink-0 mb-4">
                                 <a class="btn btn-light rounded-pill py-3 px-4 px-md-5 me-2" href="#">
                                     <i class="fas fa-play-circle me-2"></i> Watch Video
@@ -91,11 +146,11 @@
                         <div class="row g-5">
                             <div class="col-12 animated fadeInUp">
                                 <div class="text-center">
-                                    <h1 class="text-primary text-uppercase fw-bold mb-4">Welcome To VME Solutions</h1>
+                                    <h1 class="text-primary text-uppercase fw-bold mb-4 " >Welcome To VME Solutions</h1>
                                     <!-- <h1 class="display-4 text-uppercase text-white mb-4">Invest your money with higher return</h1> -->
-                                    <p class="mb-5 fs-5">
-                                        At VME Solutions, we are dedicated to providing high-quality mechanical and electrical components and tailored solutions for a variety of industries.
-                                    </p>
+                                   <p class="mb-5 fs-5 text-white">
+    At VME Solutions, we are dedicated to providing high-quality mechanical and electrical components and tailored solutions for a variety of industries.
+</p>
                                     <!-- <div class="d-flex justify-content-center flex-shrink-0 mb-4">
                                         <a class="btn btn-light rounded-pill py-3 px-4 px-md-5 me-2" href="#">
                                             <i class="fas fa-play-circle me-2"></i> Watch Video
@@ -130,68 +185,59 @@
 
 
         <!-- Abvout Start -->
-        <div class="container-fluid about py-5">
-            <div class="container py-5">
-                <div class="row g-5 align-items-center">
-                    <div class="col-xl-7 wow fadeInLeft" data-wow-delay="0.2s">
-                        <div>
-                            <h4 class="text-primary">About Us</h4>
-                            <h1 class="display-5 mb-4">Meet our company unless miss the opportunity</h1>
-                            <p class="mb-4">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Cum velit temporibus repudiandae ipsa, eaque perspiciatis cumque incidunt tenetur sequi reiciendis.
-                            </p>
-                            <div class="row g-4">
-                                <div class="col-md-6 col-lg-6 col-xl-6">
-                                    <div class="d-flex">
-                                        <div><i class="fas fa-lightbulb fa-3x text-primary"></i></div>
-                                        <div class="ms-4">
-                                            <h4>Business Consuluting</h4>
-                                            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="col-md-6 col-lg-6 col-xl-6">
-                                    <div class="d-flex">
-                                        <div><i class="bi bi-bookmark-heart-fill fa-3x text-primary"></i></div>
-                                        <div class="ms-4">
-                                            <h4>Year Of Expertise</h4>
-                                            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="col-sm-6">
-                                    <a href="#" class="btn btn-primary rounded-pill py-3 px-5 flex-shrink-0">Discover Now</a>
-                                </div>
-                                <div class="col-sm-6">
-                                    <div class="d-flex">
-                                        <i class="fas fa-phone-alt fa-2x text-primary me-4"></i>
-                                        <div>
-                                            <h4>Call Us</h4>
-                                            <p class="mb-0 fs-5" style="letter-spacing: 1px;">+01234567890</p>
-                                        </div>
-                                    </div>
+    <!-- About Start -->
+<div class="container-fluid about py-5">
+    <div class="container py-5">
+        <div class="row g-5 align-items-center">
+            <div class="col-xl-7 wow fadeInLeft" data-wow-delay="0.2s">
+                <div>
+                    <!-- <h4 class="text-primary">About Us</h4> -->
+                    <h1 class="display-5 mb-4">Committed to Clean Water Solutions</h1>
+                    <p class="mb-4">VME Solutions is a trusted name in water treatment and purification systems. With years of experience, we provide innovative RO plants, water filtration systems, and wastewater management solutions for industries, commercial establishments, and communities across India.
+                    </p>
+                    <div class="row g-4">
+                        <div class="col-md-6 col-lg-6 col-xl-6">
+                            <div class="d-flex">
+                                <div><i class="fas fa-water fa-3x text-primary"></i></div>
+                                <div class="ms-4">
+                                    <h4>Water Treatment</h4>
+                                    <p>Advanced RO systems and water purification solutions for all your needs.</p>
                                 </div>
                             </div>
                         </div>
-                    </div>
-                    <div class="col-xl-5 wow fadeInRight" data-wow-delay="0.2s">
-                        <div class="bg-primary rounded position-relative overflow-hidden">
-                            <img src="img/index.jpg" class="img-fluid rounded w-100" alt="">
-                            
-                            <!-- <div class="" style="position: absolute; top: -15px; right: -15px;">
-                                <img src="img/about.jpg-3.png" class="img-fluid" style="width: 150px; height: 150px; opacity: 0.7;" alt="">
+                        <div class="col-md-6 col-lg-6 col-xl-6">
+                            <div class="d-flex">
+                                <div><i class="fas fa-recycle fa-3x text-primary"></i></div>
+                                <div class="ms-4">
+                                    <h4>Wastewater Management</h4>
+                                    <p>Sustainable wastewater treatment and recycling solutions.</p>
+                                </div>
                             </div>
-                            <div class="" style="position: absolute; top: -20px; left: 10px; transform: rotate(90deg);">
-                                <img src="img/about.jpg-4.png" class="img-fluid" style="width: 100px; height: 150px; opacity: 0.9;" alt="">
+                        </div>
+                        <div class="col-sm-6">
+    <a href="<?php echo BASE_URL; ?>/components.php" class="btn btn-primary rounded-pill py-3 px-5 flex-shrink-0">Explore Water Solutions</a>
+</div>
+                        <div class="col-sm-6">
+                            <div class="d-flex">
+                                <i class="fas fa-phone fa-2x text-primary me-4"></i>
+                                <div>
+                                    <h4>Call Us</h4>
+                                    <p class="mb-0 fs-5" style="letter-spacing: 1px;">+91 9146557049</p>
+                                </div>
                             </div>
-                            <div class="rounded-bottom">
-                                <img src="img/about.jpg-5.jpg" class="img-fluid rounded-bottom w-100" alt="">
-                            </div> -->
                         </div>
                     </div>
                 </div>
             </div>
+            <div class="col-xl-5 wow fadeInRight" data-wow-delay="0.2s">
+                <div class="bg-primary rounded position-relative overflow-hidden">
+                    <img src="<?php echo BASE_URL; ?>/img/about.jpg" class="img-fluid rounded w-100" alt="About VME Solutions">
+                </div>
+            </div>
         </div>
-        <!-- About End -->
+    </div>
+</div>
+<!-- About End -->
 
         <!-- Services Start -->
        <!-- Services Start -->
@@ -261,55 +307,98 @@
         <!-- Services End -->
 
         <!-- Features Start -->
-    <div class="container-fluid feature pb-5">
-    <div class="container pb-5">
-    <div class="text-center mx-auto pb-5 wow fadeInUp" data-wow-delay="0.2s" style="max-width: 800px;">
-        <h4 class="text-primary">Our Features</h4>
-        <h1 class="display-5 mb-4">Complete Water Treatment Plant Engineered for Performance & Reliability.</h1>
-        <p class="mb-0">VME Solutions delivers a fully integrated, skid-mounted water treatment system featuring pre-filtration, Reverse Osmosis, and wastewater handling. Our solutions are designed for fully automated smart operation, maximum membrane life, and robust corrosion-resistant construction to ensure long-term durability and efficiency in the most demanding industrial environments.</p>
-    </div>
-    <div class="row g-4">
-        <div class="col-md-6 col-lg-6 col-xl-3 wow fadeInUp" data-wow-delay="0.2s">
-            <div class="feature-item p-4">
-                <div class="feature-icon p-4 mb-4"  style="color: #459e41;">
-                    <i class="fas fa-cubes fa-4x text-primary"></i>
+
+        <!-- Features Start -->
+<div class="container-fluid feature py-5">
+    <div class="container">
+
+        <!-- Section Heading -->
+       
+<div class="text-center mx-auto mb-5 wow fadeInUp" data-wow-delay="0.2s" style="max-width:800px;">
+    <h5 class="text-primary fw-bold">Our Features</h5>
+    <h1 class="display-5 mb-4">
+        Complete Water Treatment Plant Engineered for Performance & Reliability
+    </h1>
+    <p>
+        VME Solutions delivers a fully integrated, skid-mounted water treatment system featuring
+        pre-filtration, Reverse Osmosis, and wastewater handling. Our solutions are designed for
+        fully automated operation, maximum membrane life, and corrosion-resistant construction,
+        ensuring long-term durability and efficient performance in demanding industrial applications.
+    </p>
+</div>
+
+        <div class="row g-4">
+
+            <!-- Feature 1 -->
+            <div class="col-lg-6 col-xl-3 col-md-6 wow fadeInUp" data-wow-delay="0.2s">
+                <div class="feature-item">
+                    <h4 class="feature-title">
+                        <i class="fas fa-cubes"></i>
+                        Complete Integration
+                    </h4>
+
+                    <p class="feature-text">
+                        Fully skid-mounted system including filtration, RO membranes, pumps,
+                        piping, dosing systems, CIP unit, and storage tanks for quick
+                        installation and easy maintenance.
+                    </p>
                 </div>
-                <h4>End-to-End Integration</h4>
-                <p class="mb-4 feature-text" >All components – media vessels, MPV, RO membranes, housings, pumps, piping, CIP, chemical dosing, and storage tank – are pre-engineered and skid-mounted as a single unified system. Ensures seamless compatibility and faster commissioning.</p>
             </div>
-        </div>
-        <div class="col-md-6 col-lg-6 col-xl-3 wow fadeInUp" data-wow-delay="0.4s">
-            <div class="feature-item p-4">
-                <div class="feature-icon p-4 mb-4"  style="color: #459e41;">
-                    <i class="fas fa-robot fa-4x text-primary"></i>
+
+            <!-- Feature 2 -->
+            <div class="col-lg-6 col-xl-3 col-md-6 wow fadeInUp" data-wow-delay="0.4s">
+                <div class="feature-item">
+                    <h4 class="feature-title">
+                        <i class="fas fa-robot"></i>
+                        Smart Automation
+                    </h4>
+
+                    <p class="feature-text">
+                        PLC & HMI controlled operation with automatic filtration, backwash,
+                        RO production, chemical dosing, alarms, and safety shutdown for
+                        reliable performance.
+                    </p>
                 </div>
-                <h4>Automated Smart Operation</h4>
-<p class="mb-4 feature-text">
-PLC-based control with HMI touchscreen automates filtration, backwash, RO production, CIP cleaning, and chemical dosing. Real-time monitoring with auto-alarms and safety shutdown protects the system from low pressure or membrane fouling.
-</p>                
             </div>
-        </div>
-        <div class="col-md-6 col-lg-6 col-xl-3 wow fadeInUp" data-wow-delay="0.6s">
-            <div class="feature-item p-4">
-                <div class="feature-icon p-4 mb-4"  style="color: #459e41;">
-                    <i class="fas fa-water fa-4x text-primary"></i>
+
+            <!-- Feature 3 -->
+            <div class="col-lg-6 col-xl-3 col-md-6 wow fadeInUp" data-wow-delay="0.6s">
+                <div class="feature-item">
+                    <h4 class="feature-title">
+                        <i class="fas fa-water"></i>
+                        High Efficiency
+                    </h4>
+
+                    <p class="feature-text">
+                        Advanced pre-treatment and premium RO membranes deliver high water
+                        recovery, excellent salt rejection, reduced scaling, and longer
+                        membrane life.
+                    </p>
                 </div>
-                <h4>Max Membrane Life & Efficiency</h4>
-                <p class="mb-4 feature-text">Multi-stage pre-treatment (media filtration + antiscalant dosing) protects RO membranes from scaling. High-rejection TFC membranes (99% salt rejection) with CIP system ensure longer membrane life and lower operating costs.</p>
             </div>
-        </div>
-        <div class="col-md-6 col-lg-6 col-xl-3 wow fadeInUp" data-wow-delay="0.8s">
-            <div class="feature-item p-4">
-                <div class="feature-icon p-4 mb-4"  style="color: #459e41;">
-                    <i class="fas fa-shield-alt fa-4x text-primary"></i>
+
+            <!-- Feature 4 -->
+            <div class="col-lg-6 col-xl-3 col-md-6 wow fadeInUp" data-wow-delay="0.8s">
+                <div class="feature-item">
+                    <h4 class="feature-title">
+                        <i class="fas fa-shield-alt"></i>
+                        Durable Construction
+                    </h4>
+
+                    <p class="feature-text">
+                        Manufactured using FRP, SS316, and Schedule 80 PVC materials for
+                        corrosion resistance, leak-proof operation, and continuous industrial
+                        performance.
+                    </p>
                 </div>
-                <h4>Robust & Corrosion-Resistant</h4>
-                <p class="mb-4 feature-text">All wetted parts use FRP, 316 SS, and Schedule 80 PVC – immune to rust, chemicals, and high pressure. Designed for harsh industrial environments with leak-proof seals, ceramic MPV discs, and heavy-duty pumps for reliable 24/7 operation.</p>
             </div>
+
         </div>
     </div>
 </div>
-</div>
+<!-- Features End -->
+         
+   
         <!-- Features End -->
 
 

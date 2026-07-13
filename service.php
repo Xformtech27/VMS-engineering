@@ -45,7 +45,7 @@
               <!-- Carousel Start -->
        <div class="container-fluid page-header py-5 mb-5" style="background-image: url('img/home-slider.jpg');">    <div class="container py-5 text-center">
         <h1 class="display-3 text-white mb-3 animated slideInDown">
-            About Us
+            Service 
         </h1>
         <nav aria-label="breadcrumb" class="animated slideInDown">
             <ol class="breadcrumb justify-content-center mb-0">

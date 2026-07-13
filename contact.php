@@ -1,328 +1,179 @@
 <!DOCTYPE html>
 <html lang="en">
 
-    <head>
-        <meta charset="utf-8">
-<title>VMES-Contact</title>        
-<meta content="width=device-width, initial-scale=1.0" name="viewport">
-        <meta content="" name="keywords">
-        <meta content="" name="description">
+<head>
+    <meta charset="utf-8">
+    <title>VMES-Contact</title>        
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <meta content="" name="keywords">
+    <meta content="" name="description">
 
-        <!-- Google Web Fonts -->
-        <link rel="preconnect" href="https://fonts.googleapis.com">
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet"> 
+    <!-- Google Web Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet"> 
 
-        <!-- Icon Font Stylesheet -->
-        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"/>
-        <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet">
+    <!-- Icon Font Stylesheet -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"/>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet">
 
-        <!-- Libraries Stylesheet -->
-        <link href="lib/animate/animate.min.css" rel="stylesheet">
-        <link href="lib/lightbox/css/lightbox.min.css" rel="stylesheet">
-        <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+    <!-- Libraries Stylesheet -->
+    <link href="lib/animate/animate.min.css" rel="stylesheet">
+    <link href="lib/lightbox/css/lightbox.min.css" rel="stylesheet">
+    <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
 
+    <!-- Customized Bootstrap Stylesheet -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
 
-        <!-- Customized Bootstrap Stylesheet -->
-        <link href="css/bootstrap.min.css" rel="stylesheet">
+    <!-- Template Stylesheet -->
+    <link href="css/style.css" rel="stylesheet">
+</head>
 
-        <!-- Template Stylesheet -->
-        <link href="css/style.css" rel="stylesheet">
-    </head>
+<body>
 
-    <body>
-
-        <!-- Spinner Start -->
-        <div id="spinner" class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center">
-            <div class="spinner-border text-primary" style="width: 3rem; height: 3rem;" role="status">
-                <span class="sr-only">Loading...</span>
-            </div>
+    <!-- Spinner Start -->
+    <div id="spinner" class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center">
+        <div class="spinner-border text-primary" style="width: 3rem; height: 3rem;" role="status">
+            <span class="sr-only">Loading...</span>
         </div>
-        <!-- Spinner End -->
-
-        <!-- Header Start -->
-             <?php include 'header.php'; ?>
-            <!-- Header End -->
-              <!-- Carousel Start -->
-       <div class="container-fluid page-header py-5 mb-5" style="background-image: url('img/home-slider.jpg');">    <div class="container py-5 text-center">
-        <h1 class="display-3 text-white mb-3 animated slideInDown">
-            About Us
-        </h1>
-        <nav aria-label="breadcrumb" class="animated slideInDown">
-            <ol class="breadcrumb justify-content-center mb-0">
-                <li class="breadcrumb-item">
-                    <a href="<?php echo BASE_URL; ?>">Home</a>
-                </li>
-                <li class="breadcrumb-item active text-white" aria-current="page">
-                    About Us
-                </li>
-            </ol>
-        </nav>
     </div>
-</div>
-        <!-- Carousel End -->
+    <!-- Spinner End -->
 
-        <!-- Contact Start -->
-        <div class="container-fluid contact py-5">
-            <div class="container py-5">
-                <div class="row g-5">
-                    <div class="col-xl-6">
-                        <div class="wow fadeInUp" data-wow-delay="0.2s">
-                            <!-- <div class="bg-light rounded p-5 mb-5">
-                                <h4 class="text-primary mb-4">Get in Touch</h4>
+    <!-- Header Start -->
+    <?php include 'header.php'; ?>
+    <!-- Header End -->
+    
+    <!-- Carousel Start -->
+    <div class="container-fluid page-header py-5 mb-5" style="background-image: url('img/home-slider.jpg');">
+        <div class="container py-5 text-center">
+            <h1 class="display-3 text-white mb-3 animated slideInDown">Contact Us</h1>
+            <nav aria-label="breadcrumb" class="animated slideInDown">
+                <ol class="breadcrumb justify-content-center mb-0">
+                    <li class="breadcrumb-item">
+                        <a href="<?php echo BASE_URL; ?>">Home</a>
+                    </li>
+                    <li class="breadcrumb-item active text-white" aria-current="page">Contact Us</li>
+                </ol>
+            </nav>
+        </div>
+    </div>
+    <!-- Carousel End -->
+
+    <!-- Contact Start -->
+    <div class="container-fluid contact py-5">
+        <div class="container py-5">
+            <div class="row g-5">
+                <div class="col-xl-6">
+                    <div class="wow fadeInUp" data-wow-delay="0.2s">
+                        <div class="bg-light p-5 rounded h-100 wow fadeInUp" data-wow-delay="0.2s">
+                            <h4 class="text-primary">Send Your Message</h4>
+                            
+                            <form id="contactForm" method="POST" action="<?php echo BASE_URL; ?>/contact-sent.php">
                                 <div class="row g-4">
-                                    <div class="col-md-6">
-                                        <div class="contact-add-item">
-                                            <div class="contact-icon text-primary mb-4">
-                                                <i class="fas fa-map-marker-alt fa-2x"></i>
-                                            </div>
-                                            <div>
-                                                <h4>Address</h4>
-                                                <p class="mb-0">123 Street New York.USA</p>
-                                            </div>
-                                        </div>
+                                    <div class="col-xl-6">
+                                        <input type="text" name="name" class="form-control" placeholder="Full Name" required>
                                     </div>
-                                    <div class="col-md-6">
-                                        <div class="contact-add-item">
-                                            <div class="contact-icon text-primary mb-4">
-                                                <i class="fas fa-envelope fa-2x"></i>
-                                            </div>
-                                            <div>
-                                                <h4>Mail Us</h4>
-                                                <p class="mb-0">info@example.com</p>
-                                            </div>
-                                        </div>
+                                    <div class="col-xl-6">
+                                        <input type="email" name="email" class="form-control" placeholder="Email" required>
                                     </div>
-                                    <div class="col-md-6">
-                                        <div class="contact-add-item">
-                                            <div class="contact-icon text-primary mb-4">
-                                                <i class="fa fa-phone-alt fa-2x"></i>
-                                            </div>
-                                            <div>
-                                                <h4>Telephone</h4>
-                                                <p class="mb-0">(+012) 3456 7890</p>
-                                            </div>
-                                        </div>
+                                    <div class="col-xl-6">
+                                        <input type="text" name="phone" class="form-control" placeholder="Phone">
                                     </div>
-                                    <div class="col-md-6">
-                                        <div class="contact-add-item">
-                                            <div class="contact-icon text-primary mb-4">
-                                                <i class="fab fa-firefox-browser fa-2x"></i>
-                                            </div>
-                                            <div>
-                                                <h4>Yoursite@ex.com</h4>
-                                                <p class="mb-0">(+012) 3456 7890</p>
-                                            </div>
-                                        </div>
+                                    <div class="col-xl-6">
+                                        <input type="text" name="project" class="form-control" placeholder="Project / Requirement">
+                                    </div>
+                                    <div class="col-12">
+                                        <textarea name="message" class="form-control" placeholder="Message" rows="5" required></textarea>
+                                    </div>
+                                    <!-- Honeypot -->
+                                    <input type="text" name="honeypot" value="" style="display:none;">
+                                    <div class="col-12">
+                                        <button type="submit" class="btn btn-primary w-100 py-3" id="submitBtn">
+                                            Send Message
+                                        </button>
+                                    </div>
+                                    <div class="col-12">
+                                        <div id="formMessage" style="display:none;"></div>
                                     </div>
                                 </div>
-                            </div> -->
-                            <div class="bg-light p-5 rounded h-100 wow fadeInUp" data-wow-delay="0.2s">
-                                <h4 class="text-primary">Send Your Message</h4>
-                                <!-- <p class="mb-4">The contact form is currently inactive. Get a functional and working contact form with Ajax & PHP in a few minutes. Just copy and paste the files, add a little code and you're done. <a class="text-primary fw-bold" href="https://htmlcodex.com/contact-form">Download Now</a>.</p> -->
-                            <form id="contactForm">
-
-    <div class="row g-4">
-
-        <div class="col-xl-6">
-            <input type="text" name="f_name" class="form-control" placeholder="First Name" required>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-6 wow fadeInRight" data-wow-delay="0.2s">
+                    <div class="rounded h-100">
+                        <iframe class="rounded h-100 w-100"
+                            style="height: 400px;"
+                            src="https://maps.google.com/maps?q=Nirmal%20Market%20Plot%20No%2035%20CDC%20PCNTDA%20Purnanagar%20Near%20TATA%20MOTORS%20Chinchwad%20Pune%20411019&t=&z=15&ie=UTF8&iwloc=&output=embed"
+                            loading="lazy"
+                            referrerpolicy="no-referrer-when-downgrade">
+                        </iframe>
+                    </div>
+                </div>
+            </div>
         </div>
-
-        <div class="col-xl-6">
-            <input type="text" name="l_name" class="form-control" placeholder="Last Name">
-        </div>
-
-        <div class="col-xl-6">
-            <input type="email" name="email" class="form-control" placeholder="Email" required>
-        </div>
-
-        <div class="col-xl-6">
-            <input type="text" name="phone" class="form-control" placeholder="Phone">
-        </div>
-
-        <div class="col-12">
-            <input type="text" name="project" class="form-control" placeholder="Project">
-        </div>
-
-        <div class="col-12">
-            <textarea name="note" class="form-control" placeholder="Message" rows="5" required></textarea>
-        </div>
-
-        <!-- Honeypot -->
-        <input type="hidden" name="honeypot" value="">
-
-        <div class="col-12">
-            <button type="submit" class="btn btn-primary w-100 py-3">
-                Send Message
-            </button>
-        </div>
-
     </div>
+    <!-- Contact End -->
 
-</form>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-xl-6 wow fadeInRight" data-wow-delay="0.2s">
-    <div class="rounded h-100">
-        <iframe class="rounded h-100 w-100"
-            style="height: 400px;"
-            src="https://maps.google.com/maps?q=Nirmal%20Market%20Plot%20No%2035%20CDC%20PCNTDA%20Purnanagar%20Near%20TATA%20MOTORS%20Chinchwad%20Pune%20411019&t=&z=15&ie=UTF8&iwloc=&output=embed"
-            loading="lazy"
-            referrerpolicy="no-referrer-when-downgrade">
-        </iframe>
-    </div>
-</div>
-                </div>
-            </div>
-        </div>
-        <!-- Contact End -->
+    <!-- Footer Start -->
+    <?php include 'footer.php'; ?>
+    <!-- Footer End -->
 
-        <!-- Footer Start -->
-         <?php include 'footer.php'; ?>
-         
-        <!-- <div class="container-fluid footer py-5 wow fadeIn" data-wow-delay="0.2s">
-            <div class="container py-5 border-start-0 border-end-0" style="border: 1px solid; border-color: rgb(255, 255, 255, 0.08);">
-                <div class="row g-5">
-                    <div class="col-md-6 col-lg-6 col-xl-4">
-                        <div class="footer-item">
-                            <a href="index.php" class="p-0">
-                                <h4 class="text-white"><i class="fas fa-search-dollar me-3"></i>Stocker</h4> -->
-                                <!-- <img src="img/logo.png" alt="Logo"> -->
-                            <!-- </a>
-                            <p class="mb-4">Dolor amet sit justo amet elitr clita ipsum elitr est.Lorem ipsum dolor sit amet, consectetur adipiscing...</p>
-                            <div class="d-flex">
-                                <a href="#" class="bg-primary d-flex rounded align-items-center py-2 px-3 me-2">
-                                    <i class="fas fa-apple-alt text-white"></i>
-                                    <div class="ms-3">
-                                        <small class="text-white">Download on the</small>
-                                        <h6 class="text-white">App Store</h6>
-                                    </div>
-                                </a>
-                                <a href="#" class="bg-dark d-flex rounded align-items-center py-2 px-3 ms-2">
-                                    <i class="fas fa-play text-primary"></i>
-                                    <div class="ms-3">
-                                        <small class="text-white">Get it on</small>
-                                        <h6 class="text-white">Google Play</h6>
-                                    </div>
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-6 col-lg-6 col-xl-2">
-                        <div class="footer-item">
-                            <h4 class="text-white mb-4">Quick Links</h4>
-                            <a href="#"><i class="fas fa-angle-right me-2"></i> About Us</a>
-                            <a href="#"><i class="fas fa-angle-right me-2"></i> Feature</a>
-                            <a href="#"><i class="fas fa-angle-right me-2"></i> Attractions</a>
-                            <a href="#"><i class="fas fa-angle-right me-2"></i> Tickets</a>
-                            <a href="#"><i class="fas fa-angle-right me-2"></i> Blog</a>
-                            <a href="#"><i class="fas fa-angle-right me-2"></i> Contact us</a>
-                        </div>
-                    </div>
-                    <div class="col-md-6 col-lg-6 col-xl-3">
-                        <div class="footer-item">
-                            <h4 class="text-white mb-4">Support</h4>
-                            <a href="#"><i class="fas fa-angle-right me-2"></i> Privacy Policy</a>
-                            <a href="#"><i class="fas fa-angle-right me-2"></i> Terms & Conditions</a>
-                            <a href="#"><i class="fas fa-angle-right me-2"></i> Disclaimer</a>
-                            <a href="#"><i class="fas fa-angle-right me-2"></i> Support</a>
-                            <a href="#"><i class="fas fa-angle-right me-2"></i> FAQ</a>
-                            <a href="#"><i class="fas fa-angle-right me-2"></i> Help</a>
-                        </div>
-                    </div>
-                    <div class="col-md-6 col-lg-6 col-xl-3">
-                        <div class="footer-item">
-                            <h4 class="text-white mb-4">Contact Info</h4>
-                            <div class="d-flex align-items-center">
-                                <i class="fas fa-map-marker-alt text-primary me-3"></i>
-                                <p class="text-white mb-0">123 Street New York.USA</p>
-                            </div>
-                            <div class="d-flex align-items-center">
-                                <i class="fas fa-envelope text-primary me-3"></i>
-                                <p class="text-white mb-0">info@example.com</p>
-                            </div>
-                            <div class="d-flex align-items-center">
-                                <i class="fa fa-phone-alt text-primary me-3"></i>
-                                <p class="text-white mb-0">(+012) 3456 7890</p>
-                            </div>
-                            <div class="d-flex align-items-center mb-4">
-                                <i class="fab fa-firefox-browser text-primary me-3"></i>
-                                <p class="text-white mb-0">Yoursite@ex.com</p>
-                            </div>
-                            <div class="d-flex">
-                                <a class="btn btn-primary btn-sm-square rounded-circle me-3" href="#"><i class="fab fa-facebook-f text-white"></i></a>
-                                <a class="btn btn-primary btn-sm-square rounded-circle me-3" href="#"><i class="fab fa-twitter text-white"></i></a>
-                                <a class="btn btn-primary btn-sm-square rounded-circle me-3" href="#"><i class="fab fa-instagram text-white"></i></a>
-                                <a class="btn btn-primary btn-sm-square rounded-circle me-0" href="#"><i class="fab fa-linkedin-in text-white"></i></a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div> -->
-        <!-- Footer End -->
-        
-        <!-- Copyright Start -->
-        <!-- <div class="container-fluid copyright py-4">
-            <div class="container">
-                <div class="row g-4 align-items-center">
-                    <div class="col-md-6 text-center text-md-start mb-md-0">
-                        <span class="text-body"><a href="#" class="border-bottom text-white"><i class="fas fa-copyright text-light me-2"></i>Your Site Name</a>, All right reserved.</span>
-                    </div>
-                    <div class="col-md-6 text-center text-md-end text-body"> -->
-                        <!--/*** This template is free as long as you keep the below author’s credit link/attribution link/backlink. ***/-->
-                        <!--/*** If you'd like to use the template without the below author’s credit link/attribution link/backlink, ***/-->
-                        <!--/*** you can purchase the Credit Removal License from "https://htmlcodex.com/credit-removal". ***/-->
-                        <!-- Designed By <a class="border-bottom text-white" href="https://htmlcodex.com">HTML Codex</a> Distributed By <a class="border-bottom text-white" href="https://themewagon.com">ThemeWagon</a>
-                    </div>
-                </div>
-            </div>
-        </div> -->
-        <!-- Copyright End -->
-
-
-        <!-- Back to Top -->
-        <!-- <a href="#" class="btn btn-primary btn-lg-square rounded-circle back-to-top"><i class="fa fa-arrow-up"></i></a>    -->
-
-        
-        <!-- JavaScript Libraries -->
-        <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
-        <script src="lib/wow/wow.min.js"></script>
-        <script src="lib/easing/easing.min.js"></script>
-        <script src="lib/waypoints/waypoints.min.js"></script>
-        <script src="lib/counterup/counterup.min.js"></script>
-        <script src="lib/lightbox/js/lightbox.min.js"></script>
-        <script src="lib/owlcarousel/owl.carousel.min.js"></script> -->
-        
-
-        <!-- Template Javascript -->
-        <!-- <script src="js/main.js"></script> -->
-    </body>
+    <!-- JavaScript Libraries -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="lib/wow/wow.min.js"></script>
+    <script src="lib/easing/easing.min.js"></script>
+    <script src="lib/waypoints/waypoints.min.js"></script>
+    <script src="lib/counterup/counterup.min.js"></script>
+    <script src="lib/lightbox/js/lightbox.min.js"></script>
+    <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+    
+    <!-- Template Javascript -->
+    <script src="js/main.js"></script>
 
-<script>
-$("#contactForm").on("submit", function(e) {
-    e.preventDefault();
-
-    $.ajax({
-        url: "contact.php",
-        type: "POST",
-        data: $(this).serialize(),
-        dataType: "json",
-        success: function(res) {
-            alert(res.message);
-
-            if (res.status === "success") {
-                $("#contactForm")[0].reset();
-            }
-        },
-        error: function() {
-            alert("Server error. Please try again.");
-        }
+    <!-- Contact Form AJAX Script -->
+    <script>
+    $(document).ready(function() {
+        $('#contactForm').on('submit', function(e) {
+            e.preventDefault();
+            
+            var $form = $(this);
+            var $submitBtn = $('#submitBtn');
+            var $messageDiv = $('#formMessage');
+            
+            // Show loading state
+            $submitBtn.html('<i class="fas fa-spinner fa-spin"></i> Sending...');
+            $submitBtn.prop('disabled', true);
+            $messageDiv.hide();
+            
+            $.ajax({
+                url: $form.attr('action'),
+                type: 'POST',
+                data: $form.serialize(),
+                dataType: 'text',
+                success: function(response) {
+                    if (response.trim() === 'success') {
+                        $messageDiv.html('<div class="alert alert-success">Your message has been sent successfully! We will get back to you soon.</div>');
+                        $messageDiv.show();
+                        $form[0].reset();
+                    } else {
+                        $messageDiv.html('<div class="alert alert-danger">' + response + '</div>');
+                        $messageDiv.show();
+                    }
+                },
+                error: function() {
+                    $messageDiv.html('<div class="alert alert-danger">An error occurred. Please try again later.</div>');
+                    $messageDiv.show();
+                },
+                complete: function() {
+                    $submitBtn.html('Send Message');
+                    $submitBtn.prop('disabled', false);
+                }
+            });
+        });
     });
-});
-</script>
+    </script>
 
+</body>
 </html>

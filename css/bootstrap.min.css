@@ -15,7 +15,7 @@
     --bs-green: #198754;
     --bs-teal: #20c997;
     --bs-cyan: #0dcaf0;
-    --bs-white: #fff;
+    --bs-white: #000000;
     --bs-gray: #6c757d;
     --bs-gray-dark: #343a40;
     --bs-primary: #459e41;
@@ -8314,6 +8314,8 @@ fieldset:disabled .btn {
 .text-dark {
     color: #111 !important
 }
+
+
 
 .text-white {
     color: #fff !important

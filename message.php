@@ -92,7 +92,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
     <link href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" rel="stylesheet">
    
-<style>
+    <style>
     html, body {
         background: transparent !important;
         margin: 0;
@@ -221,7 +221,6 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         .capsule-btn.call i, .capsule-btn.quote i { font-size: 18px; }
         .inline-form-panel { width: 280px; height: 380px; }
     }
-    
     </style>
 </head>
 <body>
@@ -260,13 +259,13 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 
     <div class="vertical-capsule" id="capsuleGroup">
         <!-- WhatsApp Button -->
-        <a href="https://wa.me/+919146557049" class="capsule-btn whatsapp" id="whatsappBtn" target="_blank" rel="noopener noreferrer">
+        <a href="https://wa.me/+918605060625" class="capsule-btn whatsapp" id="whatsappBtn" target="_blank" rel="noopener noreferrer">
             <i class="fab fa-whatsapp"></i>
             <span class="tooltip-text">WhatsApp Us</span>
         </a>
         
         <!-- Call Button -->
-        <a href="tel:+919146557049" class="capsule-btn call" id="callBtn" target="_parent">
+        <a href="tel:+918605060625" class="capsule-btn call" id="callBtn" target="_parent">
             <i class="fas fa-phone-alt"></i>
             <span class="tooltip-text">Call Helpline</span>
         </a>

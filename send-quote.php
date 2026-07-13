@@ -12,12 +12,12 @@ if ($_SERVER["REQUEST_METHOD"] !== "POST") {
 $name    = trim($_POST['name'] ?? '');
 $email   = trim($_POST['email'] ?? '');
 $phone   = trim($_POST['phone'] ?? '');
-$project = trim($_POST['project'] ?? '');
+$company = trim($_POST['project'] ?? '');
 $message = trim($_POST['message'] ?? '');
-$subject = "New Contact Form Enquiry from $name";
+$subject = "New Quote Request from $name";
 
 // --------------------------------------------------------------
-// 2. Honeypot check
+// 2. Honeypot check (Anti-spam)
 // --------------------------------------------------------------
 if (!empty($_POST['honeypot'])) {
     exit("Spam detected.");
@@ -26,12 +26,16 @@ if (!empty($_POST['honeypot'])) {
 // --------------------------------------------------------------
 // 3. Required field validation
 // --------------------------------------------------------------
-if (empty($name) || empty($email) || empty($message)) {
-    die("Please fill in all required fields (Name, Email, Message).");
+if (empty($name) || empty($email) || empty($phone) || empty($message)) {
+    die("Please fill in all required fields (Name, Email, Phone, Message).");
 }
 
 if (!filter_var($email, FILTER_VALIDATE_EMAIL)) {
     die("Invalid email address.");
+}
+
+if (!preg_match('/^[0-9]{10}$/', $phone)) {
+    die("Invalid phone number. Please enter a 10-digit number.");
 }
 
 // --------------------------------------------------------------
@@ -53,10 +57,6 @@ require_once 'class-smtp.php';
 $mail = new PHPMailer();
 
 try {
-    // Debug mode (uncomment to see detailed errors)
-    // $mail->SMTPDebug = 2;
-    // $mail->Debugoutput = 'html';
-    
     // Server settings
     $mail->isSMTP();
     $mail->SMTPAuth   = true;
@@ -69,14 +69,14 @@ try {
     $mail->Password   = 'mout vlbd boul bsdg';
 
     // Email headers
-    $mail->SetFrom('xformtech27@gmail.com', $name);
+    $mail->SetFrom('xformtech27@gmail.com', 'VMES Quote Request');
     $mail->AddReplyTo($email, $name);
     $mail->AddAddress('xformtech27@gmail.com');
 
     // Content
     $mail->Subject = $subject;
     $mail->isHTML(true);
-    $mail->AltBody = "Name: $name\nEmail: $email\nPhone: $phone\nProject: $project\nMessage:\n$message";
+    $mail->AltBody = "Name: $name\nEmail: $email\nPhone: $phone\nCompany: $company\nMessage:\n$message";
 
     $mail->Body = "
     <html>
@@ -84,20 +84,43 @@ try {
         <style>
             body { font-family: Arial, sans-serif; background: #f9f9f9; padding: 10px; }
             .container { max-width: 600px; margin: 0 auto; background: #fff; border-radius: 8px; padding: 20px; border: 1px solid #ddd; }
-            .header { background: #f4f4f4; padding: 15px; text-align: center; border-bottom: 2px solid #0d6efd; }
+            .header { background: #0d6efd; padding: 15px; text-align: center; color: white; border-radius: 8px 8px 0 0; }
             .field { margin-bottom: 15px; padding-bottom: 10px; border-bottom: 1px solid #eee; }
             .label { font-weight: bold; color: #0d6efd; font-size: 12px; text-transform: uppercase; }
             .value { margin-top: 5px; color: #333; font-size: 14px; }
+            .badge { background: #0d6efd; color: white; padding: 3px 10px; border-radius: 20px; font-size: 12px; }
         </style>
     </head>
     <body>
         <div class='container'>
-            <div class='header'><h2 style='margin:0;'>New Website Enquiry - VME Solutions</h2></div>
-            <div class='field'><div class='label'>Name:</div><div class='value'>" . htmlspecialchars($name) . "</div></div>
-            <div class='field'><div class='label'>Email:</div><div class='value'>" . htmlspecialchars($email) . "</div></div>
-            <div class='field'><div class='label'>Phone:</div><div class='value'>" . htmlspecialchars($phone) . "</div></div>
-            <div class='field'><div class='label'>Project / Requirement:</div><div class='value'>" . htmlspecialchars($project) . "</div></div>
-            <div class='field'><div class='label'>Message:</div><div class='value'>" . nl2br(htmlspecialchars($message)) . "</div></div>
+            <div class='header'>
+                <h2 style='margin:0;'>🚀 New Quote Request - VMES</h2>
+            </div>
+            <div style='padding: 20px;'>
+                <div class='field'>
+                    <div class='label'>👤 Name:</div>
+                    <div class='value'>" . htmlspecialchars($name) . "</div>
+                </div>
+                <div class='field'>
+                    <div class='label'>📧 Email:</div>
+                    <div class='value'>" . htmlspecialchars($email) . "</div>
+                </div>
+                <div class='field'>
+                    <div class='label'>📞 Phone:</div>
+                    <div class='value'>" . htmlspecialchars($phone) . "</div>
+                </div>
+                <div class='field'>
+                    <div class='label'>🏢 Company:</div>
+                    <div class='value'>" . htmlspecialchars($company ?: 'Not provided') . "</div>
+                </div>
+                <div class='field'>
+                    <div class='label'>📝 Message:</div>
+                    <div class='value'>" . nl2br(htmlspecialchars($message)) . "</div>
+                </div>
+                <div style='margin-top: 20px; padding-top: 15px; border-top: 2px solid #0d6efd; text-align: center; color: #666; font-size: 12px;'>
+                    <span class='badge'>Quote Request</span> Sent via VMES Website
+                </div>
+            </div>
         </div>
     </body>
     </html>";
