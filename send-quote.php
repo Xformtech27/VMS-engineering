@@ -69,9 +69,9 @@ try {
     $mail->Password   = 'mout vlbd boul bsdg';
 
     // Email headers
-    $mail->SetFrom('xformtech27@gmail.com', 'VMES Quote Request');
+    $mail->SetFrom('vmesolutions33@gmail.com', 'VMES Quote Request');
     $mail->AddReplyTo($email, $name);
-    $mail->AddAddress('xformtech27@gmail.com');
+    $mail->AddAddress('vmesolutions33@gmail.com');
 
     // Content
     $mail->Subject = $subject;
